@@ -187,3 +187,56 @@ def story_split(kicker, title, lede, points, cta, photo, alt, flip=False):
     words = column(group(text, layout="flex", orientation="vertical", gap="40"), valign="center")
     order = (words, picture) if flip else (picture, words)
     return section(columns(*order, cls="tyche-story", align="wide", gap="80", valign="center"), bg="surface")
+
+def announcement(text, link_text=None, link_href=None):
+    """The bar above the header. A starter sets its own delivery promise here."""
+    message = text
+    if link_text:
+        message += ' <a href="%s">%s</a>' % (link_href, link_text)
+    return group(para(message, align="center", size="small"), cls="tyche-announcement",
+                 align="full", bg="dark", color="on-dark", pad="20")
+
+
+def header_part(announcement_text, link_text=None, link_href=None, layout="header-no-announcement"):
+    """The starter's own announcement over one of the theme's header layouts.
+
+    The header itself -- search, menu, account and cart -- stays the theme's, so
+    a starter cannot fall behind when the header is improved.
+    """
+    # pattern_ref() adds the theme's own prefix: passing "tyche/header" here
+    # asks for "tyche/tyche/header", which is nothing, and the header renders as
+    # an announcement bar with no menu, search or cart under it.
+    return announcement(announcement_text, link_text, link_href) + "\n\n" + bp.pattern_ref(layout)
+
+
+def footer_part(about, columns_of_links, legal=None):
+    """A footer in the starter's own words.
+
+    The theme's footer talks about knitwear and links to a size guide, which is
+    wrong for a coffee roaster, so a starter carries its own. No PHP here: a
+    template part is content, so the year is left out rather than frozen.
+    """
+    brand = column("\n".join([
+        bp.block("site-title", {"level": 0, "className": "tyche-footer__title"}),
+        para(about, cls="tyche-footer__about"),
+        bp.block("social-links", {"iconColor": "overlay", "iconColorValue": "#ffffff", "size": "has-normal-icon-size",
+                                  "className": "is-style-logos-only tyche-footer__social",
+                                  "layout": {"type": "flex"}},
+                 '<ul class="wp-block-social-links has-normal-icon-size has-icon-color is-style-logos-only tyche-footer__social">\n%s\n</ul>'
+                 % "\n".join(bp.block("social-link", {"url": "#", "service": service})
+                              for service in ("instagram", "pinterest", "tiktok", "facebook"))),
+    ]), width="36%")
+
+    link_columns = [bp.footer_links(title, items) for title, items in columns_of_links]
+    top = columns(brand, *link_columns, cls="tyche-footer__columns", align="wide", gap="60")
+
+    bottom = group("\n".join([
+        para(legal or "All rights reserved.", size="small", cls="tyche-footer__legal"),
+        bp.pattern_ref("footer-payments"),
+    ]), cls="tyche-footer__bottom", align="wide", layout="flex", justify="space-between", wrap="wrap")
+
+    rule = bp.block("separator", {"align": "wide", "className": "is-style-wide tyche-footer__rule"},
+                    '<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide tyche-footer__rule"/>')
+
+    return group(top + "\n\n" + rule + "\n\n" + bottom, cls="tyche-footer", align="full",
+                 bg="dark", color="on-dark", pad=("70", "40"))

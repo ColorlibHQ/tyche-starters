@@ -19,9 +19,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from starterlib import (  # noqa: E402
-    bp, buttons, button, category_tiles, check_list, column, columns, cover, group, heading,
-    hero_split, icon, image, numbered_steps, para, paragraphs, product_row, section,
-    section_head, spec_rows, story_split, eyebrow, SCRIM_TALL,
+    bp, buttons, button, category_tiles, check_list, column, columns, cover, footer_part, group,
+    header_part, heading, hero_split, icon, image, numbered_steps, para, paragraphs, product_row,
+    section, section_head, spec_rows, story_split, eyebrow, SCRIM_SIDE,
 )
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "roastery")
@@ -34,36 +34,35 @@ page_intro = bp.page_intro
 # ---------------------------------------------------------------------------
 # slug -> alt text. Every one is CC0; credits.json records where each came from.
 IMAGES = {
-    "hero-1": "A kraft coffee bag standing on a wooden counter beside a scoop of roasted beans",
-    "cat-single-origin": "Roasted coffee beans spilling from a paper bag onto a dark surface",
-    "cat-blends": "A jar of ground coffee beside a stovetop pot on a kitchen counter",
-    "cat-equipment": "A pour-over dripper, kettle and scales arranged on a counter",
-    "story-1": "Roasted beans cooling in a drum roaster's tray",
-    "story-2": "A roaster in an apron checking beans in one hand",
-    "brew-1": "Hot water poured in a slow spiral over a paper filter of ground coffee",
-    "brew-2": "An espresso extracting into a small glass under a machine",
-    "promo-1": "A cafe counter with bags of coffee lined up for sale",
-    "contact-1": "The window seats of a small coffee shop in morning light",
-    "about-1": "Green coffee sacks stacked against a brick wall",
-    "journal-1": "A pour-over brewing on a set of scales beside a timer",
-    "journal-2": "Two coffee bags side by side, one light roast and one dark",
-    "journal-3": "A roaster's hand holding a tray of just-roasted beans",
-    "guji": "A cup of black coffee on a wooden table beside scattered beans",
-    "huila": "A paper bag of whole coffee beans tipped on its side",
-    "nyeri": "Roasted coffee beans filling the frame, seen from above",
-    "antigua": "A glass jar of whole beans on a pale counter",
-    "cerrado": "A scoop of roasted beans resting in an open bag",
-    "sumatra": "Dark roasted beans in a metal tray",
-    "house-espresso": "An espresso in a white cup on a saucer",
-    "breakfast": "A large mug of filter coffee beside a window",
-    "midnight": "A dark roast coffee bag against a black background",
-    "decaf": "A cup of coffee with milk poured in a spiral",
-    "v60": "A ceramic pour-over dripper sitting on a glass carafe",
-    "kettle": "A gooseneck kettle pouring a thin stream of water",
-    "grinder": "A hand grinder with a wooden handle beside a pile of ground coffee",
-    "scales": "Brew scales under a dripper with a timer running",
-    "filters": "A stack of paper coffee filters on a counter",
-    "taster-set": "Three small coffee bags standing together",
+    "hero-1": "A black scoop brimming with roasted coffee beans on a warm tan surface",
+    "cat-single-origin": "A drift of dark roasted coffee beans across a dark wooden plank",
+    "cat-blends": "Milk poured from a glass pitcher into a stoneware mug of black coffee",
+    "cat-equipment": "A barista pouring from a gooseneck kettle into a row of glass brewers",
+    "story-1": "A chrome cafe grinder with a clear hopper half full of beans",
+    "story-2": "Two hands tamping ground coffee into a portafilter on a walnut station",
+    "brew-1": "Hot water falling onto a blooming bed of coffee grounds in a white paper filter",
+    "promo-1": "A warm mahogany-panelled bar room with a bicycle hung from the ceiling",
+    "contact-1": "A long dim cafe with a figure silhouetted in the bright doorway",
+    "about-1": "A wide roastery with daylight flooding in through open shutter doors",
+    "journal-1": "Hands pouring brewed coffee from a glass carafe into a stoneware mug",
+    "journal-2": "A hand gripping a black and white striped mug of black coffee",
+    "journal-3": "An espresso cup and saucer low on a wide walnut table, seen from above",
+    "guji": "A white enamel cup filled with roasted coffee beans, seen from above",
+    "huila": "A glass jar on its side with roasted beans spilling onto checked linen",
+    "nyeri": "Medium-roast coffee beans filling the frame, tan and chocolate brown",
+    "antigua": "A plain white ceramic canister with a pale wooden lid",
+    "cerrado": "A heaped mound of roasted beans in a shallow pale wooden bowl",
+    "sumatra": "Glossy dark-roast beans with oily highlights, close up",
+    "house-espresso": "Espresso streaming from a chrome group head into two brown cups",
+    "breakfast": "A white cup of black coffee on a saucer on a round wooden table",
+    "midnight": "A matte black cup steaming on a dark surface against a bright window",
+    "decaf": "A cappuccino dusted with chocolate in a burnt-orange cup and saucer",
+    "v60": "A white ceramic cone on a glass server, standing on a digital brew scale",
+    "kettle": "Two hands pouring from a hammered copper gooseneck kettle into a filter",
+    "grinder": "A vintage wooden box grinder with a brass hopper full of beans",
+    "scales": "A glass pour-over carafe and cone standing on a brew scale",
+    "filters": "A white paper filter holding a bed of coffee grounds mid-bloom",
+    "taster-set": "A small open hessian sack spilling over with roasted coffee beans",
 }
 
 # ---------------------------------------------------------------------------
@@ -276,7 +275,7 @@ def home():
             "Find your coffee", kicker="Shop", link=("See everything", "{{shop}}")),
         product_row("new-arrivals", "On the roaster", "This week's coffee", "Shop all coffee", "{{shop}}"),
         numbered_steps(BREW_STEPS, "Better coffee in four steps", kicker="Brew guide"),
-        product_row("best-sellers", "Most ordered", "What everyone buys", "Shop best sellers", "{{shop}}", carousel=True),
+        product_row("featured", "Chosen by us", "What we are drinking", "Shop all coffee", "{{shop}}", carousel=True),
         spec_rows(
             [("Origin", "Guji, Ethiopia"), ("Altitude", "2,050 m"), ("Process", "Natural, dried on raised beds for 18 days"),
              ("Varietal", "Heirloom"), ("Tasting notes", "Peach, jasmine, brown sugar"), ("Roasted", "Tuesday, and every Tuesday")],
@@ -304,9 +303,12 @@ def wholesale_band():
              color="overlay", size="large"),
         buttons(button("Talk to us about wholesale", "{{page:wholesale}}", bg="overlay", color="dark")),
     ])
+    # The text sits on the left, so the photograph is darkened from the left.
+    # A scrim that darkens from the middle down left the eyebrow at 3.4:1 on the
+    # bar room, which is bright exactly where that word lands.
     return section(cover(group(group(inner, layout="default", cls="tyche-hero__content"), align="wide", layout="default"),
                          "promo-1", min_height=420, position="center left", cls="tyche-promo",
-                         align="wide", gradient=SCRIM_TALL), pad=("0", "70"))
+                         align="wide", gradient=SCRIM_SIDE), pad=("0", "70"))
 
 
 def journal_row():
@@ -504,6 +506,35 @@ def delivery():
     ])
 
 
+def parts():
+    """The header's promise and the footer's words belong to the starter."""
+    return [
+        {
+            "slug": "header",
+            "title": "Header",
+            "area": "header",
+            "content": header_part("Free delivery over $40 &middot; Roasted Tuesday, posted Wednesday",
+                                   "Shop this week's coffee", "{{shop}}"),
+        },
+        {
+            "slug": "footer",
+            "title": "Footer",
+            "area": "footer",
+            "content": footer_part(
+                "A small coffee roastery in a railway arch. We buy what we can trace, roast it on Tuesdays and post it the morning after.",
+                [
+                    ("Shop", [("All coffee", "{{shop}}"), ("Single origin", "{{cat:single-origin}}"),
+                              ("Blends", "{{cat:blends}}"), ("Equipment", "{{cat:equipment}}")]),
+                    ("Learn", [("Brew guides", "{{page:brew-guides}}"), ("Journal", "{{page:journal}}"),
+                               ("FAQ", "{{page:faq}}"), ("Delivery and returns", "{{page:delivery-returns}}")]),
+                    ("Roastery", [("Our story", "{{page:about}}"), ("Wholesale", "{{page:wholesale}}"),
+                                  ("Contact", "{{page:contact}}"), ("My account", "{{account}}")]),
+                ],
+                legal="Roasted and posted from the arch."),
+        },
+    ]
+
+
 PAGES = [
     ("home", "Home", home, "page-no-title"),
     ("brew-guides", "Brew guides", brew_guides, "page-no-title"),
@@ -630,7 +661,7 @@ def main():
         write("pages.json", pages),
         write("posts.json", posts),
         write("menus.json", [{"slug": "primary", "title": "Primary", "content": menu_markup()}]),
-        write("parts.json", []),
+        write("parts.json", parts()),
         write("images.json", [{"file": slug + ".webp", "alt": alt} for slug, alt in sorted(IMAGES.items())]),
     ]
 

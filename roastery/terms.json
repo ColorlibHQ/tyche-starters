@@ -1,0 +1,75 @@
+{
+	"product_cat": [
+		{
+			"name": "Single origin",
+			"slug": "single-origin",
+			"description": "One farm, one harvest, one roast date. Bought through importers who publish what they pay."
+		},
+		{
+			"name": "Blends",
+			"slug": "blends",
+			"description": "Coffees chosen to work together, roasted for milk, for filter, or for both."
+		},
+		{
+			"name": "Decaf",
+			"slug": "decaf",
+			"description": "Sugarcane and Swiss Water decaf, roasted like everything else here."
+		},
+		{
+			"name": "Equipment",
+			"slug": "equipment",
+			"description": "The few things worth owning: a dripper, a kettle, a grinder and scales."
+		},
+		{
+			"name": "Gifts",
+			"slug": "gifts",
+			"description": "Taster sets and gift cards, packed to be opened."
+		}
+	],
+	"category": [
+		{
+			"name": "Brew guides",
+			"slug": "brew-guides",
+			"description": "How to get the most out of a bag of coffee at home."
+		},
+		{
+			"name": "From the roastery",
+			"slug": "from-the-roastery",
+			"description": "What we are roasting, and why."
+		}
+	],
+	"attributes": [
+		{
+			"name": "Size",
+			"slug": "size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"250 g",
+				"1 kg"
+			]
+		},
+		{
+			"name": "Grind",
+			"slug": "grind",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Whole bean",
+				"Filter",
+				"Espresso"
+			]
+		},
+		{
+			"name": "Roast",
+			"slug": "roast",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Light",
+				"Medium",
+				"Dark"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+[
+	{
+		"slug": "dial-in-a-pour-over",
+		"title": "How to dial in a pour-over in three brews",
+		"content": "<!-- wp:paragraph -->\n<p>A bag of coffee has about fifteen brews in it, and the first three are for learning. Here is the quickest way to spend them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Brew one: make it exactly as the bag says, 60 g per litre, and time it. If it took much less than three minutes the grind is too coarse; much more and it is too fine. Write down what happened.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Brew two: change the grind and nothing else. Finer if it tasted thin, sour or salty. Coarser if it tasted bitter, dry or dull. One change, one brew.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Brew three: now change the ratio, not the grind. More coffee if it still tastes weak, less if it is heavy. By the fourth cup you are drinking rather than measuring, which is the point.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "A bag of coffee has about fifteen brews in it, and the first three are for learning. Here is the quickest way to spend them.",
+		"categories": [
+			"brew-guides"
+		],
+		"image": "journal-1.webp",
+		"days_ago": 6
+	},
+	{
+		"slug": "washed-and-natural",
+		"title": "What washed and natural mean on a coffee bag",
+		"content": "<!-- wp:paragraph -->\n<p>Every bag we sell says washed, natural or wet hulled. It is the single most useful word on the label, and it describes what happened to the fruit around the seed.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Washed coffee has the fruit removed within hours of picking and is fermented in tanks to clean the seed. It tastes clearer and more acidic: our Kenya and our Colombia are both washed.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Natural coffee is dried whole, fruit and all, on raised beds for two or three weeks. The sugars work their way in, and the result is heavier and sweeter, sometimes close to jam. The Guji is natural.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Wet hulled is an Indonesian method where the seed is hulled while still wet. It makes the cedar and the heaviness people recognise in Sumatra, and it is the reason that coffee divides a room.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "Every bag we sell says washed, natural or wet hulled. It is the single most useful word on the label, and it describes what happened to the fruit around the seed.",
+		"categories": [
+			"brew-guides"
+		],
+		"image": "journal-2.webp",
+		"days_ago": 13
+	},
+	{
+		"slug": "why-we-roast-on-tuesdays",
+		"title": "Why we roast on Tuesdays",
+		"content": "<!-- wp:paragraph -->\n<p>Coffee is at its best between four and twenty days after roasting. Before that it is still letting go of carbon dioxide; after that it slowly flattens.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>So we roast everything on Tuesday, bag it on Wednesday morning and post it before noon. Order on Sunday and your coffee does not exist yet, which is deliberate.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It also means the roastery runs on one rhythm. Green coffee is weighed on Monday, the drum runs all Tuesday, Wednesday is bags and post, and Thursday is for the cafes. Nothing sits in a warehouse waiting for an order.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "Coffee is at its best between four and twenty days after roasting. Before that it is still letting go of carbon dioxide; after that it slowly flattens.",
+		"categories": [
+			"from-the-roastery"
+		],
+		"image": "journal-3.webp",
+		"days_ago": 24
+	}
+]

@@ -1,0 +1,1116 @@
+[
+	{
+		"slug": "guji-natural",
+		"name": "Guji Natural",
+		"type": "variable",
+		"sku": "RO-GUJI-N",
+		"short_description": "Ethiopia, natural process. Peach, jasmine and a syrupy finish.",
+		"description": "<!-- wp:paragraph -->\n<p>Grown at 2,050 metres in the Guji zone by around 400 smallholders who deliver cherry to the Shakiso washing station. Dried whole on raised beds for eighteen days, which is what gives it the peach and the weight.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Guji, Ethiopia</li>\n<li>Altitude: 2,050 m</li>\n<li>Process: Natural, dried on raised beds</li>\n<li>Varietal: Heirloom</li>\n<li>Tasting notes: Peach, jasmine, brown sugar</li>\n<li>Roasted for: Filter</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "guji.webp",
+		"days_ago": 3,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Light"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "19.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "19.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "19.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "64.60",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "64.60",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "64.60",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": [
+			{
+				"author": "Marta L.",
+				"rating": 5,
+				"content": "I have bought this three times now. It really does taste of peach, which I did not believe until I made it as a pour-over."
+			},
+			{
+				"author": "Ben A.",
+				"rating": 4,
+				"content": "Beautiful coffee, though it needs a finer grind than I expected. The card in the bag helped."
+			}
+		]
+	},
+	{
+		"slug": "huila-washed",
+		"name": "Huila Washed",
+		"type": "variable",
+		"sku": "RO-HUILA-",
+		"short_description": "Colombia, washed. Red apple, caramel and a clean finish.",
+		"description": "<!-- wp:paragraph -->\n<p>From twelve farms around Pitalito, each under two hectares. Fermented in tanks for eighteen hours and washed in spring water, then dried on covered patios.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Huila, Colombia</li>\n<li>Altitude: 1,750 m</li>\n<li>Process: Washed</li>\n<li>Varietal: Caturra, Castillo</li>\n<li>Tasting notes: Red apple, caramel, orange</li>\n<li>Roasted for: Filter and espresso</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "huila.webp",
+		"days_ago": 10,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Light"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "61.20",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "61.20",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "61.20",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "nyeri-aa",
+		"name": "Nyeri AA",
+		"type": "variable",
+		"sku": "RO-NYERI-",
+		"short_description": "Kenya, washed. Blackcurrant, grapefruit and a dry finish.",
+		"description": "<!-- wp:paragraph -->\n<p>A screen-18 lot from the slopes of Mount Kenya, fermented overnight and soaked in clean water before drying. The acidity is the point: serve it black and let it cool a little.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Nyeri, Kenya</li>\n<li>Altitude: 1,800 m</li>\n<li>Process: Washed, soaked</li>\n<li>Varietal: SL28, SL34</li>\n<li>Tasting notes: Blackcurrant, grapefruit, cane sugar</li>\n<li>Roasted for: Filter</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "nyeri.webp",
+		"days_ago": 3,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Light"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "21.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "21.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "21.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "71.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "71.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "71.40",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "antigua",
+		"name": "Antigua",
+		"type": "variable",
+		"sku": "RO-ANTIGU",
+		"short_description": "Guatemala, washed. Cocoa, almond and a soft body.",
+		"description": "<!-- wp:paragraph -->\n<p>From a single estate in the Antigua valley, between three volcanoes that drop ash on the fields and keep the soil loose. An easy coffee: it takes milk without disappearing.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Antigua, Guatemala</li>\n<li>Altitude: 1,550 m</li>\n<li>Process: Washed</li>\n<li>Varietal: Bourbon</li>\n<li>Tasting notes: Cocoa, almond, red apple</li>\n<li>Roasted for: Espresso and filter</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "antigua.webp",
+		"days_ago": 18,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "17.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "17.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "17.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "59.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "59.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "59.50",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "cerrado",
+		"name": "Cerrado",
+		"type": "variable",
+		"sku": "RO-CERRAD",
+		"short_description": "Brazil, pulped natural. Hazelnut, milk chocolate and low acidity.",
+		"description": "<!-- wp:paragraph -->\n<p>Machine-picked on the flat land of the Cerrado Mineiro and pulped before drying, which keeps some sweetness without the ferment of a full natural. The base of our house espresso, sold on its own while the harvest lasts.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Cerrado Mineiro, Brazil</li>\n<li>Altitude: 1,100 m</li>\n<li>Process: Pulped natural</li>\n<li>Varietal: Yellow Catuai</li>\n<li>Tasting notes: Hazelnut, milk chocolate, malt</li>\n<li>Roasted for: Espresso</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "cerrado.webp",
+		"days_ago": 22,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock",
+				"sale_price": "14.00"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock",
+				"sale_price": "14.00"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock",
+				"sale_price": "14.00"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "sumatra-mandheling",
+		"name": "Sumatra Mandheling",
+		"type": "variable",
+		"sku": "RO-SUMATR",
+		"short_description": "Indonesia, wet hulled. Cedar, dark chocolate and a heavy body.",
+		"description": "<!-- wp:paragraph -->\n<p>Wet hulled at high moisture the way Sumatra has always done it, which is where the cedar and the savoury edge come from. The heaviest coffee we sell, and the one people either love or leave.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Aceh, Sumatra</li>\n<li>Altitude: 1,400 m</li>\n<li>Process: Wet hulled</li>\n<li>Varietal: Ateng, Jember</li>\n<li>Tasting notes: Cedar, dark chocolate, tobacco</li>\n<li>Roasted for: Espresso</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"single-origin"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "sumatra.webp",
+		"days_ago": 26,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Dark"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "18.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "18.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "18.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "62.90",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "62.90",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "62.90",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "house-espresso",
+		"name": "House Espresso",
+		"type": "variable",
+		"sku": "RO-HOUSE-",
+		"short_description": "Our everyday espresso: Brazil and Colombia, for milk drinks.",
+		"description": "<!-- wp:paragraph -->\n<p>Seventy per cent Cerrado for body and thirty per cent Huila for something to taste through milk. Roasted a little further than our filter coffees so it is forgiving on a home machine.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Blend: 70% Brazil, 30% Colombia</li>\n<li>Process: Pulped natural and washed</li>\n<li>Tasting notes: Milk chocolate, hazelnut, orange</li>\n<li>Roasted for: Espresso</li>\n<li>Recipe: 18 g in, 36 g out, 28 seconds</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"blends"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "house-espresso.webp",
+		"days_ago": 30,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "16.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "54.40",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": [
+			{
+				"author": "Sofia D.",
+				"rating": 5,
+				"content": "Forgiving on my machine at home and it still tastes of something through milk. Ordered the kilo bag after the first week."
+			}
+		]
+	},
+	{
+		"slug": "breakfast-blend",
+		"name": "Breakfast Blend",
+		"type": "variable",
+		"sku": "RO-BREAKF",
+		"short_description": "The one to make a litre of. Sweet, round and hard to get wrong.",
+		"description": "<!-- wp:paragraph -->\n<p>Guatemala and Brazil in equal parts, roasted for a cafetiere or a filter machine rather than for a scale and a timer. The coffee we drink in the roastery before anyone else arrives.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Blend: 50% Guatemala, 50% Brazil</li>\n<li>Process: Washed and pulped natural</li>\n<li>Tasting notes: Cocoa, almond, baked apple</li>\n<li>Roasted for: Filter and cafetiere</li>\n<li>Recipe: 60 g per litre</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"blends"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "breakfast.webp",
+		"days_ago": 34,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "15.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "15.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "15.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "51.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "51.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "51.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "midnight-blend",
+		"name": "Midnight Blend",
+		"type": "variable",
+		"sku": "RO-MIDNIG",
+		"short_description": "A proper dark roast: bittersweet, smoky and built for milk.",
+		"description": "<!-- wp:paragraph -->\n<p>Sumatra and Brazil taken to the edge of second crack, for anyone who grew up on dark coffee and does not want an apology for it. Excellent as an iced latte.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Blend: 60% Sumatra, 40% Brazil</li>\n<li>Process: Wet hulled and pulped natural</li>\n<li>Tasting notes: Dark chocolate, molasses, smoke</li>\n<li>Roasted for: Espresso and milk</li>\n<li>Recipe: 18 g in, 34 g out, 30 seconds</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"blends"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "midnight.webp",
+		"days_ago": 38,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Dark"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "16.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "16.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "16.50",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "56.10",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "56.10",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "56.10",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "swiss-water-decaf",
+		"name": "Swiss Water Decaf",
+		"type": "variable",
+		"sku": "RO-SWISS-",
+		"short_description": "Colombia, decaffeinated with water alone. Caramel and cocoa.",
+		"description": "<!-- wp:paragraph -->\n<p>The same Huila we sell with the caffeine in it, sent to be decaffeinated with water and charcoal rather than solvents. Roasted a shade darker, because decaf beans take heat differently.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Origin: Huila, Colombia</li>\n<li>Process: Swiss Water decaffeinated</li>\n<li>Caffeine: 99.9% removed</li>\n<li>Tasting notes: Caramel, cocoa, red apple</li>\n<li>Roasted for: Filter and espresso</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"decaf"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "decaf.webp",
+		"days_ago": 42,
+		"attributes": [
+			{
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"1 kg"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "grind",
+				"taxonomy": true,
+				"options": [
+					"Whole bean",
+					"Filter",
+					"Espresso"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "roast",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Whole bean"
+				},
+				"regular_price": "17.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Filter"
+				},
+				"regular_price": "17.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "250 g",
+					"grind": "Espresso"
+				},
+				"regular_price": "17.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Whole bean"
+				},
+				"regular_price": "57.80",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Filter"
+				},
+				"regular_price": "57.80",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"size": "1 kg",
+					"grind": "Espresso"
+				},
+				"regular_price": "57.80",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "v60-dripper",
+		"name": "Ceramic Dripper",
+		"type": "simple",
+		"sku": "RO-V60-DR",
+		"regular_price": "28.00",
+		"short_description": "A ceramic cone for one or two cups, with a glass carafe.",
+		"description": "<!-- wp:paragraph -->\n<p>Ceramic holds heat better than plastic and forgives a slow pour. Comes with a glass carafe, a scoop and twenty filters to get started.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"equipment"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "v60.webp",
+		"days_ago": 120,
+		"reviews": []
+	},
+	{
+		"slug": "pour-over-kettle",
+		"name": "Pour-over Kettle",
+		"type": "simple",
+		"sku": "RO-POUR-O",
+		"regular_price": "69.00",
+		"short_description": "A gooseneck kettle with a thermometer in the lid.",
+		"description": "<!-- wp:paragraph -->\n<p>The spout is the whole point: it turns a kettle into something you can aim. One litre, brushed steel, with a dial thermometer so you can stop guessing at 94 degrees.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"equipment"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "kettle.webp",
+		"days_ago": 135,
+		"reviews": [],
+		"sale_price": "59.00"
+	},
+	{
+		"slug": "hand-grinder",
+		"name": "Hand Grinder",
+		"type": "simple",
+		"sku": "RO-HAND-G",
+		"regular_price": "89.00",
+		"short_description": "Steel burrs, forty clicks, good for filter and espresso.",
+		"description": "<!-- wp:paragraph -->\n<p>Conical steel burrs and a stepped adjustment you can feel through the handle. Forty grams in the hopper, which is two large cups, and it grinds them in under a minute.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"equipment"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "grinder.webp",
+		"days_ago": 150,
+		"reviews": [
+			{
+				"author": "Tom R.",
+				"rating": 5,
+				"content": "Replaced a blade grinder with this and the difference was bigger than changing the coffee."
+			},
+			{
+				"author": "Priya N.",
+				"rating": 4,
+				"content": "Solid and quick. Espresso is at the very edge of what it can do, but filter is effortless."
+			}
+		]
+	},
+	{
+		"slug": "brew-scales",
+		"name": "Brew Scales",
+		"type": "simple",
+		"sku": "RO-BREW-S",
+		"regular_price": "45.00",
+		"short_description": "Scales that weigh to a tenth of a gram, with a timer.",
+		"description": "<!-- wp:paragraph -->\n<p>Coffee is a ratio, and a ratio needs scales. These read to 0.1 g, start timing when the first drop lands, and survive being rinsed.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"equipment"
+		],
+		"featured": false,
+		"stock_status": "outofstock",
+		"image": "scales.webp",
+		"days_ago": 165,
+		"reviews": []
+	},
+	{
+		"slug": "paper-filters",
+		"name": "Paper Filters, 100",
+		"type": "simple",
+		"sku": "RO-PAPER-",
+		"regular_price": "8.00",
+		"short_description": "One hundred bleached filters for a size 02 cone.",
+		"description": "<!-- wp:paragraph -->\n<p>Bleached, because unbleached filters taste of paper unless you rinse them thoroughly. Fits any size 02 cone, ours included.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"equipment"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "filters.webp",
+		"days_ago": 180,
+		"reviews": []
+	},
+	{
+		"slug": "taster-set",
+		"name": "Taster Set",
+		"type": "simple",
+		"sku": "RO-TASTER",
+		"regular_price": "42.00",
+		"short_description": "Three 100 g bags: one light, one medium, one dark.",
+		"description": "<!-- wp:paragraph -->\n<p>The easiest way to find out what someone likes. Three 100 g bags, chosen from what we roasted that week, with a card explaining what each one is and how to brew it.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"gifts"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "taster-set.webp",
+		"days_ago": 195,
+		"reviews": []
+	}
+]

@@ -1,0 +1,64 @@
+{
+    "product_cat": [
+        {
+            "name": "Accessories",
+            "slug": "accessories",
+            "description": "Bags, boots and the finishing touches."
+        },
+        {
+            "name": "Coats",
+            "slug": "coats",
+            "description": "Wool, cashmere and faux fur, cut to layer over knitwear."
+        },
+        {
+            "name": "Dresses",
+            "slug": "dresses",
+            "description": "Easy shapes that work from morning to evening."
+        },
+        {
+            "name": "Knitwear",
+            "slug": "knitwear",
+            "description": "Soft layers for cold mornings, knitted from merino and wool blends."
+        },
+        {
+            "name": "Shirts and tops",
+            "slug": "tops",
+            "description": "Crisp poplin, silk and everyday cotton."
+        }
+    ],
+    "attributes": [
+        {
+            "name": "Colour",
+            "slug": "colour",
+            "type": "select",
+            "order_by": "menu_order",
+            "terms": [
+                "Grey marl",
+                "Oatmeal"
+            ]
+        },
+        {
+            "name": "Size",
+            "slug": "size",
+            "type": "select",
+            "order_by": "menu_order",
+            "terms": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        }
+    ],
+    "category": [
+        {
+            "name": "Care guides",
+            "slug": "care-guides"
+        },
+        {
+            "name": "Style notes",
+            "slug": "style-notes"
+        }
+    ]
+}

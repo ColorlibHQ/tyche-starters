@@ -1,0 +1,35 @@
+[
+    {
+        "slug": "how-to-care-for-wool",
+        "title": "How to care for wool so it lasts for years",
+        "content": "<!-- wp:paragraph -->\n<p>Wool looks after itself better than almost any fabric. It resists stains and odours, so most knitwear needs washing far less often than you think.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Air a jumper between wears by laying it flat near an open window. When it does need a wash, use cool water and a wool detergent, press the water out in a towel rather than wringing, and dry it flat away from direct heat.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Store knitwear folded, never on a hanger, which stretches the shoulders. A drawer with a cedar block keeps moths away through summer.</p>\n<!-- /wp:paragraph -->",
+        "excerpt": "Wool looks after itself better than almost any fabric. It resists stains and odours, so most knitwear needs washing far less often than you think.",
+        "image": "journal-wool-care.webp",
+        "categories": [
+            "care-guides"
+        ],
+        "days_ago": 12
+    },
+    {
+        "slug": "five-ways-to-wear-a-blanket-scarf",
+        "title": "Five ways to wear a blanket scarf",
+        "content": "<!-- wp:paragraph -->\n<p>A blanket scarf is the most useful thing in a winter wardrobe: a scarf, a wrap and, on a cold evening, very nearly a coat.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Fold it into a triangle and wear it over a coat with the point at the back. Loop it twice for a chunky collar. Drape it over the shoulders as a shawl. Belt it over a knit dress. Or simply throw it around your shoulders on the walk home.</p>\n<!-- /wp:paragraph -->",
+        "excerpt": "A blanket scarf is the most useful thing in a winter wardrobe: a scarf, a wrap and, on a cold evening, very nearly a coat.",
+        "image": "journal-blanket-scarf.webp",
+        "categories": [
+            "style-notes"
+        ],
+        "days_ago": 20
+    },
+    {
+        "slug": "how-to-layer-for-a-cold-morning",
+        "title": "How to layer for a cold morning",
+        "content": "<!-- wp:paragraph -->\n<p>The secret to staying warm is thin layers, not thick ones. Warm air gets trapped between them, and you can take one off when you come inside.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Start with a fine merino base, add a knit, and finish with a wool coat that has room across the shoulders. A scarf and a beanie do more than any extra jumper.</p>\n<!-- /wp:paragraph -->",
+        "excerpt": "The secret to staying warm is thin layers, not thick ones. Warm air gets trapped between them, and you can take one off when you come inside.",
+        "image": "journal-cold-morning.webp",
+        "categories": [
+            "style-notes"
+        ],
+        "days_ago": 28
+    }
+]

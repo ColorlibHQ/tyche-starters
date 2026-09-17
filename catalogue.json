@@ -1,0 +1,27 @@
+{
+ "schema": 1,
+ "updated": "2026-09-17",
+ "starters": [
+  {
+   "slug": "tyche",
+   "name": "Tyche",
+   "niche": "Knitwear and basics",
+   "tier": "free",
+   "version": "1.0.0",
+   "thumbnail": "tyche/thumbnail.webp",
+   "preview": "https://colorlibhub.com/tyche-2/",
+   "requires": {
+    "theme": "tyche",
+    "plugins": [
+     "woocommerce"
+    ]
+   },
+   "counts": {
+    "products": 19,
+    "pages": 7,
+    "posts": 3,
+    "images": 23
+   }
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "slug": "primary",
+        "title": "Primary",
+        "content": "<!-- wp:navigation-link {\"label\":\"Shop\",\"url\":\"{{shop}}\",\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:shop}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Coats\",\"url\":\"{{cat:coats}}\",\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:coats}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Knitwear\",\"url\":\"{{cat:knitwear}}\",\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:knitwear}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Dresses\",\"url\":\"{{cat:dresses}}\",\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:dresses}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Accessories\",\"url\":\"{{cat:accessories}}\",\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:accessories}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Journal\",\"url\":\"{{page:journal}}\",\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:journal}}\",\"isTopLevelLink\":true} /-->\n<!-- wp:navigation-link {\"label\":\"Our story\",\"url\":\"{{page:about}}\",\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:about}}\",\"isTopLevelLink\":true} /-->\n"
+    }
+]

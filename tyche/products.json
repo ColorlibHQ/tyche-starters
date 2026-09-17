@@ -1,0 +1,438 @@
+[
+    {
+        "slug": "burgundy-wool-coat",
+        "name": "Burgundy Wool Coat",
+        "type": "simple",
+        "sku": "TY-96E5C5",
+        "regular_price": "289",
+        "sale_price": "229",
+        "short_description": "A double-faced wool coat in deep burgundy, cut to sit over a chunky knit.",
+        "description": "<!-- wp:paragraph -->\n<p>Our warmest coat, in a double-faced wool with a brushed finish on both sides, so it needs no lining. A relaxed shoulder leaves room for knitwear, and deep welt pockets sit where your hands fall.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "coats"
+        ],
+        "featured": true,
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "burgundy-wool-coat.webp",
+        "reviews": [
+            {
+                "author": "Tom W.",
+                "rating": 4,
+                "content": "A beautiful coat. It runs slightly large, so size down if you are between sizes."
+            },
+            {
+                "author": "Hannah M.",
+                "rating": 5,
+                "content": "Heavier and better made than anything I have bought in years. It arrived in two days, beautifully packed."
+            }
+        ]
+    },
+    {
+        "slug": "grey-wool-coat",
+        "name": "Grey Wool Coat",
+        "type": "simple",
+        "sku": "TY-3E16D1",
+        "regular_price": "259",
+        "short_description": "A mid-weight wool coat in heathered grey that goes with everything.",
+        "description": "<!-- wp:paragraph -->\n<p>Woven in a mill that has made coating cloth for three generations, with a soft handle and a subtle fleck. Single-breasted, with horn buttons and a full cupro lining.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "coats"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "grey-wool-coat.webp"
+    },
+    {
+        "slug": "faux-fur-gilet",
+        "name": "Faux Fur Gilet",
+        "type": "simple",
+        "sku": "TY-F7F13B",
+        "regular_price": "149",
+        "short_description": "A sleeveless faux fur layer in warm camel, lined in soft jersey.",
+        "description": "<!-- wp:paragraph -->\n<p>All the warmth of a gilet with none of the bulk under a coat. The pile is dense and soft, the lining is brushed jersey, and it hooks closed at the front.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Spot clean only. Brush gently with a soft brush.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "coats"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "faux-fur-gilet.webp"
+    },
+    {
+        "slug": "chunky-knit-jumper",
+        "name": "Chunky Knit Jumper",
+        "type": "simple",
+        "sku": "TY-EF9AB2",
+        "regular_price": "149",
+        "sale_price": "119",
+        "short_description": "A relaxed, hand-finished jumper in a soft wool blend.",
+        "description": "<!-- wp:paragraph -->\n<p>Knitted on hand-operated machines and finished by hand, with dropped shoulders, deep ribbed cuffs and a gently cropped body.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "knitwear"
+        ],
+        "featured": true,
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "chunky-knit-jumper.webp",
+        "reviews": [
+            {
+                "author": "Lena K.",
+                "rating": 5,
+                "content": "The cosiest thing I own. Worth every penny."
+            },
+            {
+                "author": "Daniel R.",
+                "rating": 5,
+                "content": "I sent back one size and had the swap within the week, no questions asked."
+            }
+        ]
+    },
+    {
+        "slug": "cream-cardigan",
+        "name": "Cream Cardigan",
+        "type": "simple",
+        "sku": "TY-B013AD",
+        "regular_price": "129",
+        "short_description": "A long, loose cardigan in undyed cream wool.",
+        "description": "<!-- wp:paragraph -->\n<p>Cut long enough to wrap, with horn buttons and patch pockets. The yarn is undyed, so the cream is the natural colour of the wool.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "knitwear"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "cream-cardigan.webp"
+    },
+    {
+        "slug": "everyday-grey-sweater",
+        "name": "Everyday Grey Sweater",
+        "type": "simple",
+        "sku": "TY-5450E3",
+        "regular_price": "79",
+        "short_description": "The crew neck we wear more than anything else, in soft grey marl.",
+        "description": "<!-- wp:paragraph -->\n<p>A fine gauge that layers under a coat and a weight that works on its own. Ribbed hem and cuffs keep their shape wash after wash.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "knitwear"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "everyday-grey-sweater.webp"
+    },
+    {
+        "slug": "grey-sweater-dress",
+        "name": "Grey Sweater Dress",
+        "type": "simple",
+        "sku": "TY-19F1B7",
+        "regular_price": "139",
+        "short_description": "A soft knit dress with bell sleeves, cut above the knee.",
+        "description": "<!-- wp:paragraph -->\n<p>Knitted in a light, warm yarn with a subtle rib, so it skims rather than clings. The bell sleeves are wide enough to push up.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "dresses"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "grey-sweater-dress.webp"
+    },
+    {
+        "slug": "mustard-knit-dress",
+        "name": "Mustard Knit Dress",
+        "type": "simple",
+        "sku": "TY-EFC98C",
+        "regular_price": "119",
+        "sale_price": "95",
+        "short_description": "A ribbed midi dress in warm mustard, with a tie waist.",
+        "description": "<!-- wp:paragraph -->\n<p>Knitted in a fine rib that holds its shape, with a detachable tie at the waist and a length that works with boots.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "dresses"
+        ],
+        "featured": true,
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "mustard-knit-dress.webp"
+    },
+    {
+        "slug": "pink-silk-blouse",
+        "name": "Pink Silk Blouse",
+        "type": "simple",
+        "sku": "TY-B3BD6F",
+        "regular_price": "110",
+        "short_description": "A washed silk blouse in pale pink, with a relaxed fit.",
+        "description": "<!-- wp:paragraph -->\n<p>Sand-washed silk with a soft, matte finish. A camp collar, a chest pocket and a curved hem that looks right tucked or loose.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Hand wash cold or dry clean. Cool iron on the reverse.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "tops"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "pink-silk-blouse.webp"
+    },
+    {
+        "slug": "leopard-print-tee",
+        "name": "Leopard Print Tee",
+        "type": "simple",
+        "sku": "TY-163058",
+        "regular_price": "45",
+        "sale_price": "35",
+        "short_description": "A cotton tee in a small leopard print.",
+        "description": "<!-- wp:paragraph -->\n<p>Heavyweight organic cotton jersey, garment dyed and printed, with a slightly boxy fit.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Machine wash at 30 degrees with similar colours. Warm iron.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "tops"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "leopard-print-tee.webp"
+    },
+    {
+        "slug": "black-poplin-shirt",
+        "name": "Black Poplin Shirt",
+        "type": "simple",
+        "sku": "TY-2CF75C",
+        "regular_price": "85",
+        "short_description": "A crisp cotton poplin shirt in black.",
+        "description": "<!-- wp:paragraph -->\n<p>Tightly woven poplin with a clean collar, mother-of-pearl buttons and a back yoke with a small pleat for movement.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Machine wash at 30 degrees with similar colours. Warm iron.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "tops"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "black-poplin-shirt.webp"
+    },
+    {
+        "slug": "white-poplin-shirt",
+        "name": "White Poplin Shirt",
+        "type": "simple",
+        "sku": "TY-1E5E34",
+        "regular_price": "85",
+        "short_description": "The white shirt, in crisp organic cotton poplin.",
+        "description": "<!-- wp:paragraph -->\n<p>Tightly woven poplin with a clean collar, mother-of-pearl buttons and a back yoke with a small pleat for movement.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Machine wash at 30 degrees with similar colours. Warm iron.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "tops"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "white-poplin-shirt.webp"
+    },
+    {
+        "slug": "floral-chain-bag",
+        "name": "Floral Chain Bag",
+        "type": "simple",
+        "sku": "TY-64B9FB",
+        "regular_price": "120",
+        "sale_price": "89",
+        "short_description": "A structured shoulder bag in a dark floral print.",
+        "description": "<!-- wp:paragraph -->\n<p>Printed canvas with leather trim, a chain strap that doubles for a short handle, and a magnetic clasp. Fits a phone, keys and a small wallet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Wipe with a dry cloth.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "featured": true,
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "floral-chain-bag.webp"
+    },
+    {
+        "slug": "patent-clutch",
+        "name": "Patent Clutch",
+        "type": "simple",
+        "sku": "TY-071E5D",
+        "regular_price": "65",
+        "short_description": "A slim black patent clutch for evenings out.",
+        "description": "<!-- wp:paragraph -->\n<p>Glossy patent leather with a zip top and a suede-lined interior.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Wipe with a soft dry cloth.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "stock_status": "outofstock",
+        "menu_order": 0,
+        "image": "patent-clutch.webp"
+    },
+    {
+        "slug": "leather-messenger-bag",
+        "name": "Leather Messenger Bag",
+        "type": "simple",
+        "sku": "TY-FA9CA8",
+        "regular_price": "189",
+        "short_description": "A vegetable-tanned leather bag that ages beautifully.",
+        "description": "<!-- wp:paragraph -->\n<p>Thick, vegetable-tanned leather with brass buckles, two front pockets and a padded sleeve that fits a 13-inch laptop.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Condition the leather twice a year.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "leather-messenger-bag.webp"
+    },
+    {
+        "slug": "quilted-ankle-boots",
+        "name": "Quilted Ankle Boots",
+        "type": "simple",
+        "sku": "TY-481478",
+        "regular_price": "159",
+        "short_description": "Black leather ankle boots with a quilted panel and a stacked heel.",
+        "description": "<!-- wp:paragraph -->\n<p>Soft leather uppers, a quilted side panel, an inside zip and a rubber sole with grip for wet pavements.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Wipe clean and use a leather protector.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "quilted-ankle-boots.webp"
+    },
+    {
+        "slug": "strappy-heeled-boots",
+        "name": "Strappy Heeled Boots",
+        "type": "simple",
+        "sku": "TY-2A6360",
+        "regular_price": "175",
+        "short_description": "Cut-out heeled boots in black suede.",
+        "description": "<!-- wp:paragraph -->\n<p>Soft suede with strap cut-outs, a slim heel and a cushioned insole.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Brush with a suede brush.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "strappy-heeled-boots.webp"
+    },
+    {
+        "slug": "round-frame-glasses",
+        "name": "Round Frame Glasses",
+        "type": "simple",
+        "sku": "TY-081E92",
+        "regular_price": "69",
+        "short_description": "Round wire frames with clear lenses.",
+        "description": "<!-- wp:paragraph -->\n<p>Lightweight metal frames with adjustable nose pads and spring hinges. Supplied with a linen case.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Clean with the cloth supplied.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "accessories"
+        ],
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "round-frame-glasses.webp"
+    },
+    {
+        "slug": "merino-rollneck",
+        "name": "Merino Rollneck",
+        "type": "variable",
+        "sku": "TY-ROLL01",
+        "short_description": "Fine-gauge merino with a soft rolled neck. Light enough to layer, warm enough on its own.",
+        "description": "<!-- wp:paragraph -->\n<p>Knitted from extra-fine merino in a relaxed fit, with a rolled neck that folds down or wears up. The model is 178cm and wears a size M.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Care.</strong> Dry flat after a cool hand wash, or use a wool cycle at 30 degrees. Fold rather than hang.</p>\n<!-- /wp:paragraph -->",
+        "categories": [
+            "knitwear"
+        ],
+        "featured": true,
+        "stock_status": "instock",
+        "menu_order": 0,
+        "image": "merino-rollneck.webp",
+        "gallery": [
+            "merino-rollneck-detail.webp",
+            "everyday-grey-sweater.webp"
+        ],
+        "attributes": [
+            {
+                "slug": "size",
+                "taxonomy": true,
+                "options": [
+                    "XS",
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "visible": true,
+                "variation": true
+            },
+            {
+                "slug": "colour",
+                "taxonomy": true,
+                "options": [
+                    "Grey marl",
+                    "Oatmeal"
+                ],
+                "visible": true,
+                "variation": true
+            }
+        ],
+        "variations": [
+            {
+                "attributes": {
+                    "size": "XS",
+                    "colour": "Grey marl"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "XS",
+                    "colour": "Oatmeal"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "S",
+                    "colour": "Grey marl"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "S",
+                    "colour": "Oatmeal"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "M",
+                    "colour": "Grey marl"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "M",
+                    "colour": "Oatmeal"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "L",
+                    "colour": "Grey marl"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "L",
+                    "colour": "Oatmeal"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "XL",
+                    "colour": "Grey marl"
+                },
+                "regular_price": "95",
+                "stock_status": "instock"
+            },
+            {
+                "attributes": {
+                    "size": "XL",
+                    "colour": "Oatmeal"
+                },
+                "regular_price": "95",
+                "stock_status": "outofstock"
+            }
+        ],
+        "reviews": [
+            {
+                "author": "Priya S.",
+                "rating": 5,
+                "content": "Soft, warm and it still looks new after a winter of wearing it almost every day."
+            }
+        ]
+    }
+]

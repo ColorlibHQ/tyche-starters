@@ -1,0 +1,28 @@
+{
+    "schema": 1,
+    "slug": "tyche",
+    "exported": "2026-09-17T18:55:07+00:00",
+    "theme": {
+        "slug": "tyche",
+        "style": ""
+    },
+    "settings": {
+        "title": "Tyche",
+        "tagline": "Considered clothing, made to last",
+        "front_page": "home",
+        "posts_page": "journal",
+        "currency": "USD",
+        "country": "US:NY",
+        "shipping": {
+            "country": "US",
+            "flat_rate": "8",
+            "free_over": "75"
+        }
+    },
+    "counts": {
+        "products": 19,
+        "pages": 7,
+        "posts": 3,
+        "images": 23
+    }
+}

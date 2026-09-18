@@ -1,17 +1,17 @@
 [
 	{
-		"slug": "monstera",
-		"name": "Monstera Deliciosa",
+		"slug": "spider-plant",
+		"name": "Spider Plant",
 		"type": "variable",
-		"sku": "VE-MONSTE",
-		"short_description": "The one everyone starts with, and still the best value for the space it fills.",
-		"description": "<!-- wp:paragraph -->\n<p>Fast, forgiving and happy in most rooms as long as it is out of direct sun. The splits in the leaves come with age and light: a young plant with plain leaves is not a different plant, it is a younger one.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright, indirect</li>\n<li>Water: When the top 5 cm is dry, about weekly</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Grows to: 2 m indoors</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"sku": "VE-SPIDER",
+		"short_description": "Pet safe, nearly indestructible, and gives you free plants all summer.",
+		"description": "<!-- wp:paragraph -->\n<p>Arching striped leaves and runners that make babies you can pot on. It copes with most light, most watering habits and most rooms, which is why it has been in every kitchen since 1974.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright to medium, indirect</li>\n<li>Water: Weekly in summer, less in winter</li>\n<li>Pets: Safe</li>\n<li>Grows to: 50 cm, plus runners</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"medium"
 		],
 		"featured": true,
 		"stock_status": "instock",
-		"image": "monstera.webp",
+		"image": "spider-plant.webp",
 		"days_ago": 3,
 		"attributes": [
 			{
@@ -30,583 +30,6 @@
 				"taxonomy": true,
 				"options": [
 					"Medium"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "32.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "48.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "68.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": [
-			{
-				"author": "Priya N.",
-				"rating": 5,
-				"content": "Arrived better packed than anything I have ordered. Already put out a new leaf, split and all."
-			},
-			{
-				"author": "Cal R.",
-				"rating": 4,
-				"content": "Bigger than I expected for the 17 cm, which is a good problem. One leaf was creased in transit."
-			}
-		]
-	},
-	{
-		"slug": "fiddle-leaf",
-		"name": "Fiddle Leaf Fig",
-		"type": "variable",
-		"sku": "VE-FIDDLE",
-		"short_description": "Architectural, dramatic, and famously opinionated about being moved.",
-		"description": "<!-- wp:paragraph -->\n<p>It wants one bright spot and to be left in it. Turn it a quarter each week so it grows evenly, water when the top third of the pot is dry, and accept that it will drop a leaf after any change of scene.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright, some direct sun</li>\n<li>Water: When the top third is dry</li>\n<li>Pets: Toxic if chewed</li>\n<li>Grows to: 2.5 m indoors</li>\n<li>Difficulty: Fussy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"bright"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "fiddle-leaf.webp",
-		"days_ago": 9,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Bright"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "38.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "58.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "85.00",
-				"stock_status": "outofstock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "snake-plant",
-		"name": "Snake Plant",
-		"type": "variable",
-		"sku": "VE-SNAKE-",
-		"short_description": "The plant for a dark hallway and a bad memory for watering.",
-		"description": "<!-- wp:paragraph -->\n<p>It will survive a month of neglect and a north-facing wall. The only reliable way to kill one is to keep it wet, so water it when the soil is dry all the way through and then leave it alone.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to bright</li>\n<li>Water: Every three to four weeks</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Grows to: 80 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"low"
-		],
-		"featured": true,
-		"stock_status": "instock",
-		"image": "snake-plant.webp",
-		"days_ago": 16,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Low"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "24.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "34.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "48.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": [
-			{
-				"author": "Dee M.",
-				"rating": 5,
-				"content": "In the darkest corner of a north-facing flat for four months and it has not blinked."
-			}
-		]
-	},
-	{
-		"slug": "pothos",
-		"name": "Pothos Marble Queen",
-		"type": "variable",
-		"sku": "VE-POTHOS",
-		"short_description": "Trails a metre in a season and tells you plainly when it is thirsty.",
-		"description": "<!-- wp:paragraph -->\n<p>Marbled cream and green, happiest trailing from a shelf. The leaves go soft when it needs water and recover within the hour, which makes it the best plant to learn on.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to bright, indirect</li>\n<li>Water: Weekly, when the leaves soften</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Trails to: 1.5 m</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"low"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "pothos.webp",
-		"days_ago": 22,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Low"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "18.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "26.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "36.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "zz-plant",
-		"name": "ZZ Plant",
-		"type": "variable",
-		"sku": "VE-ZZ-PLA",
-		"short_description": "Glossy, upright, and nearly impossible to kill by forgetting it.",
-		"description": "<!-- wp:paragraph -->\n<p>It stores water in rhizomes under the soil, which is why it copes with a dark office and a fortnight away. Wipe the leaves twice a year and they stay polished.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to medium</li>\n<li>Water: Every three weeks</li>\n<li>Pets: Toxic if chewed</li>\n<li>Grows to: 90 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"low"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "zz-plant.webp",
-		"days_ago": 30,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Low"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "28.00",
-				"stock_status": "outofstock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "40.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "56.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "peace-lily",
-		"name": "Peace Lily",
-		"type": "variable",
-		"sku": "VE-PEACE-",
-		"short_description": "Flowers in a room most plants only survive in, and faints theatrically when dry.",
-		"description": "<!-- wp:paragraph -->\n<p>White spathes two or three times a year in medium light. It wilts dramatically when it wants water and stands back up within a couple of hours, which is alarming the first time and useful after that.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Medium, indirect</li>\n<li>Water: When it starts to droop, about weekly</li>\n<li>Pets: Toxic if chewed</li>\n<li>Grows to: 60 cm</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"medium"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "peace-lily.webp",
-		"days_ago": 38,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Medium"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "22.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "32.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "44.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "rubber-plant",
-		"name": "Rubber Plant",
-		"type": "variable",
-		"sku": "VE-RUBBER",
-		"short_description": "Deep green, almost black in low light, and grows a foot a year.",
-		"description": "<!-- wp:paragraph -->\n<p>Broad leathery leaves on a single stem that you can prune to branch. Bright indirect light keeps the colour dark; direct sun scorches it, and a cold draught makes it drop the lowest leaves.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright, indirect</li>\n<li>Water: When the top 5 cm is dry</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Grows to: 2 m indoors</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"bright"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "rubber-plant.webp",
-		"days_ago": 47,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Bright"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Keep away from pets"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "30.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "44.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "62.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "calathea",
-		"name": "Calathea Orbifolia",
-		"type": "variable",
-		"sku": "VE-CALATH",
-		"short_description": "Silver-striped, pet safe, and honest about hating hard water.",
-		"description": "<!-- wp:paragraph -->\n<p>Beautiful and particular: it wants humidity, filtered or stood water, and no direct sun. Crisp brown edges mean the air is too dry. Worth it for the leaves, which fold up at night.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Medium, indirect</li>\n<li>Water: Keep just moist, filtered water</li>\n<li>Pets: Safe</li>\n<li>Grows to: 70 cm</li>\n<li>Difficulty: Fussy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"medium"
-		],
-		"featured": true,
-		"stock_status": "instock",
-		"image": "calathea.webp",
-		"days_ago": 55,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Medium"
-				],
-				"visible": true,
-				"variation": false
-			},
-			{
-				"slug": "pets",
-				"taxonomy": true,
-				"options": [
-					"Pet safe"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"pot-size": "12 cm"
-				},
-				"regular_price": "34.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"pot-size": "17 cm"
-				},
-				"regular_price": "46.00",
-				"stock_status": "outofstock"
-			},
-			{
-				"attributes": {
-					"pot-size": "22 cm"
-				},
-				"regular_price": "64.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "spider-plant",
-		"name": "Spider Plant",
-		"type": "variable",
-		"sku": "VE-SPIDER",
-		"short_description": "Pet safe, nearly indestructible, and gives you free plants all summer.",
-		"description": "<!-- wp:paragraph -->\n<p>Arching striped leaves and runners that make babies you can pot on. Copes with most light, most watering habits and most rooms, which is why it has been in every kitchen since 1974.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright to medium, indirect</li>\n<li>Water: Weekly in summer, less in winter</li>\n<li>Pets: Safe</li>\n<li>Grows to: 50 cm, plus runners</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"bright"
-		],
-		"featured": true,
-		"stock_status": "instock",
-		"image": "spider-plant.webp",
-		"days_ago": 64,
-		"attributes": [
-			{
-				"slug": "pot-size",
-				"taxonomy": true,
-				"options": [
-					"12 cm",
-					"17 cm",
-					"22 cm"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "light",
-				"taxonomy": true,
-				"options": [
-					"Bright"
 				],
 				"visible": true,
 				"variation": false
@@ -644,22 +67,33 @@
 				"stock_status": "instock"
 			}
 		],
-		"reviews": []
+		"reviews": [
+			{
+				"author": "Priya N.",
+				"rating": 5,
+				"content": "Arrived better packed than anything I have ordered, and it has not sulked for a day."
+			},
+			{
+				"author": "Cal R.",
+				"rating": 4,
+				"content": "Bigger than I expected for the 17 cm, which is a good problem. It has thrown out two runners already."
+			}
+		]
 	},
 	{
-		"slug": "parlour-palm",
-		"name": "Parlour Palm",
+		"slug": "boston-fern",
+		"name": "Boston Fern",
 		"type": "variable",
-		"sku": "VE-PARLOU",
-		"short_description": "Pet safe, happy in shade, and Victorian in the best sense.",
-		"description": "<!-- wp:paragraph -->\n<p>It grew in unheated drawing rooms for a century and still asks for very little: shade, an occasional drink, and no direct sun. Slow, so what you buy is roughly what you keep.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to medium</li>\n<li>Water: When the top 5 cm is dry</li>\n<li>Pets: Safe</li>\n<li>Grows to: 1.2 m, slowly</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"sku": "VE-BOSTON",
+		"short_description": "Pet safe, soft, and the best plant for a steamy bathroom.",
+		"description": "<!-- wp:paragraph -->\n<p>It wants humidity more than it wants light, which makes a bathroom or a kitchen its natural home. Crisp brown fronds mean the air is too dry rather than the soil.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Medium, indirect</li>\n<li>Water: Keep just moist, never dry</li>\n<li>Pets: Safe</li>\n<li>Grows to: 60 cm across</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
 		"categories": [
-			"low"
+			"medium"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "parlour-palm.webp",
-		"days_ago": 72,
+		"image": "boston-fern.webp",
+		"days_ago": 8,
 		"attributes": [
 			{
 				"slug": "pot-size",
@@ -676,7 +110,7 @@
 				"slug": "light",
 				"taxonomy": true,
 				"options": [
-					"Low"
+					"Medium"
 				],
 				"visible": true,
 				"variation": false
@@ -696,22 +130,22 @@
 				"attributes": {
 					"pot-size": "12 cm"
 				},
-				"regular_price": "26.00",
+				"regular_price": "22.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"pot-size": "17 cm"
 				},
-				"regular_price": "38.00",
+				"regular_price": "30.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"pot-size": "22 cm"
 				},
-				"regular_price": "52.00",
-				"stock_status": "instock"
+				"regular_price": "42.00",
+				"stock_status": "outofstock"
 			}
 		],
 		"reviews": []
@@ -722,14 +156,14 @@
 		"type": "variable",
 		"sku": "VE-ALOE",
 		"short_description": "Wants a sunny sill and to be forgotten between waterings.",
-		"description": "<!-- wp:paragraph -->\n<p>A succulent, so the usual rules invert: full sun, gritty compost, and a soak only once the soil is bone dry. Overwatering is the one thing it will not forgive.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Every three to four weeks, soak and drain</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Grows to: 50 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>A succulent, so the usual rules invert: full sun, gritty compost, and a soak only once the soil is dry all the way through. Overwatering is the one thing it will not forgive.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Every three to four weeks, soak and drain</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Grows to: 50 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"bright"
 		],
-		"featured": false,
+		"featured": true,
 		"stock_status": "instock",
 		"image": "aloe.webp",
-		"days_ago": 88,
+		"days_ago": 14,
 		"attributes": [
 			{
 				"slug": "pot-size",
@@ -787,19 +221,305 @@
 		"reviews": []
 	},
 	{
-		"slug": "string-of-hearts",
-		"name": "String of Hearts",
+		"slug": "pothos-globe",
+		"name": "Pothos in Glass",
 		"type": "variable",
-		"sku": "VE-STRING",
-		"short_description": "Pet safe, trails a metre, and looks like nothing else on the shelf.",
-		"description": "<!-- wp:paragraph -->\n<p>Silver-marbled hearts on thread-fine stems that will hang a metre from a high shelf. It is a succulent underneath it all, so let it dry out between waterings.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright, indirect</li>\n<li>Water: Every two weeks, let it dry between</li>\n<li>Pets: Safe</li>\n<li>Trails to: 1 m</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"sku": "VE-POTHOS",
+		"short_description": "A rooted cutting in a glass globe: no compost, no repotting, no mess.",
+		"description": "<!-- wp:paragraph -->\n<p>Pothos roots happily in water and will live in it for years. Change the water every fortnight, add a drop of feed a month, and pot it into compost whenever you feel like it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to bright, indirect</li>\n<li>Water: Change the water fortnightly</li>\n<li>Pets: Mildly toxic if chewed</li>\n<li>Trails to: 1 m</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
 		"categories": [
-			"bright"
+			"low"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "pothos-globe.webp",
+		"days_ago": 20,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Low"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Keep away from pets"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "26.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "34.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "philodendron",
+		"name": "Trailing Philodendron",
+		"type": "variable",
+		"sku": "VE-PHILOD",
+		"short_description": "Dark heart-shaped leaves that trail a metre from a shelf in shade.",
+		"description": "<!-- wp:paragraph -->\n<p>One of the few plants that genuinely grows in a dim room rather than merely surviving there. Pinch the tips out twice a year and it thickens instead of going leggy.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Low to medium, indirect</li>\n<li>Water: When the top 5 cm is dry</li>\n<li>Pets: Toxic if chewed</li>\n<li>Trails to: 1.5 m</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"low"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "philodendron.webp",
+		"days_ago": 27,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Low"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Keep away from pets"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "24.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "34.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "46.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": [
+			{
+				"author": "Dee M.",
+				"rating": 5,
+				"content": "In the darkest corner of a north-facing flat for four months and it has grown half a metre."
+			}
+		]
+	},
+	{
+		"slug": "fittonia",
+		"name": "Fittonia",
+		"type": "variable",
+		"sku": "VE-FITTON",
+		"short_description": "Pet safe, palm-sized, and faints when thirsty so you always know.",
+		"description": "<!-- wp:paragraph -->\n<p>White veins on deep green, and a talent for collapsing flat when it wants water then standing back up within an hour. Small enough for a desk, and happiest in a terrarium.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Medium, indirect</li>\n<li>Water: When it flops, about twice a week</li>\n<li>Pets: Safe</li>\n<li>Grows to: 20 cm</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"medium"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "string-of-hearts.webp",
-		"days_ago": 100,
+		"image": "fittonia.webp",
+		"days_ago": 34,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Pet safe"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "12.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "24.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "hanging-fern",
+		"name": "Hanging Fern",
+		"type": "variable",
+		"sku": "VE-HANGIN",
+		"short_description": "Pet safe, and the right plant for the corner above a bath.",
+		"description": "<!-- wp:paragraph -->\n<p>Hung on fine chains with a sealed liner, so it can be watered where it hangs. Like all ferns it wants humidity, which is why it does well where other plants sulk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Medium, indirect</li>\n<li>Water: Twice a week, keep just moist</li>\n<li>Pets: Safe</li>\n<li>Trails to: 60 cm</li>\n<li>Difficulty: Easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"medium"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "hanging-fern.webp",
+		"days_ago": 42,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Medium"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Pet safe"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "28.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "38.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "52.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "echeveria",
+		"name": "Echeveria",
+		"type": "variable",
+		"sku": "VE-ECHEVE",
+		"short_description": "Pet safe, the size of a teacup, and turns pink in enough sun.",
+		"description": "<!-- wp:paragraph -->\n<p>A rosette succulent that colours up at the edges in bright light and stays grey-green in shade. Gritty compost, a soak once it is dry, and nothing at all in midwinter.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Every three weeks, soak and drain</li>\n<li>Pets: Safe</li>\n<li>Grows to: 12 cm across</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"bright"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "echeveria.webp",
+		"days_ago": 50,
 		"attributes": [
 			{
 				"slug": "pot-size",
@@ -836,22 +556,302 @@
 				"attributes": {
 					"pot-size": "12 cm"
 				},
-				"regular_price": "20.00",
+				"regular_price": "11.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"pot-size": "17 cm"
 				},
-				"regular_price": "28.00",
+				"regular_price": "16.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"pot-size": "22 cm"
 				},
-				"regular_price": "38.00",
+				"regular_price": "22.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "haworthia",
+		"name": "Haworthia Zebra",
+		"type": "variable",
+		"sku": "VE-HAWORT",
+		"short_description": "Pet safe, striped white, and happy on a desk under a lamp.",
+		"description": "<!-- wp:paragraph -->\n<p>Tougher than it looks and tolerant of less light than most succulents, which makes it the one that survives an office. The white stripes are raised, not painted.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Bright, indirect to direct</li>\n<li>Water: Every three weeks</li>\n<li>Pets: Safe</li>\n<li>Grows to: 15 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"bright"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "haworthia.webp",
+		"days_ago": 58,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Bright"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Pet safe"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "13.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "18.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "25.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "barrel-cactus",
+		"name": "Barrel Cactus",
+		"type": "variable",
+		"sku": "VE-BARREL",
+		"short_description": "Round, ribbed and spiny: a sill plant for a very sunny window.",
+		"description": "<!-- wp:paragraph -->\n<p>Slow enough that the one you buy is roughly the one you keep. Full sun, gritty compost, and nothing to drink between November and February.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Monthly in summer, none in winter</li>\n<li>Pets: Spines rather than poison</li>\n<li>Grows to: 25 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"bright"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "barrel-cactus.webp",
+		"days_ago": 66,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Bright"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Keep away from pets"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "15.00",
 				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "22.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "30.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "column-cactus",
+		"name": "Column Cactus",
+		"type": "variable",
+		"sku": "VE-COLUMN",
+		"short_description": "A tall, slim column for a corner that gets real sun.",
+		"description": "<!-- wp:paragraph -->\n<p>Architectural, and grows about five centimetres a year, so it holds its shape for a decade. Give it the brightest spot you have and keep it dry in winter.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Monthly in summer, none in winter</li>\n<li>Pets: Spines rather than poison</li>\n<li>Grows to: 1 m, slowly</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"bright"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "column-cactus.webp",
+		"days_ago": 74,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Bright"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Keep away from pets"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "26.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "36.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "48.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "bunny-ear-cactus",
+		"name": "Bunny Ear Cactus",
+		"type": "variable",
+		"sku": "VE-BUNNY-",
+		"short_description": "Pads like ears, and fine bristles that get everywhere: handle with a cloth.",
+		"description": "<!-- wp:paragraph -->\n<p>Charming and deceptively unfriendly: the tufts are glochids, which come off at a touch and are miserable to remove. Beautiful on a high sill, wrong at a toddler's height.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Light: Direct sun</li>\n<li>Water: Monthly in summer, none in winter</li>\n<li>Pets: Bristles: keep out of reach</li>\n<li>Grows to: 40 cm</li>\n<li>Difficulty: Very easy</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"bright"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "bunny-ear-cactus.webp",
+		"days_ago": 82,
+		"attributes": [
+			{
+				"slug": "pot-size",
+				"taxonomy": true,
+				"options": [
+					"12 cm",
+					"17 cm",
+					"22 cm"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "light",
+				"taxonomy": true,
+				"options": [
+					"Bright"
+				],
+				"visible": true,
+				"variation": false
+			},
+			{
+				"slug": "pets",
+				"taxonomy": true,
+				"options": [
+					"Keep away from pets"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"pot-size": "12 cm"
+				},
+				"regular_price": "14.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "17 cm"
+				},
+				"regular_price": "20.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"pot-size": "22 cm"
+				},
+				"regular_price": "27.00",
+				"stock_status": "instock"
 			}
 		],
 		"reviews": []
@@ -897,8 +897,8 @@
 		"type": "simple",
 		"sku": "VE-HANGIN",
 		"regular_price": "34.00",
-		"short_description": "A glazed pot in a cotton rope cradle, for trailing plants.",
-		"description": "<!-- wp:paragraph -->\n<p>A shallow glazed pot held in a hand-knotted cotton cradle, hung from a brass ring. Made for a pothos or a string of hearts on a high shelf.</p>\n<!-- /wp:paragraph -->",
+		"short_description": "A glazed pot on a long cord, for trailing plants.",
+		"description": "<!-- wp:paragraph -->\n<p>A shallow glazed pot hung on a cotton cord from a brass ring, with a sealed liner so it can be watered where it hangs.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"pots"
 		],
@@ -909,25 +909,42 @@
 		"reviews": []
 	},
 	{
-		"slug": "watering-can",
-		"name": "Watering Can",
+		"slug": "glass-vases",
+		"name": "Propagation Vases, 2",
 		"type": "simple",
-		"sku": "VE-WATERI",
-		"regular_price": "42.00",
-		"short_description": "Brass, one litre, with a long spout that reaches the back row.",
-		"description": "<!-- wp:paragraph -->\n<p>A long thin spout gets under the leaves and into the soil, where the water belongs. One litre, which is three or four plants before a refill.</p>\n<!-- /wp:paragraph -->",
+		"sku": "VE-GLASS-",
+		"regular_price": "24.00",
+		"short_description": "Two slim glass vases for rooting cuttings on a sill.",
+		"description": "<!-- wp:paragraph -->\n<p>Hand-blown glass narrow enough to hold a single cutting upright, so you can watch the roots come. Two, because one cutting is never one cutting.</p>\n<!-- /wp:paragraph -->",
+		"categories": [
+			"pots"
+		],
+		"featured": false,
+		"stock_status": "instock",
+		"image": "glass-vases.webp",
+		"days_ago": 69,
+		"reviews": []
+	},
+	{
+		"slug": "potting-trowel",
+		"name": "Potting Trowel",
+		"type": "simple",
+		"sku": "VE-POTTIN",
+		"regular_price": "18.00",
+		"short_description": "A narrow steel trowel sized for pots rather than borders.",
+		"description": "<!-- wp:paragraph -->\n<p>Narrow enough to work around a rootball without wrecking it, with a hardwood handle and a steel blade that will outlast the plants.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"care"
 		],
-		"featured": true,
+		"featured": false,
 		"stock_status": "instock",
-		"image": "watering-can.webp",
+		"image": "potting-trowel.webp",
 		"days_ago": 76,
 		"reviews": [
 			{
 				"author": "Tom H.",
 				"rating": 5,
-				"content": "The spout is the whole point. I stopped soaking the leaves and the calathea stopped sulking."
+				"content": "Narrow enough to get around a rootball without hacking at it. Should have bought one years ago."
 			}
 		]
 	},
@@ -946,23 +963,6 @@
 		"stock_status": "instock",
 		"image": "potting-mix.webp",
 		"days_ago": 92,
-		"reviews": []
-	},
-	{
-		"slug": "plant-food",
-		"name": "Plant Food, 250 ml",
-		"type": "simple",
-		"sku": "VE-PLANT-",
-		"regular_price": "10.00",
-		"short_description": "A balanced feed for the growing months, diluted in the can.",
-		"description": "<!-- wp:paragraph -->\n<p>Five millilitres in a litre of water, every other watering from March to September, and nothing at all through the winter.</p>\n<!-- /wp:paragraph -->",
-		"categories": [
-			"care"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "plant-food.webp",
-		"days_ago": 110,
 		"reviews": []
 	}
 ]

@@ -1,126 +1,122 @@
 [
 	{
 		"file": "about-1.webp",
-		"alt": "A wide greenhouse with plants along both sides"
+		"alt": "A path through a conservatory dense with ferns and palms"
 	},
 	{
 		"file": "aloe.webp",
-		"alt": "An aloe in a small terracotta pot on a windowsill"
+		"alt": "An aloe with thick blue-green leaves in a pale cork-textured pot"
 	},
 	{
-		"file": "calathea.webp",
-		"alt": "A calathea with patterned leaves on a table"
+		"file": "barrel-cactus.webp",
+		"alt": "A small barrel cactus in a chalky cream glazed pot"
+	},
+	{
+		"file": "boston-fern.webp",
+		"alt": "A bushy green fern in a white pot against a pale wall"
+	},
+	{
+		"file": "bunny-ear-cactus.webp",
+		"alt": "A bunny-ear cactus in a small white pot on a pale ledge"
 	},
 	{
 		"file": "care-1.webp",
-		"alt": "Water poured from a brass can onto the soil of a potted plant"
+		"alt": "A single monstera leaf laid flat on a pale grey surface"
 	},
 	{
 		"file": "cat-bright.webp",
-		"alt": "A plant on a sunlit windowsill against a white wall"
+		"alt": "Two small terracotta wall pots of herbs on a sunlit cream wall"
 	},
 	{
 		"file": "cat-low.webp",
-		"alt": "A leafy plant in the shaded corner of a room"
+		"alt": "A leafy plant beside a tall window in a concrete-walled room"
 	},
 	{
 		"file": "cat-medium.webp",
-		"alt": "Plants on a shelf in a room lit from one side"
+		"alt": "A shelf of trailing plants above a bed against an exposed brick wall"
+	},
+	{
+		"file": "column-cactus.webp",
+		"alt": "A tall slim columnar cactus against a pale concrete wall"
 	},
 	{
 		"file": "contact-1.webp",
-		"alt": "The inside of a plant shop, plants on wooden shelving"
+		"alt": "A plant shop seen from the stairs, plants along the sill and shelves"
 	},
 	{
-		"file": "fiddle-leaf.webp",
-		"alt": "A fiddle leaf fig in a basket beside a window"
+		"file": "echeveria.webp",
+		"alt": "A pale grey-lilac echeveria rosette photographed close on a white ledge"
+	},
+	{
+		"file": "fittonia.webp",
+		"alt": "A fittonia with white-veined leaves in a white ribbed pot"
+	},
+	{
+		"file": "glass-vases.webp",
+		"alt": "Slender cuttings standing in two clear glass vases against a pale wall"
+	},
+	{
+		"file": "hanging-fern.webp",
+		"alt": "A trailing fern spilling from a small hanging basket on fine chains"
 	},
 	{
 		"file": "hanging-planter.webp",
-		"alt": "A hanging planter with a rope cradle"
+		"alt": "A white hanging planter of trailing greenery on a long cord"
 	},
 	{
-		"file": "hero-1.webp",
-		"alt": "A tall leafy plant beside a bright window in a pale room"
+		"file": "haworthia.webp",
+		"alt": "A dark-striped haworthia in a plain white square pot"
 	},
 	{
 		"file": "journal-1.webp",
-		"alt": "A close-up of a large green leaf with water droplets"
+		"alt": "Two potted grasses on a sunlit windowsill in front of an open window"
 	},
 	{
 		"file": "journal-2.webp",
-		"alt": "A small plant being turned towards the light on a sill"
+		"alt": "Two hands holding a small white pot of greenery"
 	},
 	{
 		"file": "journal-3.webp",
-		"alt": "Roots and soil in the hands of someone repotting"
+		"alt": "An old glasshouse with a large agave behind a weathered bench"
 	},
 	{
-		"file": "monstera.webp",
-		"alt": "A monstera in a pale ceramic pot against a white wall"
+		"file": "philodendron.webp",
+		"alt": "A trailing philodendron with dark leaves in a woven basket"
 	},
 	{
-		"file": "parlour-palm.webp",
-		"alt": "A parlour palm in a woven basket"
-	},
-	{
-		"file": "peace-lily.webp",
-		"alt": "A peace lily in flower in a white pot"
-	},
-	{
-		"file": "plant-food.webp",
-		"alt": "A small bottle of liquid plant food beside a plant"
-	},
-	{
-		"file": "pothos.webp",
-		"alt": "A pothos trailing from a shelf"
+		"file": "pothos-globe.webp",
+		"alt": "A rooted pothos cutting in a round glass globe on a wooden stand"
 	},
 	{
 		"file": "potting-mix.webp",
-		"alt": "A bag of potting compost open on a bench"
+		"alt": "The rim of a terracotta pot filled with dark potting soil"
+	},
+	{
+		"file": "potting-trowel.webp",
+		"alt": "A garden trowel loaded with dark potting soil beside spilled compost"
 	},
 	{
 		"file": "promo-1.webp",
-		"alt": "Rows of plants in a bright greenhouse"
+		"alt": "The inside of a glasshouse, with raised beds of cacti either side"
 	},
 	{
 		"file": "repot-1.webp",
-		"alt": "An empty terracotta pot, compost and a trowel on a bench"
-	},
-	{
-		"file": "rubber-plant.webp",
-		"alt": "A rubber plant with deep green leaves in a terracotta pot"
-	},
-	{
-		"file": "snake-plant.webp",
-		"alt": "An upright snake plant in a grey pot"
+		"alt": "A seedling with two pale leaves rising from dark crumbly soil"
 	},
 	{
 		"file": "spider-plant.webp",
-		"alt": "A spider plant with arching striped leaves"
+		"alt": "A spider plant with arching variegated leaves in a dark woven basket"
 	},
 	{
 		"file": "stoneware-pot.webp",
-		"alt": "A speckled stoneware pot with a matte glaze"
+		"alt": "Two small speckled stoneware pots beside a chipped white bowl"
 	},
 	{
 		"file": "story-1.webp",
-		"alt": "Hands firming soil around a plant on a potting bench"
-	},
-	{
-		"file": "string-of-hearts.webp",
-		"alt": "A string of hearts trailing over the edge of a shelf"
+		"alt": "Seedlings in small labelled cups in a row on a dark blue shelf"
 	},
 	{
 		"file": "terracotta-pot.webp",
-		"alt": "A plain terracotta pot on a pale surface"
-	},
-	{
-		"file": "watering-can.webp",
-		"alt": "A brass watering can with a long spout"
-	},
-	{
-		"file": "zz-plant.webp",
-		"alt": "A ZZ plant with glossy leaves in a dark pot"
+		"alt": "A small cactus in a terracotta pot against a plain cream wall"
 	}
 ]

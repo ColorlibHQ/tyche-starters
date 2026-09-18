@@ -52,6 +52,8 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
+				"blogname": "Oakhouse",
+				"blogdescription": "Solid timber furniture, made to order",
 				"woocommerce_coming_soon": "no",
 				"woocommerce_store_pages_only": "no"
 			}

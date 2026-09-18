@@ -52,6 +52,8 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
+				"blogname": "Verdant",
+				"blogdescription": "Plants for the room you actually have",
 				"woocommerce_coming_soon": "no",
 				"woocommerce_store_pages_only": "no"
 			}

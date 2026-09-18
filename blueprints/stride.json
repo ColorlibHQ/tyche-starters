@@ -52,6 +52,8 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
+				"blogname": "Stride",
+				"blogdescription": "Drops on Saturday at ten",
 				"woocommerce_coming_soon": "no",
 				"woocommerce_store_pages_only": "no"
 			}

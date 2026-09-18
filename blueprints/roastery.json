@@ -52,6 +52,8 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
+				"blogname": "Roastery",
+				"blogdescription": "Roasted Tuesday, posted Wednesday",
 				"woocommerce_coming_soon": "no",
 				"woocommerce_store_pages_only": "no"
 			}

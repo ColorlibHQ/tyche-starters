@@ -1,122 +1,18 @@
 [
 	{
-		"slug": "runner-2-volt",
-		"name": "Runner 2 Volt",
+		"slug": "canvas-low-white",
+		"name": "Canvas Low White",
 		"type": "variable",
-		"sku": "ST-RUNNER",
-		"short_description": "The Runner 2 in volt. Saturday's drop, 120 pairs.",
-		"description": "<!-- wp:paragraph -->\n<p>A knitted upper over a foam midsole with a 8 mm drop, cut for road running and worn mostly for everything else. The volt colourway is limited to 120 pairs and will not be made again.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 255 g in UK 9</li>\n<li>Drop: 8 mm</li>\n<li>Upper: Recycled knit</li>\n<li>Midsole: Supercritical foam</li>\n<li>Outsole: Rubber, 3 mm lugs</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"sku": "ST-CANVAS",
+		"short_description": "Saturday's drop: the canvas low in undyed white. 120 pairs.",
+		"description": "<!-- wp:paragraph -->\n<p>Twelve-ounce canvas over a vulcanised sole, undyed so it takes the marks of wherever it goes. One hundred and twenty pairs, UK 6 to 12, and no restock.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 340 g in UK 9</li>\n<li>Upper: 12 oz undyed canvas</li>\n<li>Lining: Cotton drill</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Pairs: 120, then never again</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"sneakers"
 		],
 		"featured": true,
 		"stock_status": "instock",
-		"image": "runner-2-volt.webp",
+		"image": "canvas-low-white.webp",
 		"days_ago": 2,
-		"attributes": [
-			{
-				"slug": "uk-size",
-				"taxonomy": true,
-				"options": [
-					"UK 6",
-					"UK 7",
-					"UK 8",
-					"UK 9",
-					"UK 10",
-					"UK 11",
-					"UK 12"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "colourway",
-				"taxonomy": true,
-				"options": [
-					"Volt"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"uk-size": "UK 6"
-				},
-				"regular_price": "140.00",
-				"stock_status": "outofstock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 7"
-				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 8"
-				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 9"
-				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 10"
-				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 11"
-				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 12"
-				},
-				"regular_price": "140.00",
-				"stock_status": "outofstock"
-			}
-		],
-		"reviews": [
-			{
-				"author": "Jonah K.",
-				"rating": 5,
-				"content": "Got a pair in the last drop. They are lighter than they look and the colour is exactly as photographed."
-			},
-			{
-				"author": "Ade F.",
-				"rating": 4,
-				"content": "Fit is true but the knit is snug across the top of the foot. Worth going up half a size if you are between."
-			}
-		]
-	},
-	{
-		"slug": "court-low-white",
-		"name": "Court Low White",
-		"type": "variable",
-		"sku": "ST-COURT-",
-		"short_description": "A plain white leather court shoe. Nothing on it.",
-		"description": "<!-- wp:paragraph -->\n<p>Full-grain leather with a stitched toe box and a vulcanised sole, made on a last that has not changed since 1982. It creases within a week, which is the point.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 390 g in UK 9</li>\n<li>Upper: Full-grain leather</li>\n<li>Lining: Cotton drill</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"sneakers"
-		],
-		"featured": true,
-		"stock_status": "instock",
-		"image": "court-low-white.webp",
-		"days_ago": 26,
 		"attributes": [
 			{
 				"slug": "uk-size",
@@ -148,74 +44,79 @@
 				"attributes": {
 					"uk-size": "UK 6"
 				},
-				"regular_price": "110.00",
-				"stock_status": "instock"
+				"regular_price": "95.00",
+				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 7"
 				},
-				"regular_price": "110.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 8"
 				},
-				"regular_price": "110.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 9"
 				},
-				"regular_price": "110.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 10"
 				},
-				"regular_price": "110.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 11"
 				},
-				"regular_price": "110.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 12"
 				},
-				"regular_price": "110.00",
-				"stock_status": "instock"
+				"regular_price": "95.00",
+				"stock_status": "outofstock"
 			}
 		],
 		"reviews": [
 			{
-				"author": "Nina P.",
+				"author": "Jonah K.",
 				"rating": 5,
-				"content": "Third pair. They crease, they scuff, they last about two years of daily wear."
+				"content": "Got a pair in the last drop. The canvas is heavier than it looks and it has taken a winter without complaint."
+			},
+			{
+				"author": "Ade F.",
+				"rating": 4,
+				"content": "Fit is true, but the canvas is stiff for the first week. Worth going up half a size if you are between."
 			}
 		]
 	},
 	{
-		"slug": "trail-mid-olive",
-		"name": "Trail Mid Olive",
+		"slug": "court-low-silver",
+		"name": "Court Low Silver",
 		"type": "variable",
-		"sku": "ST-TRAIL-",
-		"short_description": "A mid-cut trail shoe with a gusseted tongue.",
-		"description": "<!-- wp:paragraph -->\n<p>Built for wet ground: a gusseted tongue to keep grit out, a rand around the toe, and 5 mm lugs that clear mud instead of holding it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 410 g in UK 9</li>\n<li>Drop: 6 mm</li>\n<li>Upper: Ripstop with TPU rand</li>\n<li>Outsole: Rubber, 5 mm lugs</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"sku": "ST-COURT-",
+		"short_description": "Metallic leather, cut low, for people who do not want to blend in.",
+		"description": "<!-- wp:paragraph -->\n<p>A court shoe in mirrored leather that shifts from silver to blue depending on the light. The same last as the white court, with a padded collar and a stitched toe box.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 395 g in UK 9</li>\n<li>Upper: Metallic leather</li>\n<li>Collar: Padded</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"sneakers"
 		],
 		"featured": true,
 		"stock_status": "instock",
-		"image": "trail-mid-olive.webp",
-		"days_ago": 40,
+		"image": "court-low-silver.webp",
+		"days_ago": 24,
 		"attributes": [
 			{
 				"slug": "uk-size",
@@ -236,7 +137,199 @@
 				"slug": "colourway",
 				"taxonomy": true,
 				"options": [
-					"Olive"
+					"Silver"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"uk-size": "UK 6"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 7"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 8"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 9"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 10"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 11"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 12"
+				},
+				"regular_price": "130.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": [
+			{
+				"author": "Nina P.",
+				"rating": 5,
+				"content": "They catch the light in a way the photographs do not quite manage. Second pair."
+			}
+		]
+	},
+	{
+		"slug": "mesh-runner-ice",
+		"name": "Mesh Runner Ice",
+		"type": "variable",
+		"sku": "ST-MESH-R",
+		"short_description": "An engineered mesh runner in pale blue, built to breathe.",
+		"description": "<!-- wp:paragraph -->\n<p>Engineered mesh with no overlays, so there is nothing to rub, over a foam midsole with an 8 mm drop. The pale blue shows dirt, which is the trade for looking like this.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 265 g in UK 9</li>\n<li>Drop: 8 mm</li>\n<li>Upper: Engineered mesh</li>\n<li>Midsole: Supercritical foam</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"sneakers"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "mesh-runner-ice.webp",
+		"days_ago": 38,
+		"attributes": [
+			{
+				"slug": "uk-size",
+				"taxonomy": true,
+				"options": [
+					"UK 6",
+					"UK 7",
+					"UK 8",
+					"UK 9",
+					"UK 10",
+					"UK 11",
+					"UK 12"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "colourway",
+				"taxonomy": true,
+				"options": [
+					"Ice"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"uk-size": "UK 6"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 7"
+				},
+				"regular_price": "120.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 8"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 9"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 10"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 11"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 12"
+				},
+				"regular_price": "120.00",
+				"stock_status": "instock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "trail-runner-amber",
+		"name": "Trail Runner Amber",
+		"type": "variable",
+		"sku": "ST-TRAIL-",
+		"short_description": "Orange, grippy, and happiest on wet ground.",
+		"description": "<!-- wp:paragraph -->\n<p>A trail shoe with 5 mm lugs and a rand around the toe, in an orange you can find again if you leave it in a hedge. Gusseted tongue, drainage at the arch.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 410 g in UK 9</li>\n<li>Drop: 6 mm</li>\n<li>Upper: Ripstop with TPU rand</li>\n<li>Outsole: Rubber, 5 mm lugs</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"sneakers"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "trail-runner-amber.webp",
+		"days_ago": 52,
+		"attributes": [
+			{
+				"slug": "uk-size",
+				"taxonomy": true,
+				"options": [
+					"UK 6",
+					"UK 7",
+					"UK 8",
+					"UK 9",
+					"UK 10",
+					"UK 11",
+					"UK 12"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "colourway",
+				"taxonomy": true,
+				"options": [
+					"Amber"
 				],
 				"visible": true,
 				"variation": false
@@ -255,7 +348,7 @@
 					"uk-size": "UK 7"
 				},
 				"regular_price": "165.00",
-				"stock_status": "outofstock"
+				"stock_status": "instock"
 			},
 			{
 				"attributes": {
@@ -283,7 +376,7 @@
 					"uk-size": "UK 11"
 				},
 				"regular_price": "165.00",
-				"stock_status": "instock"
+				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
@@ -296,19 +389,212 @@
 		"reviews": []
 	},
 	{
-		"slug": "runner-2-black",
-		"name": "Runner 2 Black",
+		"slug": "runner-2-blush",
+		"name": "Runner 2 Blush",
 		"type": "variable",
 		"sku": "ST-RUNNER",
-		"short_description": "The Runner 2, in black, in stock all year.",
-		"description": "<!-- wp:paragraph -->\n<p>The same shoe as the volt drop without the deadline. Knitted upper, supercritical foam, 8 mm drop, and a colourway that goes with everything.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 255 g in UK 9</li>\n<li>Drop: 8 mm</li>\n<li>Upper: Recycled knit</li>\n<li>Midsole: Supercritical foam</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"short_description": "Drop 06. Gone in four minutes, and not coming back.",
+		"description": "<!-- wp:paragraph -->\n<p>Knitted upper, supercritical foam, 8 mm drop. The sole is the only colour on it, which is either the point or the problem depending on who you ask.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 255 g in UK 9</li>\n<li>Drop: 8 mm</li>\n<li>Upper: Recycled knit</li>\n<li>Midsole: Supercritical foam</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"sneakers"
+		],
+		"featured": false,
+		"stock_status": "outofstock",
+		"image": "runner-2-blush.webp",
+		"days_ago": 66,
+		"attributes": [
+			{
+				"slug": "uk-size",
+				"taxonomy": true,
+				"options": [
+					"UK 6",
+					"UK 7",
+					"UK 8",
+					"UK 9",
+					"UK 10",
+					"UK 11",
+					"UK 12"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "colourway",
+				"taxonomy": true,
+				"options": [
+					"Blush"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"uk-size": "UK 6"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 7"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 8"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 9"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 10"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 11"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 12"
+				},
+				"regular_price": "140.00",
+				"stock_status": "outofstock"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "canvas-high-sage",
+		"name": "Canvas High Sage",
+		"type": "variable",
+		"sku": "ST-CANVAS",
+		"short_description": "The canvas shoe cut high, in washed sage.",
+		"description": "<!-- wp:paragraph -->\n<p>The same canvas and sole as the low, cut over the ankle, with a cotton lining and flat laces. Reduced while we clear the sage.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 395 g in UK 9</li>\n<li>Upper: 12 oz washed canvas</li>\n<li>Collar: Padded</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"categories": [
+			"sneakers"
+		],
+		"featured": true,
+		"stock_status": "instock",
+		"image": "canvas-high-sage.webp",
+		"days_ago": 84,
+		"attributes": [
+			{
+				"slug": "uk-size",
+				"taxonomy": true,
+				"options": [
+					"UK 6",
+					"UK 7",
+					"UK 8",
+					"UK 9",
+					"UK 10",
+					"UK 11",
+					"UK 12"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"slug": "colourway",
+				"taxonomy": true,
+				"options": [
+					"Sage"
+				],
+				"visible": true,
+				"variation": false
+			}
+		],
+		"variations": [
+			{
+				"attributes": {
+					"uk-size": "UK 6"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 7"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 8"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 9"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 10"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 11"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			},
+			{
+				"attributes": {
+					"uk-size": "UK 12"
+				},
+				"regular_price": "105.00",
+				"stock_status": "instock",
+				"sale_price": "85.00"
+			}
+		],
+		"reviews": []
+	},
+	{
+		"slug": "skate-low-black",
+		"name": "Skate Low Black",
+		"type": "variable",
+		"sku": "ST-SKATE-",
+		"short_description": "Flat sole, suede panels, double-stitched where it wears.",
+		"description": "<!-- wp:paragraph -->\n<p>A skate shoe that is honest about being one: a flat vulcanised sole for board feel, suede where the ollie goes, and stitching you can re-do rather than glue that cannot be.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 375 g in UK 9</li>\n<li>Upper: Suede and canvas</li>\n<li>Outsole: Vulcanised rubber, herringbone</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"sneakers"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "runner-2-black.webp",
-		"days_ago": 55,
+		"image": "skate-low-black.webp",
+		"days_ago": 104,
 		"attributes": [
 			{
 				"slug": "uk-size",
@@ -340,68 +626,68 @@
 				"attributes": {
 					"uk-size": "UK 6"
 				},
-				"regular_price": "140.00",
-				"stock_status": "instock"
+				"regular_price": "95.00",
+				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 7"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 8"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 9"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 10"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 11"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 12"
 				},
-				"regular_price": "140.00",
+				"regular_price": "95.00",
 				"stock_status": "instock"
 			}
 		],
 		"reviews": []
 	},
 	{
-		"slug": "court-mid-bone",
-		"name": "Court Mid Bone",
+		"slug": "rain-court-white",
+		"name": "Rain Court White",
 		"type": "variable",
-		"sku": "ST-COURT-",
-		"short_description": "The court shoe, cut high, in undyed leather.",
-		"description": "<!-- wp:paragraph -->\n<p>Undyed leather that takes on the marks of where it has been, over the same vulcanised sole as the low. Padded collar, cotton laces, one spare pair in the box.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 420 g in UK 9</li>\n<li>Upper: Undyed leather</li>\n<li>Collar: Padded</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
+		"sku": "ST-RAIN-C",
+		"short_description": "The white court, treated to survive a wet walk home.",
+		"description": "<!-- wp:paragraph -->\n<p>The court shoe with a taped seam and a water-repellent finish on the leather, for a city where the forecast is a suggestion. It will still get wet. It will just dry properly.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 410 g in UK 9</li>\n<li>Upper: Treated full-grain leather</li>\n<li>Seams: Taped</li>\n<li>Outsole: Vulcanised rubber</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
 		"categories": [
 			"sneakers"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "court-mid-bone.webp",
-		"days_ago": 70,
+		"image": "rain-court-white.webp",
+		"days_ago": 130,
 		"attributes": [
 			{
 				"slug": "uk-size",
@@ -422,7 +708,7 @@
 				"slug": "colourway",
 				"taxonomy": true,
 				"options": [
-					"Bone"
+					"White"
 				],
 				"visible": true,
 				"variation": false
@@ -433,354 +719,68 @@
 				"attributes": {
 					"uk-size": "UK 6"
 				},
-				"regular_price": "125.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 7"
-				},
-				"regular_price": "125.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 8"
-				},
-				"regular_price": "125.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 9"
-				},
-				"regular_price": "125.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 10"
-				},
-				"regular_price": "125.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 11"
-				},
-				"regular_price": "125.00",
-				"stock_status": "outofstock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 12"
-				},
-				"regular_price": "125.00",
-				"stock_status": "outofstock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "skate-classic",
-		"name": "Skate Classic",
-		"type": "variable",
-		"sku": "ST-SKATE-",
-		"short_description": "Canvas, gum sole, double-stitched where it wears.",
-		"description": "<!-- wp:paragraph -->\n<p>A skate shoe that is honest about being one: heavy canvas, a suede ollie patch, and a gum sole with a herringbone tread. Reduced while we clear the navy.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 360 g in UK 9</li>\n<li>Upper: 12 oz canvas, suede panels</li>\n<li>Outsole: Gum rubber, herringbone</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"sneakers"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "skate-classic.webp",
-		"days_ago": 95,
-		"attributes": [
-			{
-				"slug": "uk-size",
-				"taxonomy": true,
-				"options": [
-					"UK 6",
-					"UK 7",
-					"UK 8",
-					"UK 9",
-					"UK 10",
-					"UK 11",
-					"UK 12"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "colourway",
-				"taxonomy": true,
-				"options": [
-					"Navy"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"uk-size": "UK 6"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 7"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 8"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 9"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 10"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 11"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 12"
-				},
-				"regular_price": "95.00",
-				"stock_status": "instock",
-				"sale_price": "75.00"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "trainer-90",
-		"name": "Trainer 90",
-		"type": "variable",
-		"sku": "ST-TRAINE",
-		"short_description": "A 1990 running shoe, made the way it was then.",
-		"description": "<!-- wp:paragraph -->\n<p>Suede and mesh over a visible air unit, from the original pattern with the original tooling. Heavier than a modern runner, and the point is that you can feel it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 450 g in UK 9</li>\n<li>Drop: 12 mm</li>\n<li>Upper: Suede and mesh</li>\n<li>Midsole: EVA with air unit</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"sneakers"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "trainer-90.webp",
-		"days_ago": 120,
-		"attributes": [
-			{
-				"slug": "uk-size",
-				"taxonomy": true,
-				"options": [
-					"UK 6",
-					"UK 7",
-					"UK 8",
-					"UK 9",
-					"UK 10",
-					"UK 11",
-					"UK 12"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "colourway",
-				"taxonomy": true,
-				"options": [
-					"Bone"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"uk-size": "UK 6"
-				},
-				"regular_price": "130.00",
+				"regular_price": "135.00",
 				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 7"
 				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 8"
-				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 9"
-				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 10"
-				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 11"
-				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 12"
-				},
-				"regular_price": "130.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "sprint-elite",
-		"name": "Sprint Elite",
-		"type": "variable",
-		"sku": "ST-SPRINT",
-		"short_description": "A racing shoe: 190 grams, plated, not for every day.",
-		"description": "<!-- wp:paragraph -->\n<p>A plated racing shoe with a 4 mm drop and an upper you can see through. It will last about 300 kilometres and it is meant to.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><li>Weight: 190 g in UK 9</li>\n<li>Drop: 4 mm</li>\n<li>Plate: Carbon</li>\n<li>Upper: Monofilament mesh</li>\n<li>Sizes: UK 6 to UK 12</li></ul>\n<!-- /wp:list -->",
-		"categories": [
-			"sneakers"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "sprint-elite.webp",
-		"days_ago": 150,
-		"attributes": [
-			{
-				"slug": "uk-size",
-				"taxonomy": true,
-				"options": [
-					"UK 6",
-					"UK 7",
-					"UK 8",
-					"UK 9",
-					"UK 10",
-					"UK 11",
-					"UK 12"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"slug": "colourway",
-				"taxonomy": true,
-				"options": [
-					"Volt"
-				],
-				"visible": true,
-				"variation": false
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"uk-size": "UK 6"
-				},
-				"regular_price": "180.00",
-				"stock_status": "outofstock"
-			},
-			{
-				"attributes": {
-					"uk-size": "UK 7"
-				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 8"
 				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 9"
 				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 10"
 				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 11"
 				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"uk-size": "UK 12"
 				},
-				"regular_price": "180.00",
+				"regular_price": "135.00",
 				"stock_status": "instock"
 			}
 		],
 		"reviews": []
 	},
 	{
-		"slug": "boxy-hoodie",
-		"name": "Boxy Hoodie",
+		"slug": "hooded-jacket",
+		"name": "Hooded Jacket",
 		"type": "variable",
-		"sku": "ST-BOXY-H",
-		"short_description": "500 gsm cotton, cut short and wide.",
-		"description": "<!-- wp:paragraph -->\n<p>Loopback cotton at 500 gsm, heavy enough to stand up on its own, with a boxy body and ribbing that holds. Dyed in small lots, so no two runs match exactly.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-HOODED",
+		"short_description": "A lined hooded jacket, cut long enough to sit down in.",
+		"description": "<!-- wp:paragraph -->\n<p>Water-repellent shell over a brushed lining, with a hood that stays up and a body long enough to cover you on a cold ledge.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"apparel"
 		],
 		"featured": true,
 		"stock_status": "instock",
-		"image": "boxy-hoodie.webp",
-		"days_ago": 12,
+		"image": "hooded-jacket.webp",
+		"days_ago": 14,
 		"attributes": [
 			{
 				"slug": "size",
@@ -801,35 +801,35 @@
 				"attributes": {
 					"size": "XS"
 				},
-				"regular_price": "85.00",
+				"regular_price": "120.00",
 				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"size": "S"
 				},
-				"regular_price": "85.00",
+				"regular_price": "120.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "M"
 				},
-				"regular_price": "85.00",
+				"regular_price": "120.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "L"
 				},
-				"regular_price": "85.00",
+				"regular_price": "120.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "XL"
 				},
-				"regular_price": "85.00",
+				"regular_price": "120.00",
 				"stock_status": "instock"
 			}
 		],
@@ -837,24 +837,24 @@
 			{
 				"author": "Sam T.",
 				"rating": 5,
-				"content": "Genuinely heavy. It has not lost its shape after a summer of washing."
+				"content": "Genuinely waterproof, and long enough to sit on a wet ledge in. It has not lost its shape."
 			}
 		]
 	},
 	{
-		"slug": "heavyweight-tee",
-		"name": "Heavyweight Tee",
+		"slug": "cable-knit",
+		"name": "Cable Knit",
 		"type": "variable",
-		"sku": "ST-HEAVYW",
-		"short_description": "240 gsm cotton with a ribbed collar that keeps its shape.",
-		"description": "<!-- wp:paragraph -->\n<p>Tubular knit, so there are no side seams to twist in the wash, and a collar ribbed twice over. Pre-shrunk, which means what it says.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-CABLE-",
+		"short_description": "Undyed lambswool, cabled front and back.",
+		"description": "<!-- wp:paragraph -->\n<p>Knitted in undyed lambswool so the colour is the fleece rather than a dye lot, with cables front and back and ribbing that holds its shape.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"apparel"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "heavyweight-tee.webp",
-		"days_ago": 30,
+		"image": "cable-knit.webp",
+		"days_ago": 32,
 		"attributes": [
 			{
 				"slug": "size",
@@ -875,54 +875,54 @@
 				"attributes": {
 					"size": "XS"
 				},
-				"regular_price": "40.00",
+				"regular_price": "110.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "S"
 				},
-				"regular_price": "40.00",
+				"regular_price": "110.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "M"
 				},
-				"regular_price": "40.00",
+				"regular_price": "110.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "L"
 				},
-				"regular_price": "40.00",
+				"regular_price": "110.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "XL"
 				},
-				"regular_price": "40.00",
+				"regular_price": "110.00",
 				"stock_status": "instock"
 			}
 		],
 		"reviews": []
 	},
 	{
-		"slug": "cargo-pant",
-		"name": "Cargo Pant",
+		"slug": "boxy-tee",
+		"name": "Boxy Tee",
 		"type": "variable",
-		"sku": "ST-CARGO-",
-		"short_description": "Wide leg, six pockets, cotton ripstop.",
-		"description": "<!-- wp:paragraph -->\n<p>Ripstop cotton with a relaxed seat and a leg wide enough to sit over a mid-top. Six pockets, all of which will actually hold a phone.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-BOXY-T",
+		"short_description": "240 gsm cotton, cut wide, collar ribbed twice.",
+		"description": "<!-- wp:paragraph -->\n<p>Tubular knit with no side seams to twist in the wash, in a weight that hangs rather than clings. Pre-shrunk, which means what it says.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"apparel"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "cargo-pant.webp",
-		"days_ago": 48,
+		"image": "boxy-tee.webp",
+		"days_ago": 58,
 		"attributes": [
 			{
 				"slug": "size",
@@ -943,114 +943,46 @@
 				"attributes": {
 					"size": "XS"
 				},
-				"regular_price": "95.00",
+				"regular_price": "45.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "S"
 				},
-				"regular_price": "95.00",
+				"regular_price": "45.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "M"
 				},
-				"regular_price": "95.00",
+				"regular_price": "45.00",
 				"stock_status": "instock"
 			},
 			{
 				"attributes": {
 					"size": "L"
 				},
-				"regular_price": "95.00",
+				"regular_price": "45.00",
 				"stock_status": "outofstock"
 			},
 			{
 				"attributes": {
 					"size": "XL"
 				},
-				"regular_price": "95.00",
+				"regular_price": "45.00",
 				"stock_status": "outofstock"
 			}
 		],
 		"reviews": []
 	},
 	{
-		"slug": "coach-jacket",
-		"name": "Coach Jacket",
-		"type": "variable",
-		"sku": "ST-COACH-",
-		"short_description": "A lined coach jacket with press studs.",
-		"description": "<!-- wp:paragraph -->\n<p>Water-repellent shell over a brushed lining, with press studs rather than a zip and a cut that takes a hoodie underneath.</p>\n<!-- /wp:paragraph -->",
-		"categories": [
-			"apparel"
-		],
-		"featured": false,
-		"stock_status": "instock",
-		"image": "coach-jacket.webp",
-		"days_ago": 64,
-		"attributes": [
-			{
-				"slug": "size",
-				"taxonomy": true,
-				"options": [
-					"XS",
-					"S",
-					"M",
-					"L",
-					"XL"
-				],
-				"visible": true,
-				"variation": true
-			}
-		],
-		"variations": [
-			{
-				"attributes": {
-					"size": "XS"
-				},
-				"regular_price": "120.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"size": "S"
-				},
-				"regular_price": "120.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"size": "M"
-				},
-				"regular_price": "120.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"size": "L"
-				},
-				"regular_price": "120.00",
-				"stock_status": "instock"
-			},
-			{
-				"attributes": {
-					"size": "XL"
-				},
-				"regular_price": "120.00",
-				"stock_status": "instock"
-			}
-		],
-		"reviews": []
-	},
-	{
-		"slug": "logo-cap",
+		"slug": "six-panel-cap",
 		"name": "Six-panel Cap",
 		"type": "simple",
-		"sku": "ST-LOGO-C",
-		"regular_price": "30.00",
+		"sku": "ST-SIX-PA",
+		"regular_price": "35.00",
 		"short_description": "Washed cotton, low crown, brass buckle.",
 		"description": "<!-- wp:paragraph -->\n<p>A cap that sits low rather than standing tall, in washed cotton with a brass buckle at the back.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
@@ -1058,76 +990,59 @@
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "logo-cap.webp",
-		"days_ago": 22,
+		"image": "six-panel-cap.webp",
+		"days_ago": 20,
 		"reviews": []
 	},
 	{
-		"slug": "crew-socks",
-		"name": "Crew Socks, 3 pairs",
+		"slug": "leather-backpack",
+		"name": "Leather Backpack",
 		"type": "simple",
-		"sku": "ST-CREW-S",
-		"regular_price": "18.00",
-		"short_description": "Ribbed cotton crew socks, three pairs.",
-		"description": "<!-- wp:paragraph -->\n<p>Combed cotton with a terry footbed and a rib that stays up. Three pairs, one box, no prints.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-LEATHE",
+		"regular_price": "180.00",
+		"short_description": "Vegetable-tanned leather, one main compartment, padded sleeve.",
+		"description": "<!-- wp:paragraph -->\n<p>Vegetable-tanned leather that darkens with use, with a padded sleeve for a 14-inch laptop and a roll top that buckles down.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"accessories"
 		],
 		"featured": true,
 		"stock_status": "instock",
-		"image": "crew-socks.webp",
-		"days_ago": 36,
+		"image": "leather-backpack.webp",
+		"days_ago": 44,
 		"reviews": []
 	},
 	{
-		"slug": "shoe-care",
-		"name": "Shoe Care Kit",
+		"slug": "skate-deck",
+		"name": "Skate Deck",
 		"type": "simple",
-		"sku": "ST-SHOE-C",
-		"regular_price": "25.00",
-		"short_description": "A brush, a cloth and a bottle of cleaner.",
-		"description": "<!-- wp:paragraph -->\n<p>Everything needed to keep leather and canvas alive: a horsehair brush, a microfibre cloth and 100 ml of pH-neutral cleaner.</p>\n<!-- /wp:paragraph -->",
-		"categories": [
-			"accessories"
-		],
-		"featured": false,
-		"stock_status": "outofstock",
-		"image": "shoe-care.webp",
-		"days_ago": 80,
-		"reviews": []
-	},
-	{
-		"slug": "tote-bag",
-		"name": "Canvas Tote",
-		"type": "simple",
-		"sku": "ST-TOTE-B",
-		"regular_price": "22.00",
-		"short_description": "16 oz canvas, long handles, one inside pocket.",
-		"description": "<!-- wp:paragraph -->\n<p>Heavy canvas with handles long enough to go over a shoulder, and one inside pocket for the things that fall to the bottom.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-SKATE-",
+		"regular_price": "75.00",
+		"short_description": "Seven-ply maple, 8.25 inches, red wheels.",
+		"description": "<!-- wp:paragraph -->\n<p>A seven-ply maple deck at 8.25 inches with a mellow concave, set up with 52 mm wheels and sealed bearings. Ready to ride out of the box.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"accessories"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "tote-bag.webp",
-		"days_ago": 110,
+		"image": "skate-deck.webp",
+		"days_ago": 72,
 		"reviews": []
 	},
 	{
-		"slug": "laces",
-		"name": "Flat Laces",
+		"slug": "ribbed-socks",
+		"name": "Ribbed Socks, 3 pairs",
 		"type": "simple",
-		"sku": "ST-LACES",
-		"regular_price": "8.00",
-		"short_description": "Waxed flat laces, 120 cm, one pair.",
-		"description": "<!-- wp:paragraph -->\n<p>Waxed cotton flat laces in 120 cm, which is the length for a low-top with seven eyelets.</p>\n<!-- /wp:paragraph -->",
+		"sku": "ST-RIBBED",
+		"regular_price": "20.00",
+		"short_description": "Combed cotton crew socks in red, black and white.",
+		"description": "<!-- wp:paragraph -->\n<p>Combed cotton with a terry footbed and a rib that stays up through a session. Three pairs: red, black and white.</p>\n<!-- /wp:paragraph -->",
 		"categories": [
 			"accessories"
 		],
 		"featured": false,
 		"stock_status": "instock",
-		"image": "laces.webp",
-		"days_ago": 140,
+		"image": "ribbed-socks.webp",
+		"days_ago": 96,
 		"reviews": []
 	}
 ]

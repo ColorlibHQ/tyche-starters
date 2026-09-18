@@ -1,118 +1,110 @@
 [
 	{
 		"file": "about-1.webp",
-		"alt": "A wide concrete underpass with daylight at the far end"
+		"alt": "A long cast-concrete wall receding into shadow above a polished floor"
 	},
 	{
-		"file": "boxy-hoodie.webp",
-		"alt": "A heavyweight grey hoodie laid flat"
+		"file": "boxy-tee.webp",
+		"alt": "A navy top folded beside a black jacket, seen from above"
 	},
 	{
-		"file": "cargo-pant.webp",
-		"alt": "Wide-leg cargo trousers hanging against a wall"
+		"file": "cable-knit.webp",
+		"alt": "A folded cream cable-knit sweater on a white ground"
+	},
+	{
+		"file": "canvas-high-sage.webp",
+		"alt": "Sage-grey canvas high-tops with white laces, laid flat"
+	},
+	{
+		"file": "canvas-low-white.webp",
+		"alt": "A pair of white canvas low-tops on cracked dark ground"
 	},
 	{
 		"file": "cat-accessories.webp",
-		"alt": "Rolled socks, laces and a canvas tote on a grey surface"
+		"alt": "A pale grey leather backpack against stacked logs, beside legs in white sneakers"
 	},
 	{
 		"file": "cat-apparel.webp",
-		"alt": "A folded heavyweight hoodie on a concrete ledge"
+		"alt": "A folded cream cable-knit sweater and blue jeans on a white ground"
 	},
 	{
 		"file": "cat-sneakers.webp",
-		"alt": "A single trainer photographed from the side against a plain wall"
-	},
-	{
-		"file": "coach-jacket.webp",
-		"alt": "A black coach jacket with press studs, laid flat"
+		"alt": "White canvas shoes mounted in a row as shelves on a brick wall"
 	},
 	{
 		"file": "contact-1.webp",
-		"alt": "The window of a small shop with shutters half raised"
+		"alt": "A woman walking away along a road bridge beside a tall chain-link fence"
 	},
 	{
-		"file": "court-low-white.webp",
-		"alt": "A white leather court shoe in profile"
-	},
-	{
-		"file": "court-mid-bone.webp",
-		"alt": "A bone-coloured mid-top trainer against a light wall"
-	},
-	{
-		"file": "crew-socks.webp",
-		"alt": "Three pairs of rolled white crew socks"
+		"file": "court-low-silver.webp",
+		"alt": "Metallic silver-blue leather low-tops shot from directly above"
 	},
 	{
 		"file": "drops-1.webp",
-		"alt": "A queue of people waiting along a shuttered shopfront"
-	},
-	{
-		"file": "heavyweight-tee.webp",
-		"alt": "A plain black t-shirt laid flat on concrete"
+		"alt": "A receding row of sneakers along a shelf edge, one red pair in focus"
 	},
 	{
 		"file": "hero-1.webp",
-		"alt": "A pair of trainers on wet concrete, lit from one side"
+		"alt": "A skater standing in a graffiti-covered concrete underpass"
+	},
+	{
+		"file": "hooded-jacket.webp",
+		"alt": "A person in a blue hooded jacket sitting on a concrete skatepark ledge"
 	},
 	{
 		"file": "journal-1.webp",
-		"alt": "Laces being threaded through the eyelets of a trainer"
+		"alt": "Hands tying the lace of a white leather sneaker"
 	},
 	{
 		"file": "journal-2.webp",
-		"alt": "Worn trainer soles seen from below on a kerb"
+		"alt": "Looking down at black-and-white sneakers over the edge of a ledge"
 	},
 	{
 		"file": "journal-3.webp",
-		"alt": "A skateboard resting against a graffitied wall"
+		"alt": "A woman in a quilted jacket crouching to tie her running shoe"
 	},
 	{
-		"file": "laces.webp",
-		"alt": "Flat laces coiled on a grey surface"
+		"file": "leather-backpack.webp",
+		"alt": "A pale grey leather backpack hanging against stacked logs"
 	},
 	{
-		"file": "logo-cap.webp",
-		"alt": "A six-panel cap resting crown-down on a ledge"
+		"file": "mesh-runner-ice.webp",
+		"alt": "Pale blue mesh running shoes resting on a concrete ledge"
 	},
 	{
-		"file": "runner-2-black.webp",
-		"alt": "A black running shoe in profile on a pale ground"
+		"file": "rain-court-white.webp",
+		"alt": "White leather sneakers landing in a puddle, water flying"
 	},
 	{
-		"file": "runner-2-volt.webp",
-		"alt": "A bright yellow-green running shoe in profile"
+		"file": "ribbed-socks.webp",
+		"alt": "Black sneakers and red ribbed socks on a skateboard at a skatepark"
 	},
 	{
-		"file": "shoe-care.webp",
-		"alt": "A brush, cloth and bottle of cleaner beside a trainer"
+		"file": "runner-2-blush.webp",
+		"alt": "A black running shoe with a pink sole, laces being pulled tight"
+	},
+	{
+		"file": "six-panel-cap.webp",
+		"alt": "A person in a six-panel cap seen from the side in low sun"
 	},
 	{
 		"file": "size-1.webp",
-		"alt": "A trainer beside a tape measure on a workbench"
+		"alt": "White sneakers seen from above on fan-patterned cobblestones"
 	},
 	{
-		"file": "skate-classic.webp",
-		"alt": "A canvas skate shoe with a gum sole"
+		"file": "skate-deck.webp",
+		"alt": "A skateboard with red wheels on pale wood, seen from above"
 	},
 	{
-		"file": "sprint-elite.webp",
-		"alt": "A lightweight racing shoe with a carbon-look sole"
+		"file": "skate-low-black.webp",
+		"alt": "Black skate shoes seen from above on sunlit concrete"
 	},
 	{
 		"file": "story-1.webp",
-		"alt": "A person walking a city street in trainers, shot from the knees down"
+		"alt": "A skater in light-blue jeans standing on a plywood ramp against a brick wall"
 	},
 	{
-		"file": "tote-bag.webp",
-		"alt": "A natural canvas tote bag hanging on a hook"
-	},
-	{
-		"file": "trail-mid-olive.webp",
-		"alt": "An olive mid-cut trail shoe with a lugged sole"
-	},
-	{
-		"file": "trainer-90.webp",
-		"alt": "A grey and white retro running shoe in profile"
+		"file": "trail-runner-amber.webp",
+		"alt": "Orange and grey running shoes climbing wet concrete steps"
 	}
 ]

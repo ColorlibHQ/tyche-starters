@@ -187,6 +187,49 @@ def hero_split(eyebrow_text, title, lede, primary, secondary, photo, alt):
     return section(body, pad=("50", "70"))
 
 
+def tiles_hero(eyebrow_text, title, lede, primary, secondary, tiles):
+    """An opening that sends people straight into a category.
+
+    A shop whose customers arrive knowing the condition they are buying for --
+    a dark corner, a bright sill -- is better served by three doors than by one
+    photograph.
+    """
+    words = group("\n".join([
+        eyebrow(eyebrow_text),
+        heading(title, level=1, size="colossal"),
+        para(lede, size="large", color="muted"),
+        buttons(button(primary[0], primary[1]),
+                button(secondary[0], secondary[1], style="tyche-outline")),
+    ]), layout="flex", orientation="vertical", gap="30", align="wide", cls="tyche-tiles-hero__words")
+
+    cols = []
+    for slug, name, note in tiles:
+        inner = "\n".join([
+            heading('<a href="{{cat:%s}}">%s</a>' % (slug, name), level=2, color="overlay",
+                    size="xx-large", cls="tyche-tile__title"),
+            para(note, color="overlay", size="small"),
+        ])
+        cols.append(column(cover(inner, "cat-" + slug, position="bottom left", ratio="4/5",
+                                 cls="tyche-tile is-style-tyche-zoom", gradient=SCRIM)))
+
+    return section(words + "\n\n" + columns(*cols, cls="tyche-tiles", align="wide", gap="40"),
+                   cls="tyche-tiles-hero", pad=("50", "70"))
+
+
+def care_cards(items, title, kicker=None, bg=None):
+    """Three or four things the shopper has to know, each with an icon."""
+    cells = []
+    for icon_name, card_title, text in items:
+        cells.append(column(group("\n".join([
+            icon("tyche/" + icon_name, cls="tyche-icon tyche-icon--large"),
+            heading(card_title, level=3, size="large", cls="tyche-usp__title"),
+            para(text, color="muted"),
+        ]), layout="flex", orientation="vertical", gap="20", cls="tyche-usp")))
+    body = section_head(title, kicker=kicker) + "\n\n" + \
+        columns(*cells, align="wide", gap="50", cls="tyche-icon-items")
+    return section(body, bg=bg)
+
+
 def category_tiles(tiles, title, kicker=None, link=None):
     """Three or four photographs that lead into the catalogue."""
     cols = []

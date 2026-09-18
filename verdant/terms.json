@@ -1,0 +1,75 @@
+{
+	"product_cat": [
+		{
+			"name": "Bright light",
+			"slug": "bright",
+			"description": "For a south-facing sill or a metre from any big window."
+		},
+		{
+			"name": "Medium light",
+			"slug": "medium",
+			"description": "The middle of most rooms: bright, but out of direct sun."
+		},
+		{
+			"name": "Low light",
+			"slug": "low",
+			"description": "North-facing rooms, hallways and the corner nobody plants."
+		},
+		{
+			"name": "Pots",
+			"slug": "pots",
+			"description": "Terracotta, stoneware and hanging planters, in three sizes."
+		},
+		{
+			"name": "Care",
+			"slug": "care",
+			"description": "Compost, feed and the watering can worth owning."
+		}
+	],
+	"category": [
+		{
+			"name": "Plant care",
+			"slug": "plant-care",
+			"description": "Watering, light and what to do when it sulks."
+		},
+		{
+			"name": "From the nursery",
+			"slug": "from-the-nursery",
+			"description": "What has just come in, and what it needs."
+		}
+	],
+	"attributes": [
+		{
+			"name": "Pot size",
+			"slug": "pot-size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"12 cm",
+				"17 cm",
+				"22 cm"
+			]
+		},
+		{
+			"name": "Light",
+			"slug": "light",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Bright",
+				"Medium",
+				"Low"
+			]
+		},
+		{
+			"name": "Pets",
+			"slug": "pets",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Pet safe",
+				"Keep away from pets"
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+[
+	{
+		"slug": "primary",
+		"title": "Primary",
+		"content": "<!-- wp:navigation-link {\"label\":\"Bright light\",\"url\":\"{{cat:bright}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:bright}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Medium light\",\"url\":\"{{cat:medium}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:medium}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Low light\",\"url\":\"{{cat:low}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:low}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Pots\",\"url\":\"{{cat:pots}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:pots}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Plant care\",\"url\":\"{{page:plant-care}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:plant-care}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Journal\",\"url\":\"{{page:journal}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:journal}}\"} /-->"
+	}
+]

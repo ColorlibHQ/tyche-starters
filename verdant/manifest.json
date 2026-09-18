@@ -1,0 +1,29 @@
+{
+	"schema": 1,
+	"slug": "verdant",
+	"theme": {
+		"slug": "tyche",
+		"style": [
+			"Verdant"
+		]
+	},
+	"settings": {
+		"title": "Verdant",
+		"tagline": "Plants for the room you actually have",
+		"front_page": "home",
+		"posts_page": "journal",
+		"currency": "USD",
+		"country": "US:OR",
+		"shipping": {
+			"country": "US",
+			"flat_rate": "7.00",
+			"free_over": "60"
+		}
+	},
+	"counts": {
+		"products": 18,
+		"pages": 6,
+		"posts": 3,
+		"images": 31
+	}
+}

@@ -67,6 +67,28 @@
 				"images": 28,
 				"variations": 71
 			}
+		},
+		{
+			"slug": "verdant",
+			"name": "Verdant",
+			"niche": "Houseplants and pots",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "verdant/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-verdant/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 18,
+				"pages": 6,
+				"posts": 3,
+				"images": 31,
+				"variations": 36
+			}
 		}
 	]
 }

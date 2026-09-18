@@ -251,6 +251,10 @@ def piece_products():
             product["type"] = "simple"
             product["price"] = prices[0]
         else:
+            # One photograph, three finishes: say which one is in the picture
+            # rather than letting a walnut buyer think they are looking at it.
+            product["description"] = product["description"].replace(
+                "</ul>", "<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>")
             product["type"] = "variable"
             product["attributes"].insert(0, {"name": "Finish", "slug": "finish", "options": list(FINISHES),
                                              "visible": True, "variation": True})

@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from starterlib import (  # noqa: E402
     bp, buttons, button, category_tiles, check_list, column, columns, cover, footer_part, group,
     header_part, heading, image, numbered_steps, para, paragraphs, product_row, section,
-    section_head, spec_rows, story_split, eyebrow, SCRIM_SIDE, SCRIM_TALL,
+    section_head, spec_rows, story_split, cta, eyebrow, SCRIM_SIDE, SCRIM_TALL,
 )
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "stride")
@@ -37,6 +37,8 @@ IMAGES = {
     "cat-accessories": "A pale grey leather backpack against stacked logs, beside legs in white sneakers",
     "story-1": "A skater in light-blue jeans standing on a plywood ramp against a brick wall",
     "drops-1": "A receding row of sneakers along a shelf edge, one red pair in focus",
+    "drop-detail": "Legs in black jeans and white canvas sneakers standing on dark gravel",
+    "drop-detail": "Legs in black jeans and white canvas sneakers standing on dark gravel",
     "about-1": "A long cast-concrete wall receding into shadow above a polished floor",
     "contact-1": "A woman walking away along a road bridge beside a tall chain-link fence",
     "size-1": "White sneakers seen from above on fan-patterned cobblestones",
@@ -303,7 +305,8 @@ def home():
         spec_rows(
             [("Weight", "340 g in UK 9"), ("Upper", "12 oz undyed canvas"), ("Lining", "Cotton drill"),
              ("Outsole", "Vulcanised rubber"), ("Made in", "Portugal"), ("Pairs", "120, then never again")],
-            "The drop, in numbers", kicker="Saturday at ten"),
+            "The drop, in numbers", kicker="Saturday at ten",
+            photo="drop-detail", alt=IMAGES["drop-detail"]),
         story_split(
             "The shop",
             "One room, one wall of shoes",
@@ -325,23 +328,16 @@ def journal_row():
 
 
 def newsletter():
-    inner = "\n".join([
-        eyebrow("Drop alerts"),
-        heading("Know before the queue does", level=2, size="huge"),
-        para("One email an hour before a drop, one at five minutes, and nothing else. An account also keeps your size, which saves the thirty seconds that usually decide it.",
-             size="large", color="muted"),
-        check_list("An hour's notice, and again at five minutes",
-                   "Your size remembered at checkout",
-                   "Nothing else in your inbox, ever"),
-        buttons(button("Create an account", "{{account}}"),
-                button("See the calendar", "{{page:drops}}", style="tyche-outline")),
-    ])
-    body = columns(
-        column(cover("", "drops-1", min_height=460, cls="tyche-cta__image", dim=10), width="44%"),
-        column(group(inner, layout="flex", orientation="vertical", gap="40"), valign="center"),
-        cls="tyche-cta", align="wide", gap="60", valign="center")
-    return section(body, pad=("0", "80"))
-
+    return cta(
+        "Drop alerts",
+        "Know before the queue does",
+        "One email an hour before a drop, one at five minutes, and nothing else. An account also keeps your size, which saves the thirty seconds that usually decide it.",
+        ["An hour's notice, and again at five minutes",
+         "Your size remembered at checkout",
+         "Nothing else in your inbox, ever"],
+        ("Create an account", "{{account}}"),
+        ("See the calendar", "{{page:drops}}"),
+        "drops-1")
 
 def drops():
     calendar = [

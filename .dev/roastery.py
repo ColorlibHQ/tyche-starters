@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from starterlib import (  # noqa: E402
     bp, buttons, button, category_tiles, check_list, column, columns, cover, footer_part, group,
     header_part, heading, hero_split, icon, image, numbered_steps, para, paragraphs, product_row,
-    section, section_head, spec_rows, story_split, eyebrow, SCRIM_SIDE,
+    section, section_head, spec_rows, story_split, cta, eyebrow, SCRIM_SIDE,
 )
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "roastery")
@@ -43,6 +43,7 @@ IMAGES = {
     "brew-1": "Hot water falling onto a blooming bed of coffee grounds in a white paper filter",
     "promo-1": "A warm mahogany-panelled bar room with a bicycle hung from the ceiling",
     "contact-1": "A long dim cafe with a figure silhouetted in the bright doorway",
+    "origin-detail": "A glass mug of black coffee on a sunlit wooden table, seen from above",
     "about-1": "A wide roastery with daylight flooding in through open shutter doors",
     "journal-1": "Hands pouring brewed coffee from a glass carafe into a stoneware mug",
     "journal-2": "A hand gripping a black and white striped mug of black coffee",
@@ -279,7 +280,8 @@ def home():
         spec_rows(
             [("Origin", "Guji, Ethiopia"), ("Altitude", "2,050 m"), ("Process", "Natural, dried on raised beds for 18 days"),
              ("Varietal", "Heirloom"), ("Tasting notes", "Peach, jasmine, brown sugar"), ("Roasted", "Tuesday, and every Tuesday")],
-            "This week on the roaster", kicker="Guji Natural"),
+            "This week on the roaster", kicker="Guji Natural",
+            photo="origin-detail", alt=IMAGES["origin-detail"]),
         story_split(
             "The roastery",
             "A twelve-kilo drum and a lot of note-taking",
@@ -318,21 +320,14 @@ def journal_row():
 
 
 def newsletter():
-    inner = "\n".join([
-        eyebrow("Subscriptions"),
-        heading("Coffee that arrives before you run out", level=2, size="huge"),
-        para("Tell us how much you drink and we will send it every week, fortnight or month. Change the coffee, skip a delivery or stop it entirely from your account.",
-             size="large", color="muted"),
-        check_list("Ten per cent off every bag", "Free delivery, always", "Skip or stop whenever you like"),
-        buttons(button("Create an account", "{{account}}"),
-                button("Shop coffee", "{{shop}}", style="tyche-outline")),
-    ])
-    body = columns(
-        column(cover("", "contact-1", min_height=460, cls="tyche-cta__image", dim=10), width="44%"),
-        column(group(inner, layout="flex", orientation="vertical", gap="40"), valign="center"),
-        cls="tyche-cta", align="wide", gap="60", valign="center")
-    return section(body, pad=("0", "80"))
-
+    return cta(
+        "Subscriptions",
+        "Coffee that arrives before you run out",
+        "Tell us how much you drink and we will send it every week, fortnight or month. Change the coffee, skip a delivery or stop it entirely from your account.",
+        ["Ten per cent off every bag", "Free delivery, always", "Skip or stop whenever you like"],
+        ("Create an account", "{{account}}"),
+        ("Shop coffee", "{{shop}}"),
+        "contact-1")
 
 def brew_guides():
     ratios = [

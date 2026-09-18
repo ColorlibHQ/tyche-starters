@@ -106,17 +106,55 @@ def rich(text):
     return para(text)
 
 
-def spec_rows(rows, title, kicker=None, bg="surface"):
-    """Label and value rows: origin and roast here, materials or specs elsewhere."""
+def spec_rows(rows, title, kicker=None, bg="surface", photo=None, alt=""):
+    """Label and value rows: origin and roast here, materials or specs elsewhere.
+
+    With a photograph it becomes a split: the table on one side, the thing it
+    describes on the other. A column of numbers on its own is accurate and dull,
+    and on a page that is otherwise photographs it reads as a gap.
+    """
     lines = []
     for label, value in rows:
         lines.append(columns(
             column(para(label, cls="tyche-spec__label"), width="34%"),
             column(para(value, color="muted")),
             cls="tyche-spec__row", gap="40"))
-    body = section_head(title, kicker=kicker) + "\n\n" + \
-        group("\n".join(lines), cls="tyche-spec", align="wide", layout="default")
-    return section(body, bg=bg)
+    table = group("\n".join(lines), cls="tyche-spec", layout="default")
+
+    if not photo:
+        body = section_head(title, kicker=kicker) + "\n\n" + \
+            group("\n".join(lines), cls="tyche-spec", align="wide", layout="default")
+        return section(body, bg=bg)
+
+    words = column(group(
+        group("\n".join([eyebrow(kicker), heading(title, level=2, size="huge")]) if kicker
+              else heading(title, level=2, size="huge"), layout="flex", orientation="vertical", gap="20")
+        + "\n" + table,
+        layout="flex", orientation="vertical", gap="40"), valign="center")
+    picture = column(image(photo, alt, ratio="4/5", cls="tyche-spec__photo"), width="38%")
+
+    return section(columns(words, picture, cls="tyche-spec-split", align="wide", gap="70", valign="center"), bg=bg)
+
+
+def cta(kicker, title, lede, points, primary, secondary, photo):
+    """The card above the footer: a photograph beside an offer.
+
+    Built with the theme's own class names so it inherits the card's padding and
+    rounded edge. Writing the same shape with different names is how a starter
+    ends up with text pressed against the picture.
+    """
+    image_column = column(cover("", photo, min_height=460, dim=0, cls="tyche-cta__media"),
+                          width="45%", cls="tyche-cta__media-column")
+    content = column(group("\n".join([
+        eyebrow(kicker),
+        heading(title, level=2, size="huge"),
+        para(lede, size="large", color="muted"),
+        check_list(*points),
+        buttons(button(primary[0], primary[1]), button(secondary[0], secondary[1], style="tyche-outline")),
+    ]), layout="flex", orientation="vertical", gap="40", cls="tyche-cta__content"), valign="center")
+
+    return section(columns(image_column, content, cls="tyche-cta", align="wide", gap="0", valign="center"),
+                   pad=("0", "80"), cls="tyche-cta-section")
 
 
 def numbered_steps(items, title, kicker=None):

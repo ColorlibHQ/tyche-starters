@@ -575,7 +575,8 @@ MENU = [
     ("Blends", "{{cat:blends}}", "cat:blends"),
     ("Equipment", "{{cat:equipment}}", "cat:equipment"),
     ("Brew guides", "{{page:brew-guides}}", "page:brew-guides"),
-    ("Wholesale", "{{page:wholesale}}", "page:wholesale"),
+    # Wholesale lives in the footer and in its own band on the homepage: seven
+    # items and a centred logo wrap onto a second line at 1440px.
     ("Journal", "{{page:journal}}", "page:journal"),
 ]
 

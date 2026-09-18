@@ -1,48 +1,50 @@
 {
- "schema": 1,
- "updated": "2026-09-17",
- "starters": [
-  {
-   "slug": "tyche",
-   "name": "Tyche",
-   "niche": "Knitwear and basics",
-   "tier": "free",
-   "version": "1.0.0",
-   "thumbnail": "tyche/thumbnail.webp",
-   "preview": "https://colorlibhub.com/tyche-2/",
-   "requires": {
-    "theme": "tyche",
-    "plugins": [
-     "woocommerce"
-    ]
-   },
-   "counts": {
-    "products": 19,
-    "pages": 7,
-    "posts": 3,
-    "images": 23
-   }
-  },
-  {
-   "slug": "roastery",
-   "name": "Roastery",
-   "niche": "Coffee roaster",
-   "tier": "free",
-   "version": "0.1.0-dev",
-   "thumbnail": "roastery/thumbnail.webp",
-   "preview": "",
-   "requires": {
-    "theme": "tyche",
-    "plugins": [
-     "woocommerce"
-    ]
-   },
-   "counts": {
-    "products": 16,
-    "pages": 7,
-    "posts": 3,
-    "images": 30
-   }
-  }
- ]
+	"schema": 1,
+	"updated": "2026-09-18",
+	"starters": [
+		{
+			"slug": "tyche",
+			"name": "Tyche",
+			"niche": "Knitwear and basics",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "tyche/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-2/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 19,
+				"pages": 6,
+				"posts": 3,
+				"images": 23,
+				"variations": 10
+			}
+		},
+		{
+			"slug": "roastery",
+			"name": "Roastery",
+			"niche": "Coffee roaster",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "roastery/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-roastery/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 16,
+				"pages": 7,
+				"posts": 3,
+				"images": 29,
+				"variations": 60
+			}
+		}
+	]
 }

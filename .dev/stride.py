@@ -594,10 +594,19 @@ def write(name, data):
     return name
 
 
+# The line under a page's title. The journal's is the store's own, because the
+# theme cannot know what this shop writes about.
+INTROS = {
+    "journal": "What is dropping, how it fits, and how to keep it looking like it did in the box.",
+}
+
+
 def main():
     pages = []
     for slug, title, builder, template in PAGES:
         page = {"slug": slug, "title": title, "content": builder() if builder else ""}
+        if slug in INTROS:
+            page["excerpt"] = INTROS[slug]
         if template:
             page["template"] = template
         pages.append(page)

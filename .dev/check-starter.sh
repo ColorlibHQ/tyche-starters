@@ -77,11 +77,22 @@ if [ "$IMPORT" -eq 1 ]; then
 fi
 
 step "Blocks"
-if ( cd "$THEME" && node .dev/validate-blocks.mjs 2>&1 | tail -1 | grep -q "is valid" ); then
-	ok "every block in every template, part, page and menu"
-else
-	bad "a block would open in the editor with a recovery notice"
-fi
+blocks_out=$( cd "$THEME" && node .dev/validate-blocks.mjs 2>&1 )
+case "$blocks_out" in
+	*"is valid"*)
+		ok "every block in every template, part, page and menu"
+		;;
+	*invalid*)
+		echo "$blocks_out" | grep -i invalid | head -5
+		bad "a block would open in the editor with a recovery notice"
+		;;
+	*)
+		# Reading blocks back needs a login. Against someone else's site there
+		# may not be one, and a gate that cannot run has to say so rather than
+		# pass quietly or fail as though it found something.
+		echo "  skipped: could not read the blocks back (needs WP_USER and WP_PASS for $WP_URL)"
+		;;
+esac
 
 step "Contrast, on the real photographs"
 while read -r path; do

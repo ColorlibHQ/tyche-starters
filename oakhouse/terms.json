@@ -3,22 +3,22 @@
 		{
 			"name": "Tables",
 			"slug": "tables",
-			"description": "Dining, low and writing tables, from 110 cm to 240 cm."
+			"description": "Three tables: one long, one round, one low."
 		},
 		{
 			"name": "Seating",
 			"slug": "seating",
-			"description": "Chairs, benches and stools, shaped where it matters."
+			"description": "A chair, a rocker and a stool, shaped where it matters."
 		},
 		{
 			"name": "Storage",
 			"slug": "storage",
-			"description": "Dovetailed boxes, shelves and sideboards that look finished from the back."
+			"description": "One cabinet, dovetailed, and finished at the back."
 		},
 		{
 			"name": "Homeware",
 			"slug": "homeware",
-			"description": "The wool, linen and stoneware that go on top of the furniture."
+			"description": "Stoneware from the potter two doors down, and coasters from our own offcuts."
 		}
 	],
 	"category": [

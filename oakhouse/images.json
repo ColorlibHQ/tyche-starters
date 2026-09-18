@@ -1,130 +1,106 @@
 [
 	{
-		"file": "armchair.webp",
-		"alt": "A low armchair with a fabric seat"
+		"file": "bow-chair.webp",
+		"alt": "A pale timber chair with a bentwood back, alone against a plain wall"
 	},
 	{
-		"file": "bedside-table.webp",
-		"alt": "A small bedside table with one drawer"
-	},
-	{
-		"file": "bench.webp",
-		"alt": "A long timber bench"
-	},
-	{
-		"file": "bookcase.webp",
-		"alt": "A tall bookcase against a white wall"
-	},
-	{
-		"file": "cat-homeware.webp",
-		"alt": "A wool throw folded over the arm of a chair"
-	},
-	{
-		"file": "cat-seating.webp",
-		"alt": "A wooden chair against a plain wall"
-	},
-	{
-		"file": "cat-storage.webp",
-		"alt": "A shelf unit holding books and ceramics"
-	},
-	{
-		"file": "cat-tables.webp",
-		"alt": "A timber dining table in an empty room"
-	},
-	{
-		"file": "ceramic-bowl.webp",
-		"alt": "A wide ceramic bowl on a table"
-	},
-	{
-		"file": "coffee-table.webp",
-		"alt": "A low timber coffee table"
+		"file": "coasters.webp",
+		"alt": "A stack of round timber coasters cut from a branch"
 	},
 	{
 		"file": "contact-1.webp",
-		"alt": "A workshop door open onto a yard"
+		"alt": "A maker in an apron working at a bench, hands only"
+	},
+	{
+		"file": "cup-set.webp",
+		"alt": "Two stacked cups and saucers in black and deep red"
 	},
 	{
 		"file": "delivery-1.webp",
-		"alt": "A finished piece wrapped in blankets"
-	},
-	{
-		"file": "desk.webp",
-		"alt": "A timber desk with two drawers"
-	},
-	{
-		"file": "dining-chair.webp",
-		"alt": "A timber dining chair seen from the front"
-	},
-	{
-		"file": "dining-table.webp",
-		"alt": "A long solid timber dining table"
-	},
-	{
-		"file": "extending-table.webp",
-		"alt": "A timber table with the leaf out"
+		"alt": "A pale ash plank with the grain running across it"
 	},
 	{
 		"file": "hero-detail.webp",
-		"alt": "A close-up of a joint where a table leg meets the top"
+		"alt": "Curved strips of bent timber, lit warm and close"
 	},
 	{
 		"file": "hero-room.webp",
-		"alt": "A dining room with a long timber table and chairs in daylight"
+		"alt": "A rustic timber table and stools on a balcony above a wooded valley"
 	},
 	{
 		"file": "journal-1.webp",
-		"alt": "A hand sanding an edge"
+		"alt": "A hammer and a scatter of nails on a plain ground"
 	},
 	{
 		"file": "journal-2.webp",
-		"alt": "A room with a table and one chair"
+		"alt": "A bedroom lined in pale timber, plain bed, one window"
 	},
 	{
 		"file": "journal-3.webp",
-		"alt": "Offcuts stacked beside a saw bench"
+		"alt": "A sawn trunk end, rings and cracks running out from the middle"
 	},
 	{
-		"file": "linen-cushion.webp",
-		"alt": "A linen cushion on a chair"
+		"file": "linde-table.webp",
+		"alt": "A long farmhouse table and bench against a green panelled wall"
+	},
+	{
+		"file": "low-table.webp",
+		"alt": "A hexagonal oak coffee table with books on it"
 	},
 	{
 		"file": "materials-1.webp",
-		"alt": "Stacked oak boards seen end on"
+		"alt": "The end grain of a sawn trunk, rings running out from the centre"
 	},
 	{
-		"file": "mirror.webp",
-		"alt": "A round mirror in a timber frame"
+		"file": "painted-stool.webp",
+		"alt": "A small green painted stool with a fern on it"
+	},
+	{
+		"file": "porch-rocker.webp",
+		"alt": "A painted rocking chair on a covered porch"
 	},
 	{
 		"file": "promo-1.webp",
-		"alt": "A close-up of an oiled timber surface"
+		"alt": "A bench with a compass and a leather mat, tools to hand"
 	},
 	{
-		"file": "shelf-unit.webp",
-		"alt": "An open shelf unit of timber boxes"
+		"file": "round-table.webp",
+		"alt": "A round walnut table with a chair drawn up to it"
 	},
 	{
 		"file": "showroom-1.webp",
-		"alt": "A room of furniture with daylight from one side"
+		"alt": "A living room with a green sofa, a round table and a lamp"
 	},
 	{
 		"file": "sideboard.webp",
-		"alt": "A long low sideboard with two doors"
+		"alt": "A low cabinet on tapered legs in an empty room"
 	},
 	{
-		"file": "stool.webp",
-		"alt": "A three-legged timber stool"
+		"file": "stem-vase.webp",
+		"alt": "A small white vase with a few yellow stems"
 	},
 	{
 		"file": "story-1.webp",
-		"alt": "A bench in a workshop with hand tools and shavings"
+		"alt": "A workshop pegboard hung with chisels, clamps and saws"
 	},
 	{
-		"file": "wool-throw.webp",
-		"alt": "A folded wool throw"
+		"file": "tall-vase.webp",
+		"alt": "A frosted grey vase holding pink flowers"
+	},
+	{
+		"file": "teapot.webp",
+		"alt": "A green ceramic teapot with two cups and a bowl"
+	},
+	{
+		"file": "timber-1.webp",
+		"alt": "A close-up of warm brown plank grain"
+	},
+	{
+		"file": "water-jug.webp",
+		"alt": "A white ceramic jug on a timber table"
 	},
 	{
 		"file": "workshop-1.webp",
-		"alt": "A plane taking a shaving off a board"
+		"alt": "Old hand tools laid out in rows on a dark bench"
 	}
 ]

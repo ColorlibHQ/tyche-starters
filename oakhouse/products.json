@@ -1,15 +1,15 @@
 [
 	{
-		"slug": "dining-table",
+		"slug": "linde-table",
 		"name": "Linde Dining Table",
-		"sku": "OH-DIN",
+		"sku": "OH-LIN",
 		"categories": [
 			"tables"
 		],
-		"image": "dining-table.webp",
+		"image": "linde-table.webp",
 		"short_description": "A 200 cm table in solid timber, joined with drawbored mortise and tenon. Seats eight.",
 		"description": "<!-- wp:paragraph -->\n<p>The top is four boards, book-matched and held with breadboard ends so it can move with the seasons without splitting. The legs are drawbored into the rails, which is slower than a bolt and is the reason this outlives the room it goes in.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 200 × 90 × 75 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 62 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seats: Eight, ten at a push</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Drawbored mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 4,
+		"days_ago": 52,
 		"stock_status": "instock",
 		"featured": true,
 		"attributes": [
@@ -59,172 +59,39 @@
 				"attributes": {
 					"finish": "Oak"
 				},
-				"price": "1480.00",
-				"sku": "OH-DIN-OAK"
+				"regular_price": "1480.00",
+				"stock_status": "instock",
+				"sku": "OH-LIN-OAK"
 			},
 			{
 				"attributes": {
 					"finish": "Walnut"
 				},
-				"price": "1780.00",
-				"sku": "OH-DIN-WAL"
+				"regular_price": "1780.00",
+				"stock_status": "instock",
+				"sku": "OH-LIN-WAL"
 			},
 			{
 				"attributes": {
 					"finish": "Blackened oak"
 				},
-				"price": "1620.00",
-				"sku": "OH-DIN-BLA"
+				"regular_price": "1620.00",
+				"stock_status": "instock",
+				"sku": "OH-LIN-BLA"
 			}
 		]
 	},
 	{
-		"slug": "extending-table",
-		"name": "Linde Extending Table",
-		"sku": "OH-EXT",
+		"slug": "round-table",
+		"name": "Round Table",
+		"sku": "OH-ROU",
 		"categories": [
 			"tables"
 		],
-		"image": "extending-table.webp",
-		"short_description": "The same table with a leaf that lives inside it. 180 cm, or 240 cm in about a minute.",
-		"description": "<!-- wp:paragraph -->\n<p>A single leaf on timber runners, stored under the top rather than in a cupboard, because the leaf nobody can find is the leaf nobody uses. Closed it is a table for six; open it takes ten.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 180 or 240 × 90 × 75 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 74 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seats: Six, or ten open</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Drawbored mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 11,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Dining"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"6–8 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "1780.00",
-				"sku": "OH-EXT-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "2080.00",
-				"sku": "OH-EXT-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "1920.00",
-				"sku": "OH-EXT-BLA"
-			}
-		]
-	},
-	{
-		"slug": "desk",
-		"name": "Ash Desk",
-		"sku": "OH-DES",
-		"categories": [
-			"tables"
-		],
-		"image": "desk.webp",
-		"short_description": "A desk at writing height with two drawers on timber runners and a cable slot at the back.",
-		"description": "<!-- wp:paragraph -->\n<p>Deep enough for a screen and a notebook at once, and high enough at 74 cm that a standard chair fits under it. The drawers run on waxed timber rather than metal slides, so they are silent and will still work in thirty years.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 140 × 68 × 74 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 38 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Drawers: Two, on waxed runners</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 18,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Study"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"4–6 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "980.00",
-				"sku": "OH-DES-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "1180.00",
-				"sku": "OH-DES-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "1080.00",
-				"sku": "OH-DES-BLA"
-			}
-		]
-	},
-	{
-		"slug": "bench",
-		"name": "Linde Bench",
-		"sku": "OH-BEN",
-		"categories": [
-			"seating"
-		],
-		"image": "bench.webp",
-		"short_description": "A 180 cm bench in the same timber as the table, for the side against the wall.",
-		"description": "<!-- wp:paragraph -->\n<p>Benches seat more people than chairs and take up less room when they are pushed in, which is the whole argument for them. Solid throughout, so it can be stood on to reach a high shelf without anyone worrying.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 180 × 35 × 45 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 24 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seats: Three adults</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 25,
+		"image": "round-table.webp",
+		"short_description": "A 120 cm round table on a single turned column. Four people, and no corner to walk into.",
+		"description": "<!-- wp:paragraph -->\n<p>A round top seats four in less floor than a rectangle needs, and nobody sits at an end. The column is turned from one piece and the top is buttoned on, so it can move without the joint opening.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 120 cm across, 75 cm high</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 41 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seats: Four</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Turned column, buttoned top</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 96,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
@@ -263,36 +130,110 @@
 				"attributes": {
 					"finish": "Oak"
 				},
-				"price": "520.00",
-				"sku": "OH-BEN-OAK"
+				"regular_price": "1180.00",
+				"stock_status": "instock",
+				"sku": "OH-ROU-OAK"
 			},
 			{
 				"attributes": {
 					"finish": "Walnut"
 				},
-				"price": "620.00",
-				"sku": "OH-BEN-WAL"
+				"regular_price": "1420.00",
+				"stock_status": "instock",
+				"sku": "OH-ROU-WAL"
 			},
 			{
 				"attributes": {
 					"finish": "Blackened oak"
 				},
-				"price": "570.00",
-				"sku": "OH-BEN-BLA"
+				"regular_price": "1290.00",
+				"stock_status": "instock",
+				"sku": "OH-ROU-BLA"
 			}
 		]
 	},
 	{
-		"slug": "dining-chair",
+		"slug": "low-table",
+		"name": "Low Table",
+		"sku": "OH-LOW",
+		"categories": [
+			"tables"
+		],
+		"image": "low-table.webp",
+		"short_description": "A six-sided top on tapered legs, at the height a cup can be put down from.",
+		"description": "<!-- wp:paragraph -->\n<p>Hexagonal, because a low table with corners you pass every day should have blunt ones. Set at 40 cm against a three-seat sofa, with the grain run across the width so the top reads as one board.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 95 cm across, 40 cm high</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 16 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Top: Six-sided, one board</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Tapered legs, wedged tenons</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 9,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Finish",
+				"slug": "finish",
+				"options": [
+					"Oak",
+					"Walnut",
+					"Blackened oak"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Room",
+				"slug": "room",
+				"options": [
+					"Living"
+				],
+				"visible": true
+			},
+			{
+				"name": "Lead time",
+				"slug": "lead-time",
+				"options": [
+					"4–6 weeks"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"finish": "Oak"
+				},
+				"regular_price": "640.00",
+				"stock_status": "instock",
+				"sku": "OH-LOW-OAK"
+			},
+			{
+				"attributes": {
+					"finish": "Walnut"
+				},
+				"regular_price": "760.00",
+				"stock_status": "instock",
+				"sku": "OH-LOW-WAL"
+			},
+			{
+				"attributes": {
+					"finish": "Blackened oak"
+				},
+				"regular_price": "700.00",
+				"stock_status": "instock",
+				"sku": "OH-LOW-BLA"
+			}
+		]
+	},
+	{
+		"slug": "bow-chair",
 		"name": "Bow Chair",
-		"sku": "OH-DIN",
+		"sku": "OH-BOW",
 		"categories": [
 			"seating"
 		],
-		"image": "dining-chair.webp",
+		"image": "bow-chair.webp",
 		"short_description": "A steam-bent back, a shaped seat, and no fastening you can see.",
 		"description": "<!-- wp:paragraph -->\n<p>The back is one piece of timber bent over a form and left in it for a fortnight. The seat is scooped by hand, which takes an hour and is the difference between a chair you sit on for twenty minutes and one you sit on all evening.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 46 × 52 × 82 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 5.4 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seat height: 46 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Steam-bent back, wedged tenons</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 2,
+		"days_ago": 3,
 		"stock_status": "instock",
 		"featured": true,
 		"attributes": [
@@ -337,50 +278,42 @@
 				"attributes": {
 					"finish": "Oak"
 				},
-				"price": "340.00",
-				"sku": "OH-DIN-OAK"
+				"regular_price": "340.00",
+				"stock_status": "instock",
+				"sku": "OH-BOW-OAK"
 			},
 			{
 				"attributes": {
 					"finish": "Walnut"
 				},
-				"price": "410.00",
-				"sku": "OH-DIN-WAL"
+				"regular_price": "410.00",
+				"stock_status": "instock",
+				"sku": "OH-BOW-WAL"
 			},
 			{
 				"attributes": {
 					"finish": "Blackened oak"
 				},
-				"price": "375.00",
-				"sku": "OH-DIN-BLA"
+				"regular_price": "375.00",
+				"stock_status": "instock",
+				"sku": "OH-BOW-BLA"
 			}
 		]
 	},
 	{
-		"slug": "armchair",
-		"name": "Reading Chair",
-		"sku": "OH-ARM",
+		"slug": "porch-rocker",
+		"name": "Porch Rocker",
+		"sku": "OH-POR",
 		"categories": [
 			"seating"
 		],
-		"image": "armchair.webp",
-		"short_description": "A low frame with a wool seat, for the corner with the lamp in it.",
-		"description": "<!-- wp:paragraph -->\n<p>Reclined a few degrees more than a dining chair, with arms at the height a book rests on. The cushions are wool over horsehair, and they can be recovered without touching the frame.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 68 × 78 × 74 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 14 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seat height: 40 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cushion: Wool over horsehair, recoverable</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 9,
-		"stock_status": "instock",
+		"image": "porch-rocker.webp",
+		"short_description": "A slatted rocker, painted rather than oiled, for a porch or a bright hallway.",
+		"description": "<!-- wp:paragraph -->\n<p>The only piece here that leaves painted: four coats of eggshell over primed ash, because a chair that lives near a door gets scuffed and paint is the finish you can put right in an afternoon. Rockers are cut to one radius, tested on a flat floor before it goes out.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 62 × 88 × 104 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 9 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seat height: 42 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Eggshell over primed ash</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Colour: Sage, off-white or charcoal</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 74,
+		"stock_status": "outofstock",
 		"featured": false,
 		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
 			{
 				"name": "Room",
 				"slug": "room",
@@ -399,458 +332,28 @@
 			}
 		],
 		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "880.00",
-				"sku": "OH-ARM-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "1040.00",
-				"sku": "OH-ARM-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "960.00",
-				"sku": "OH-ARM-BLA"
-			}
-		]
+		"type": "simple",
+		"regular_price": "520.00"
 	},
 	{
-		"slug": "stool",
-		"name": "Workshop Stool",
-		"sku": "OH-STO",
+		"slug": "painted-stool",
+		"name": "Painted Stool",
+		"sku": "OH-PAI",
 		"categories": [
 			"seating"
 		],
-		"image": "stool.webp",
-		"short_description": "Three legs, a dished seat, and nothing else. It is the first thing every maker here builds.",
-		"description": "<!-- wp:paragraph -->\n<p>Three legs never rock on an uneven floor, which is why every workshop stool has three. The seat is dished with a travisher, and the legs are wedged from above so they tighten rather than loosen with use.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 34 × 34 × 62 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 3.8 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seat height: 62 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Wedged through-tenons</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 2–3 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 30,
+		"image": "painted-stool.webp",
+		"short_description": "Three legs, a dished seat, painted. The first thing every maker here builds.",
+		"description": "<!-- wp:paragraph -->\n<p>Three legs never rock on an uneven floor, which is why every workshop stool has three. The seat is dished with a travisher and the legs are wedged from above, so they tighten rather than loosen with use.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 34 × 34 × 45 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 3.8 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seat height: 45 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Wedged through-tenons</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Eggshell, any of three colours</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 2–3 weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 130,
 		"stock_status": "instock",
-		"featured": true,
+		"featured": false,
 		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
 			{
 				"name": "Room",
 				"slug": "room",
 				"options": [
 					"Study"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"2–3 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "180.00",
-				"sku": "OH-STO-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "220.00",
-				"sku": "OH-STO-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "200.00",
-				"sku": "OH-STO-BLA"
-			}
-		]
-	},
-	{
-		"slug": "sideboard",
-		"name": "Hollow Sideboard",
-		"sku": "OH-SID",
-		"categories": [
-			"storage"
-		],
-		"image": "sideboard.webp",
-		"short_description": "Two doors, one long shelf, and a back you would not mind seeing.",
-		"description": "<!-- wp:paragraph -->\n<p>Dovetailed at the corners and panelled at the back, because a piece that will be pulled out to hoover behind should look finished from every side. The doors are solid, so they are heavy: the hinges are rated for it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 160 × 45 × 78 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 54 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Inside: One adjustable shelf</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Hand-cut dovetails</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 14,
-		"stock_status": "instock",
-		"featured": true,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Living"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"6–8 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "1240.00",
-				"sku": "OH-SID-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "1480.00",
-				"sku": "OH-SID-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "1360.00",
-				"sku": "OH-SID-BLA"
-			}
-		]
-	},
-	{
-		"slug": "shelf-unit",
-		"name": "Stack Shelf",
-		"sku": "OH-SHE",
-		"categories": [
-			"storage"
-		],
-		"image": "shelf-unit.webp",
-		"short_description": "Four open boxes that stack, bolt together, or stand apart.",
-		"description": "<!-- wp:paragraph -->\n<p>Bought as four and arranged however the room needs: stacked in a column, in a row under a window, or split between two walls. Each box holds 25 kg, which is more books than you think.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 40 × 34 × 40 cm each</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 7 kg each</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Load: 25 kg a box</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Hand-cut dovetails</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 7,
-		"stock_status": "instock",
-		"featured": true,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Living"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"4–6 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "620.00",
-				"sku": "OH-SHE-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "740.00",
-				"sku": "OH-SHE-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "680.00",
-				"sku": "OH-SHE-BLA"
-			}
-		]
-	},
-	{
-		"slug": "bookcase",
-		"name": "Tall Bookcase",
-		"sku": "OH-BOO",
-		"categories": [
-			"storage"
-		],
-		"image": "bookcase.webp",
-		"short_description": "Five shelves, 200 cm tall, with a wall fixing in the box.",
-		"description": "<!-- wp:paragraph -->\n<p>The shelves are 3 cm thick so they do not sag under a run of hardbacks, and they sit in housed joints rather than on pins. It comes with a bracket and the honest advice to use it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 90 × 32 × 200 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 46 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Shelves: Five, housed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Housed and wedged</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 21,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Study"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"6–8 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "980.00",
-				"sku": "OH-BOO-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "1180.00",
-				"sku": "OH-BOO-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "1080.00",
-				"sku": "OH-BOO-BLA"
-			}
-		]
-	},
-	{
-		"slug": "bedside-table",
-		"name": "Bedside Table",
-		"sku": "OH-BED",
-		"categories": [
-			"storage"
-		],
-		"image": "bedside-table.webp",
-		"short_description": "One drawer, one shelf, and a top big enough for a lamp and a glass of water.",
-		"description": "<!-- wp:paragraph -->\n<p>Low enough to reach from a bed and narrow enough for the gap most bedrooms leave. The drawer is dovetailed and runs on waxed timber, so it opens quietly at two in the morning.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 45 × 38 × 55 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 11 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Drawer: One, dovetailed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 28,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Bedroom"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"4–6 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "380.00",
-				"sku": "OH-BED-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "460.00",
-				"sku": "OH-BED-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "420.00",
-				"sku": "OH-BED-BLA"
-			}
-		]
-	},
-	{
-		"slug": "coffee-table",
-		"name": "Low Table",
-		"sku": "OH-COF",
-		"categories": [
-			"tables"
-		],
-		"image": "coffee-table.webp",
-		"short_description": "A 110 cm low table with a shelf underneath for the things that live on the floor.",
-		"description": "<!-- wp:paragraph -->\n<p>Sized against a three-seat sofa and set at 40 cm, which is the height a cup can be put down from without leaning. The lower shelf is slatted, so it holds magazines and not dust.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 110 × 55 × 40 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 18 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Shelf: Slatted, 8 cm clear</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Mortise and tenon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 4–6 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 16,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Finish",
-				"slug": "finish",
-				"options": [
-					"Oak",
-					"Walnut",
-					"Blackened oak"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Living"
-				],
-				"visible": true
-			},
-			{
-				"name": "Lead time",
-				"slug": "lead-time",
-				"options": [
-					"4–6 weeks"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"finish": "Oak"
-				},
-				"price": "640.00",
-				"sku": "OH-COF-OAK"
-			},
-			{
-				"attributes": {
-					"finish": "Walnut"
-				},
-				"price": "760.00",
-				"sku": "OH-COF-WAL"
-			},
-			{
-				"attributes": {
-					"finish": "Blackened oak"
-				},
-				"price": "700.00",
-				"sku": "OH-COF-BLA"
-			}
-		]
-	},
-	{
-		"slug": "mirror",
-		"name": "Round Mirror",
-		"sku": "OH-MIR",
-		"categories": [
-			"homeware"
-		],
-		"image": "mirror.webp",
-		"short_description": "A 60 cm mirror in a steam-bent frame, with the fixing already on the back.",
-		"description": "<!-- wp:paragraph -->\n<p>The frame is one length of timber bent into a ring, so there is no joint to open up in a steamy room. Hangs on a single screw and sits flat against the wall.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 60 cm across, 4 cm deep</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 3.2 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Glass: 4 mm, silvered</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Fixing: Keyhole plate, screw included</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 2–3 weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 12,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Room",
-				"slug": "room",
-				"options": [
-					"Bedroom"
 				],
 				"visible": true
 			},
@@ -865,27 +368,98 @@
 		],
 		"reviews": [],
 		"type": "simple",
-		"price": "240.00"
+		"regular_price": "180.00"
 	},
 	{
-		"slug": "wool-throw",
-		"name": "Wool Throw",
-		"sku": "OH-WOO",
+		"slug": "sideboard",
+		"name": "Hollow Sideboard",
+		"sku": "OH-SID",
 		"categories": [
-			"homeware"
+			"storage"
 		],
-		"image": "wool-throw.webp",
-		"short_description": "Undyed lambswool, woven in a mill that has been at it since 1856.",
-		"description": "<!-- wp:paragraph -->\n<p>Heavy enough to be worth having on a chair and soft enough to use. Undyed, so the colour is the sheep's rather than a dye lot, which means the next one will be close but not identical.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 130 × 180 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 1.1 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: 100% lambswool, undyed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Cool wool wash, dry flat</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 5,
+		"image": "sideboard.webp",
+		"short_description": "Two doors, one long shelf, tapered legs, and a back you would not mind seeing.",
+		"description": "<!-- wp:paragraph -->\n<p>Dovetailed at the corners and panelled at the back, because a piece that gets pulled out to hoover behind should look finished from every side. The doors are solid, so they are heavy: the hinges are rated for it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 160 × 45 × 78 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 54 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Inside: One adjustable shelf</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Joint: Hand-cut dovetails</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hardwax oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: 6–8 weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 61,
 		"stock_status": "instock",
 		"featured": true,
 		"attributes": [
+			{
+				"name": "Finish",
+				"slug": "finish",
+				"options": [
+					"Oak",
+					"Walnut",
+					"Blackened oak"
+				],
+				"visible": true,
+				"variation": true
+			},
 			{
 				"name": "Room",
 				"slug": "room",
 				"options": [
 					"Living"
+				],
+				"visible": true
+			},
+			{
+				"name": "Lead time",
+				"slug": "lead-time",
+				"options": [
+					"6–8 weeks"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"finish": "Oak"
+				},
+				"regular_price": "1240.00",
+				"stock_status": "instock",
+				"sku": "OH-SID-OAK"
+			},
+			{
+				"attributes": {
+					"finish": "Walnut"
+				},
+				"regular_price": "1480.00",
+				"stock_status": "instock",
+				"sku": "OH-SID-WAL"
+			},
+			{
+				"attributes": {
+					"finish": "Blackened oak"
+				},
+				"regular_price": "1360.00",
+				"stock_status": "instock",
+				"sku": "OH-SID-BLA"
+			}
+		]
+	},
+	{
+		"slug": "coasters",
+		"name": "Branch Coasters, 6",
+		"sku": "OH-COA",
+		"categories": [
+			"homeware"
+		],
+		"image": "coasters.webp",
+		"short_description": "Six coasters cut across a branch, from the offcuts of everything else.",
+		"description": "<!-- wp:paragraph -->\n<p>Cut from the ends of the boards that become tables, so no two runs match and the bark edge is left on. Waxed rather than oiled, which is what stops a hot cup marking them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 9 to 11 cm across</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Offcut oak or walnut, as available</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Finish: Hard wax</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Wipe, do not soak</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 17,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Room",
+				"slug": "room",
+				"options": [
+					"Dining"
 				],
 				"visible": true
 			},
@@ -900,27 +474,27 @@
 		],
 		"reviews": [
 			{
-				"author": "Jonas L.",
+				"author": "Elin M.",
 				"rating": 5,
-				"content": "Heavier than I expected and no smell of dye, because there is no dye."
+				"content": "Bark still on the edge and no two the same. Cheaper than I expected for something cut from a table."
 			}
 		],
 		"type": "simple",
-		"price": "95.00"
+		"regular_price": "24.00"
 	},
 	{
-		"slug": "linen-cushion",
-		"name": "Linen Cushion",
-		"sku": "OH-LIN",
+		"slug": "tall-vase",
+		"name": "Tall Vase",
+		"sku": "OH-TAL",
 		"categories": [
 			"homeware"
 		],
-		"image": "linen-cushion.webp",
-		"short_description": "Washed linen with a feather insert and a button placket, not a zip.",
-		"description": "<!-- wp:paragraph -->\n<p>The cover comes off for washing and goes back on without a fight. Linen creases, and it is supposed to: it is the only upholstery fabric that looks better after a year.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 50 × 50 cm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Washed linen, feather insert</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Closure: Four-button placket</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Machine wash cool</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 19,
+		"image": "tall-vase.webp",
+		"short_description": "A frosted stoneware vase, thrown by the potter two doors down.",
+		"description": "<!-- wp:paragraph -->\n<p>Wide enough at the base to hold a full head of flowers without tipping and narrow enough at the neck to hold three stems upright. Matte outside, glazed inside, so it holds water and warms in the hand.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 24 cm high, 12 cm across</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, matte outside</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Made by: Ilse, two doors down</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Rinse by hand</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 41,
 		"stock_status": "instock",
-		"featured": false,
+		"featured": true,
 		"attributes": [
 			{
 				"name": "Room",
@@ -941,19 +515,19 @@
 		],
 		"reviews": [],
 		"type": "simple",
-		"price": "65.00"
+		"regular_price": "48.00"
 	},
 	{
-		"slug": "ceramic-bowl",
-		"name": "Serving Bowl",
-		"sku": "OH-CER",
+		"slug": "stem-vase",
+		"name": "Stem Vase",
+		"sku": "OH-STE",
 		"categories": [
 			"homeware"
 		],
-		"image": "ceramic-bowl.webp",
-		"short_description": "A wide stoneware bowl, thrown by hand and glazed inside only.",
-		"description": "<!-- wp:paragraph -->\n<p>Big enough for a salad for six and heavy enough not to travel across the table. The outside is left unglazed, so it warms up in the hand the way a mug does.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 28 cm across, 11 cm deep</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Weight: 1.4 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, glazed inside</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Dishwasher safe</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 23,
+		"image": "stem-vase.webp",
+		"short_description": "A small white vase for the three stems left over from a bunch.",
+		"description": "<!-- wp:paragraph -->\n<p>The one vase most people actually use: small enough for a windowsill, heavy enough not to go over, and the right neck for whatever is left when the big arrangement has been made.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 14 cm high, 7 cm across</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, satin white</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Made by: Ilse, two doors down</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Rinse by hand</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 88,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
@@ -976,6 +550,118 @@
 		],
 		"reviews": [],
 		"type": "simple",
-		"price": "78.00"
+		"regular_price": "28.00"
+	},
+	{
+		"slug": "water-jug",
+		"name": "Water Jug",
+		"sku": "OH-WAT",
+		"categories": [
+			"homeware"
+		],
+		"image": "water-jug.webp",
+		"short_description": "A litre and a half, with a lip that does not drip.",
+		"description": "<!-- wp:paragraph -->\n<p>Thrown heavy so it sits still on a laid table, and pulled to a proper lip rather than a pinched one, which is the whole difference between a jug and a vase with ambitions.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1.5 litres, 22 cm high</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, glazed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Made by: Ilse, two doors down</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Dishwasher safe</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 112,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Room",
+				"slug": "room",
+				"options": [
+					"Dining"
+				],
+				"visible": true
+			},
+			{
+				"name": "Lead time",
+				"slug": "lead-time",
+				"options": [
+					"In stock"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "64.00"
+	},
+	{
+		"slug": "teapot",
+		"name": "Teapot and Two Cups",
+		"sku": "OH-TEA",
+		"categories": [
+			"homeware"
+		],
+		"image": "teapot.webp",
+		"short_description": "A 700 ml pot and two cups, glazed deep green.",
+		"description": "<!-- wp:paragraph -->\n<p>Enough for two people twice, with a cane handle that stays cool and a strainer built into the spout. The cups are deliberately small: tea goes cold in a big one.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 700 ml pot, 180 ml cups</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, cane handle</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Made by: Ilse, two doors down</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Hand wash the handle</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 66,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Room",
+				"slug": "room",
+				"options": [
+					"Dining"
+				],
+				"visible": true
+			},
+			{
+				"name": "Lead time",
+				"slug": "lead-time",
+				"options": [
+					"In stock"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [
+			{
+				"author": "Jonas L.",
+				"rating": 5,
+				"content": "The cane handle stays cool and the spout does not dribble, which is two more than my last teapot managed."
+			}
+		],
+		"type": "simple",
+		"regular_price": "78.00"
+	},
+	{
+		"slug": "cup-set",
+		"name": "Cups and Saucers, 2",
+		"sku": "OH-CUP",
+		"categories": [
+			"homeware"
+		],
+		"image": "cup-set.webp",
+		"short_description": "Two cups and saucers, one black and one oxblood.",
+		"description": "<!-- wp:paragraph -->\n<p>Stacked, they are the two colours the kiln does best. The saucer is deep enough to be a small dish, which is what most of them end up as.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 200 ml cups, 14 cm saucers</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Material: Stoneware, gloss glaze</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Made by: Ilse, two doors down</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Care: Dishwasher safe</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Lead time: In stock</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 145,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Room",
+				"slug": "room",
+				"options": [
+					"Dining"
+				],
+				"visible": true
+			},
+			{
+				"name": "Lead time",
+				"slug": "lead-time",
+				"options": [
+					"In stock"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "34.00",
+		"sale_price": "26.00"
 	}
 ]

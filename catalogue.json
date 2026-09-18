@@ -89,6 +89,28 @@
 				"images": 30,
 				"variations": 36
 			}
+		},
+		{
+			"slug": "oakhouse",
+			"name": "Oakhouse",
+			"niche": "Furniture and homeware",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "oakhouse/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-oakhouse/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 13,
+				"pages": 8,
+				"posts": 3,
+				"images": 26,
+				"variations": 15
+			}
 		}
 	]
 }

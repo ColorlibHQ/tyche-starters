@@ -34,145 +34,135 @@ page_intro = bp.page_intro
 # match what the library actually had.
 # ---------------------------------------------------------------------------
 IMAGES = {
-    "hero-room": "A dining room with a long timber table and chairs in daylight",
-    "hero-detail": "A close-up of a joint where a table leg meets the top",
-    "cat-tables": "A timber dining table in an empty room",
-    "cat-seating": "A wooden chair against a plain wall",
-    "cat-storage": "A shelf unit holding books and ceramics",
-    "cat-homeware": "A wool throw folded over the arm of a chair",
-    "story-1": "A bench in a workshop with hand tools and shavings",
-    "workshop-1": "A plane taking a shaving off a board",
-    "materials-1": "Stacked oak boards seen end on",
-    "showroom-1": "A room of furniture with daylight from one side",
-    "delivery-1": "A finished piece wrapped in blankets",
-    "contact-1": "A workshop door open onto a yard",
-    "promo-1": "A close-up of an oiled timber surface",
-    "journal-1": "A hand sanding an edge",
-    "journal-2": "A room with a table and one chair",
-    "journal-3": "Offcuts stacked beside a saw bench",
-    "dining-table": "A long solid timber dining table",
-    "extending-table": "A timber table with the leaf out",
-    "desk": "A timber desk with two drawers",
-    "bench": "A long timber bench",
-    "dining-chair": "A timber dining chair seen from the front",
-    "armchair": "A low armchair with a fabric seat",
-    "stool": "A three-legged timber stool",
-    "sideboard": "A long low sideboard with two doors",
-    "shelf-unit": "An open shelf unit of timber boxes",
-    "bookcase": "A tall bookcase against a white wall",
-    "bedside-table": "A small bedside table with one drawer",
-    "coffee-table": "A low timber coffee table",
-    "mirror": "A round mirror in a timber frame",
-    "wool-throw": "A folded wool throw",
-    "linen-cushion": "A linen cushion on a chair",
-    "ceramic-bowl": "A wide ceramic bowl on a table",
+    # Sections
+    "hero-room": "A rustic timber table and stools on a balcony above a wooded valley",
+    "hero-detail": "Curved strips of bent timber, lit warm and close",
+    "story-1": "A workshop pegboard hung with chisels, clamps and saws",
+    "workshop-1": "Old hand tools laid out in rows on a dark bench",
+    "materials-1": "The end grain of a sawn trunk, rings running out from the centre",
+    "timber-1": "A close-up of warm brown plank grain",
+    "showroom-1": "A living room with a green sofa, a round table and a lamp",
+    "delivery-1": "A pale ash plank with the grain running across it",
+    "contact-1": "A maker in an apron working at a bench, hands only",
+    "promo-1": "A bench with a compass and a leather mat, tools to hand",
+    "journal-1": "A hammer and a scatter of nails on a plain ground",
+    "journal-2": "A bedroom lined in pale timber, plain bed, one window",
+    "journal-3": "A sawn trunk end, rings and cracks running out from the middle",
+    # The pieces
+    "linde-table": "A long farmhouse table and bench against a green panelled wall",
+    "round-table": "A round walnut table with a chair drawn up to it",
+    "low-table": "A hexagonal oak coffee table with books on it",
+    "bow-chair": "A pale timber chair with a bentwood back, alone against a plain wall",
+    "porch-rocker": "A painted rocking chair on a covered porch",
+    "painted-stool": "A small green painted stool with a fern on it",
+    "sideboard": "A low cabinet on tapered legs in an empty room",
+    "tall-vase": "A frosted grey vase holding pink flowers",
+    "stem-vase": "A small white vase with a few yellow stems",
+    "water-jug": "A white ceramic jug on a timber table",
+    "teapot": "A green ceramic teapot with two cups and a bowl",
+    "cup-set": "Two stacked cups and saucers in black and deep red",
+    "coasters": "A stack of round timber coasters cut from a branch",
 }
 
 # slug, name, category, room, prices by finish or single, image, days ago,
 # lead time, short line, long copy, spec rows
 PIECES = [
-    ("dining-table", "Linde Dining Table", "tables", "Dining", ("1480.00", "1780.00", "1620.00"),
-     "dining-table", 4, "4–6 weeks",
+    ("linde-table", "Linde Dining Table", "tables", "Dining", ("1480.00", "1780.00", "1620.00"),
+     "linde-table", 52, "4–6 weeks",
      "A 200 cm table in solid timber, joined with drawbored mortise and tenon. Seats eight.",
      "The top is four boards, book-matched and held with breadboard ends so it can move with the seasons without splitting. The legs are drawbored into the rails, which is slower than a bolt and is the reason this outlives the room it goes in.",
      [("Size", "200 × 90 × 75 cm"), ("Weight", "62 kg"), ("Seats", "Eight, ten at a push"),
       ("Joint", "Drawbored mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("extending-table", "Linde Extending Table", "tables", "Dining", ("1780.00", "2080.00", "1920.00"),
-     "extending-table", 11, "6–8 weeks",
-     "The same table with a leaf that lives inside it. 180 cm, or 240 cm in about a minute.",
-     "A single leaf on timber runners, stored under the top rather than in a cupboard, because the leaf nobody can find is the leaf nobody uses. Closed it is a table for six; open it takes ten.",
-     [("Size", "180 or 240 × 90 × 75 cm"), ("Weight", "74 kg"), ("Seats", "Six, or ten open"),
-      ("Joint", "Drawbored mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "6–8 weeks")]),
-    ("desk", "Ash Desk", "tables", "Study", ("980.00", "1180.00", "1080.00"),
-     "desk", 18, "4–6 weeks",
-     "A desk at writing height with two drawers on timber runners and a cable slot at the back.",
-     "Deep enough for a screen and a notebook at once, and high enough at 74 cm that a standard chair fits under it. The drawers run on waxed timber rather than metal slides, so they are silent and will still work in thirty years.",
-     [("Size", "140 × 68 × 74 cm"), ("Weight", "38 kg"), ("Drawers", "Two, on waxed runners"),
-      ("Joint", "Mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("bench", "Linde Bench", "seating", "Dining", ("520.00", "620.00", "570.00"),
-     "bench", 25, "4–6 weeks",
-     "A 180 cm bench in the same timber as the table, for the side against the wall.",
-     "Benches seat more people than chairs and take up less room when they are pushed in, which is the whole argument for them. Solid throughout, so it can be stood on to reach a high shelf without anyone worrying.",
-     [("Size", "180 × 35 × 45 cm"), ("Weight", "24 kg"), ("Seats", "Three adults"),
-      ("Joint", "Mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("dining-chair", "Bow Chair", "seating", "Dining", ("340.00", "410.00", "375.00"),
-     "dining-chair", 2, "4–6 weeks",
+    ("round-table", "Round Table", "tables", "Dining", ("1180.00", "1420.00", "1290.00"),
+     "round-table", 96, "4–6 weeks",
+     "A 120 cm round table on a single turned column. Four people, and no corner to walk into.",
+     "A round top seats four in less floor than a rectangle needs, and nobody sits at an end. The column is turned from one piece and the top is buttoned on, so it can move without the joint opening.",
+     [("Size", "120 cm across, 75 cm high"), ("Weight", "41 kg"), ("Seats", "Four"),
+      ("Joint", "Turned column, buttoned top"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
+    ("low-table", "Low Table", "tables", "Living", ("640.00", "760.00", "700.00"),
+     "low-table", 9, "4–6 weeks",
+     "A six-sided top on tapered legs, at the height a cup can be put down from.",
+     "Hexagonal, because a low table with corners you pass every day should have blunt ones. Set at 40 cm against a three-seat sofa, with the grain run across the width so the top reads as one board.",
+     [("Size", "95 cm across, 40 cm high"), ("Weight", "16 kg"), ("Top", "Six-sided, one board"),
+      ("Joint", "Tapered legs, wedged tenons"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
+    ("bow-chair", "Bow Chair", "seating", "Dining", ("340.00", "410.00", "375.00"),
+     "bow-chair", 3, "4–6 weeks",
      "A steam-bent back, a shaped seat, and no fastening you can see.",
      "The back is one piece of timber bent over a form and left in it for a fortnight. The seat is scooped by hand, which takes an hour and is the difference between a chair you sit on for twenty minutes and one you sit on all evening.",
      [("Size", "46 × 52 × 82 cm"), ("Weight", "5.4 kg"), ("Seat height", "46 cm"),
       ("Joint", "Steam-bent back, wedged tenons"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("armchair", "Reading Chair", "seating", "Living", ("880.00", "1040.00", "960.00"),
-     "armchair", 9, "6–8 weeks",
-     "A low frame with a wool seat, for the corner with the lamp in it.",
-     "Reclined a few degrees more than a dining chair, with arms at the height a book rests on. The cushions are wool over horsehair, and they can be recovered without touching the frame.",
-     [("Size", "68 × 78 × 74 cm"), ("Weight", "14 kg"), ("Seat height", "40 cm"),
-      ("Cushion", "Wool over horsehair, recoverable"), ("Finish", "Hardwax oil"), ("Lead time", "6–8 weeks")]),
-    ("stool", "Workshop Stool", "seating", "Study", ("180.00", "220.00", "200.00"),
-     "stool", 30, "2–3 weeks",
-     "Three legs, a dished seat, and nothing else. It is the first thing every maker here builds.",
-     "Three legs never rock on an uneven floor, which is why every workshop stool has three. The seat is dished with a travisher, and the legs are wedged from above so they tighten rather than loosen with use.",
-     [("Size", "34 × 34 × 62 cm"), ("Weight", "3.8 kg"), ("Seat height", "62 cm"),
-      ("Joint", "Wedged through-tenons"), ("Finish", "Hardwax oil"), ("Lead time", "2–3 weeks")]),
+    ("porch-rocker", "Porch Rocker", "seating", "Living", ("520.00",), "porch-rocker", 9, "6–8 weeks",
+     "A slatted rocker, painted rather than oiled, for a porch or a bright hallway.",
+     "The only piece here that leaves painted: four coats of eggshell over primed ash, because a chair that lives near a door gets scuffed and paint is the finish you can put right in an afternoon. Rockers are cut to one radius, tested on a flat floor before it goes out.",
+     [("Size", "62 × 88 × 104 cm"), ("Weight", "9 kg"), ("Seat height", "42 cm"),
+      ("Finish", "Eggshell over primed ash"), ("Colour", "Sage, off-white or charcoal"),
+      ("Lead time", "6–8 weeks")]),
+    ("painted-stool", "Painted Stool", "seating", "Study", ("180.00",), "painted-stool", 30, "2–3 weeks",
+     "Three legs, a dished seat, painted. The first thing every maker here builds.",
+     "Three legs never rock on an uneven floor, which is why every workshop stool has three. The seat is dished with a travisher and the legs are wedged from above, so they tighten rather than loosen with use.",
+     [("Size", "34 × 34 × 45 cm"), ("Weight", "3.8 kg"), ("Seat height", "45 cm"),
+      ("Joint", "Wedged through-tenons"), ("Finish", "Eggshell, any of three colours"),
+      ("Lead time", "2–3 weeks")]),
     ("sideboard", "Hollow Sideboard", "storage", "Living", ("1240.00", "1480.00", "1360.00"),
-     "sideboard", 14, "6–8 weeks",
-     "Two doors, one long shelf, and a back you would not mind seeing.",
-     "Dovetailed at the corners and panelled at the back, because a piece that will be pulled out to hoover behind should look finished from every side. The doors are solid, so they are heavy: the hinges are rated for it.",
+     "sideboard", 61, "6–8 weeks",
+     "Two doors, one long shelf, tapered legs, and a back you would not mind seeing.",
+     "Dovetailed at the corners and panelled at the back, because a piece that gets pulled out to hoover behind should look finished from every side. The doors are solid, so they are heavy: the hinges are rated for it.",
      [("Size", "160 × 45 × 78 cm"), ("Weight", "54 kg"), ("Inside", "One adjustable shelf"),
       ("Joint", "Hand-cut dovetails"), ("Finish", "Hardwax oil"), ("Lead time", "6–8 weeks")]),
-    ("shelf-unit", "Stack Shelf", "storage", "Living", ("620.00", "740.00", "680.00"),
-     "shelf-unit", 7, "4–6 weeks",
-     "Four open boxes that stack, bolt together, or stand apart.",
-     "Bought as four and arranged however the room needs: stacked in a column, in a row under a window, or split between two walls. Each box holds 25 kg, which is more books than you think.",
-     [("Size", "40 × 34 × 40 cm each"), ("Weight", "7 kg each"), ("Load", "25 kg a box"),
-      ("Joint", "Hand-cut dovetails"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("bookcase", "Tall Bookcase", "storage", "Study", ("980.00", "1180.00", "1080.00"),
-     "bookcase", 21, "6–8 weeks",
-     "Five shelves, 200 cm tall, with a wall fixing in the box.",
-     "The shelves are 3 cm thick so they do not sag under a run of hardbacks, and they sit in housed joints rather than on pins. It comes with a bracket and the honest advice to use it.",
-     [("Size", "90 × 32 × 200 cm"), ("Weight", "46 kg"), ("Shelves", "Five, housed"),
-      ("Joint", "Housed and wedged"), ("Finish", "Hardwax oil"), ("Lead time", "6–8 weeks")]),
-    ("bedside-table", "Bedside Table", "storage", "Bedroom", ("380.00", "460.00", "420.00"),
-     "bedside-table", 28, "4–6 weeks",
-     "One drawer, one shelf, and a top big enough for a lamp and a glass of water.",
-     "Low enough to reach from a bed and narrow enough for the gap most bedrooms leave. The drawer is dovetailed and runs on waxed timber, so it opens quietly at two in the morning.",
-     [("Size", "45 × 38 × 55 cm"), ("Weight", "11 kg"), ("Drawer", "One, dovetailed"),
-      ("Joint", "Mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("coffee-table", "Low Table", "tables", "Living", ("640.00", "760.00", "700.00"),
-     "coffee-table", 16, "4–6 weeks",
-     "A 110 cm low table with a shelf underneath for the things that live on the floor.",
-     "Sized against a three-seat sofa and set at 40 cm, which is the height a cup can be put down from without leaning. The lower shelf is slatted, so it holds magazines and not dust.",
-     [("Size", "110 × 55 × 40 cm"), ("Weight", "18 kg"), ("Shelf", "Slatted, 8 cm clear"),
-      ("Joint", "Mortise and tenon"), ("Finish", "Hardwax oil"), ("Lead time", "4–6 weeks")]),
-    ("mirror", "Round Mirror", "homeware", "Bedroom", ("240.00",), "mirror", 12, "2–3 weeks",
-     "A 60 cm mirror in a steam-bent frame, with the fixing already on the back.",
-     "The frame is one length of timber bent into a ring, so there is no joint to open up in a steamy room. Hangs on a single screw and sits flat against the wall.",
-     [("Size", "60 cm across, 4 cm deep"), ("Weight", "3.2 kg"), ("Glass", "4 mm, silvered"),
-      ("Fixing", "Keyhole plate, screw included"), ("Lead time", "2–3 weeks")]),
-    ("wool-throw", "Wool Throw", "homeware", "Living", ("95.00",), "wool-throw", 5, "In stock",
-     "Undyed lambswool, woven in a mill that has been at it since 1856.",
-     "Heavy enough to be worth having on a chair and soft enough to use. Undyed, so the colour is the sheep's rather than a dye lot, which means the next one will be close but not identical.",
-     [("Size", "130 × 180 cm"), ("Weight", "1.1 kg"), ("Material", "100% lambswool, undyed"),
-      ("Care", "Cool wool wash, dry flat"), ("Lead time", "In stock")]),
-    ("linen-cushion", "Linen Cushion", "homeware", "Living", ("65.00",), "linen-cushion", 19, "In stock",
-     "Washed linen with a feather insert and a button placket, not a zip.",
-     "The cover comes off for washing and goes back on without a fight. Linen creases, and it is supposed to: it is the only upholstery fabric that looks better after a year.",
-     [("Size", "50 × 50 cm"), ("Material", "Washed linen, feather insert"),
-      ("Closure", "Four-button placket"), ("Care", "Machine wash cool"), ("Lead time", "In stock")]),
-    ("ceramic-bowl", "Serving Bowl", "homeware", "Dining", ("78.00",), "ceramic-bowl", 23, "In stock",
-     "A wide stoneware bowl, thrown by hand and glazed inside only.",
-     "Big enough for a salad for six and heavy enough not to travel across the table. The outside is left unglazed, so it warms up in the hand the way a mug does.",
-     [("Size", "28 cm across, 11 cm deep"), ("Weight", "1.4 kg"), ("Material", "Stoneware, glazed inside"),
-      ("Care", "Dishwasher safe"), ("Lead time", "In stock")]),
+    ("coasters", "Branch Coasters, 6", "homeware", "Dining", ("24.00",), "coasters", 7, "In stock",
+     "Six coasters cut across a branch, from the offcuts of everything else.",
+     "Cut from the ends of the boards that become tables, so no two runs match and the bark edge is left on. Waxed rather than oiled, which is what stops a hot cup marking them.",
+     [("Size", "9 to 11 cm across"), ("Material", "Offcut oak or walnut, as available"),
+      ("Finish", "Hard wax"), ("Care", "Wipe, do not soak"), ("Lead time", "In stock")]),
+    ("tall-vase", "Tall Vase", "homeware", "Living", ("48.00",), "tall-vase", 5, "In stock",
+     "A frosted stoneware vase, thrown by the potter two doors down.",
+     "Wide enough at the base to hold a full head of flowers without tipping and narrow enough at the neck to hold three stems upright. Matte outside, glazed inside, so it holds water and warms in the hand.",
+     [("Size", "24 cm high, 12 cm across"), ("Material", "Stoneware, matte outside"),
+      ("Made by", "Ilse, two doors down"), ("Care", "Rinse by hand"), ("Lead time", "In stock")]),
+    ("stem-vase", "Stem Vase", "homeware", "Dining", ("28.00",), "stem-vase", 19, "In stock",
+     "A small white vase for the three stems left over from a bunch.",
+     "The one vase most people actually use: small enough for a windowsill, heavy enough not to go over, and the right neck for whatever is left when the big arrangement has been made.",
+     [("Size", "14 cm high, 7 cm across"), ("Material", "Stoneware, satin white"),
+      ("Made by", "Ilse, two doors down"), ("Care", "Rinse by hand"), ("Lead time", "In stock")]),
+    ("water-jug", "Water Jug", "homeware", "Dining", ("64.00",), "water-jug", 23, "In stock",
+     "A litre and a half, with a lip that does not drip.",
+     "Thrown heavy so it sits still on a laid table, and pulled to a proper lip rather than a pinched one, which is the whole difference between a jug and a vase with ambitions.",
+     [("Size", "1.5 litres, 22 cm high"), ("Material", "Stoneware, glazed"),
+      ("Made by", "Ilse, two doors down"), ("Care", "Dishwasher safe"), ("Lead time", "In stock")]),
+    ("teapot", "Teapot and Two Cups", "homeware", "Dining", ("78.00",), "teapot", 12, "In stock",
+     "A 700 ml pot and two cups, glazed deep green.",
+     "Enough for two people twice, with a cane handle that stays cool and a strainer built into the spout. The cups are deliberately small: tea goes cold in a big one.",
+     [("Size", "700 ml pot, 180 ml cups"), ("Material", "Stoneware, cane handle"),
+      ("Made by", "Ilse, two doors down"), ("Care", "Hand wash the handle"), ("Lead time", "In stock")]),
+    ("cup-set", "Cups and Saucers, 2", "homeware", "Dining", ("34.00",), "cup-set", 27, "In stock",
+     "Two cups and saucers, one black and one oxblood.",
+     "Stacked, they are the two colours the kiln does best. The saucer is deep enough to be a small dish, which is what most of them end up as.",
+     [("Size", "200 ml cups, 14 cm saucers"), ("Material", "Stoneware, gloss glaze"),
+      ("Made by", "Ilse, two doors down"), ("Care", "Dishwasher safe"), ("Lead time", "In stock")]),
 ]
 
 FINISHES = ["Oak", "Walnut", "Blackened oak"]
+
+# A workshop that makes to order rarely discounts, but it does retire a glaze
+# and it does run out of a batch, and a shopper should meet both states.
+SALE = {"cup-set": "26.00"}
+
+# How long ago each piece was listed. A workshop that has made the same chair
+# for years should not have a New badge on every product in the shop.
+DAYS = {
+    "bow-chair": 3, "low-table": 9, "coasters": 17, "tall-vase": 41,
+    "linde-table": 52, "sideboard": 61, "teapot": 66, "porch-rocker": 74,
+    "round-table": 96, "stem-vase": 88, "water-jug": 112, "painted-stool": 130,
+    "cup-set": 145,
+}
+SOLD_OUT = {"porch-rocker"}
 ROOMS = ["Dining", "Living", "Bedroom", "Study"]
 
 CATEGORIES = [
-    ("Tables", "tables", "Dining, low and writing tables, from 110 cm to 240 cm."),
-    ("Seating", "seating", "Chairs, benches and stools, shaped where it matters."),
-    ("Storage", "storage", "Dovetailed boxes, shelves and sideboards that look finished from the back."),
-    ("Homeware", "homeware", "The wool, linen and stoneware that go on top of the furniture."),
+    ("Tables", "tables", "Three tables: one long, one round, one low."),
+    ("Seating", "seating", "A chair, a rocker and a stool, shaped where it matters."),
+    ("Storage", "storage", "One cabinet, dovetailed, and finished at the back."),
+    ("Homeware", "homeware", "Stoneware from the potter two doors down, and coasters from our own offcuts."),
 ]
 
 POST_CATEGORIES = [
@@ -181,15 +171,18 @@ POST_CATEGORIES = [
 ]
 
 REVIEWS = {
-    "dining-table": [
+    "linde-table": [
         ("Martha K.", 5, "Six weeks to the day, delivered by two people who put it together and took the packaging away. It is the first table I have owned that does not wobble."),
         ("Owen R.", 5, "The breadboard ends have moved a couple of millimetres over the winter, exactly as the care page said they would. No split."),
     ],
-    "dining-chair": [
+    "bow-chair": [
         ("Priya S.", 4, "Comfortable for a long dinner, which was the point. Four of them and only one had a mark, which they refinished without argument."),
     ],
-    "wool-throw": [
-        ("Jonas L.", 5, "Heavier than I expected and no smell of dye, because there is no dye."),
+    "teapot": [
+        ("Jonas L.", 5, "The cane handle stays cool and the spout does not dribble, which is two more than my last teapot managed."),
+    ],
+    "coasters": [
+        ("Elin M.", 5, "Bark still on the edge and no two the same. Cheaper than I expected for something cut from a table."),
     ],
 }
 
@@ -228,6 +221,7 @@ def piece_products():
     products = []
     for (slug, name, category, room, prices, photo, days, lead,
          short, long_copy, spec) in PIECES:
+        days = DAYS.get(slug, days)
         product = {
             "slug": slug,
             "name": name,
@@ -238,8 +232,8 @@ def piece_products():
             "description": paragraphs(long_copy) + "\n\n" + spec_list(spec),
             "days_ago": days,
             "stock_status": "instock",
-            "featured": slug in ("dining-table", "dining-chair", "shelf-unit", "sideboard",
-                                 "wool-throw", "stool"),
+            "featured": slug in ("linde-table", "bow-chair", "low-table", "sideboard",
+                                 "teapot", "tall-vase"),
             "attributes": [
                 {"name": "Room", "slug": "room", "options": [room], "visible": True},
                 {"name": "Lead time", "slug": "lead-time", "options": [lead], "visible": True},
@@ -249,7 +243,11 @@ def piece_products():
         }
         if len(prices) == 1:
             product["type"] = "simple"
-            product["price"] = prices[0]
+            product["regular_price"] = prices[0]
+            if slug in SALE:
+                product["sale_price"] = SALE[slug]
+            if slug in SOLD_OUT:
+                product["stock_status"] = "outofstock"
         else:
             # One photograph, three finishes: say which one is in the picture
             # rather than letting a walnut buyer think they are looking at it.
@@ -258,7 +256,8 @@ def piece_products():
             product["type"] = "variable"
             product["attributes"].insert(0, {"name": "Finish", "slug": "finish", "options": list(FINISHES),
                                              "visible": True, "variation": True})
-            product["variations"] = [{"attributes": {"finish": finish}, "price": price,
+            product["variations"] = [{"attributes": {"finish": finish}, "regular_price": price,
+                                      "stock_status": "instock",
                                       "sku": "OH-%s-%s" % (slug[:3].upper(), finish[:3].upper())}
                                      for finish, price in zip(FINISHES, prices)]
         products.append(product)
@@ -274,11 +273,6 @@ def home():
             ("Shop dining", "{{cat:tables}}"),
             ("See the workshop", "{{page:about}}"),
             "hero-room", IMAGES["hero-room"], "hero-detail", IMAGES["hero-detail"]),
-        category_tiles([("tables", "Tables", "Dining, low and writing"),
-                        ("seating", "Seating", "Chairs, benches, stools"),
-                        ("storage", "Storage", "Boxes, shelves, sideboards"),
-                        ("homeware", "Homeware", "Wool, linen and stoneware")],
-                       "Shop by room", kicker="The catalogue", link=("See everything", "{{shop}}")),
         product_row("new-arrivals", "New", "Just off the bench", "Shop everything", "{{shop}}"),
         care_cards(PROMISES, "How we work", kicker="The basics", bg="surface"),
         spec_rows(
@@ -286,7 +280,7 @@ def home():
              ("Timber", "European oak, walnut or blackened oak"), ("Joint", "Drawbored mortise and tenon"),
              ("Lead time", "4–6 weeks")],
             "Linde table, in short", kicker="This month's piece",
-            photo="dining-table", alt=IMAGES["dining-table"]),
+            photo="materials-1", alt=IMAGES["materials-1"]),
         product_row("featured", "The range", "What we make most of", "Shop everything", "{{shop}}", carousel=True),
         numbered_steps(ORDER_STEPS, "How an order is made", kicker="Six weeks, roughly"),
         story_split(
@@ -330,6 +324,7 @@ def materials():
             para("Everything leaves here under hardwax oil: a penetrating finish that sits in the timber rather than on it. It is less waterproof than lacquer and infinitely easier to repair, because a scratch is sanded and re-oiled in an afternoon instead of being sent back to a sprayer.",
                  color="muted"),
         ]), layout="constrained", content_size="720px", gap="30"), pad=("0", "60")),
+        section(image("timber-1", IMAGES["timber-1"], ratio="21/9", align="wide"), pad=("0", "60")),
         spec_rows(CARE_ROWS, "Looking after it", kicker="Care", bg="surface",
                   photo="promo-1", alt=IMAGES["promo-1"]),
         section(group("\n\n".join([

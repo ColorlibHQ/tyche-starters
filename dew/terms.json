@@ -1,0 +1,65 @@
+{
+	"product_cat": [
+		{
+			"name": "Cleanse",
+			"slug": "cleanse",
+			"description": "Two cleansers: a gel for oily skin and a cream for skin that hates foam."
+		},
+		{
+			"name": "Treat",
+			"slug": "treat",
+			"description": "One active per bottle, at a strength that does something, with the number on the front."
+		},
+		{
+			"name": "Moisturise",
+			"slug": "moisturise",
+			"description": "Gel, balm and oil, from lightest to heaviest. Pick by season rather than by skin type."
+		},
+		{
+			"name": "Protect",
+			"slug": "protect",
+			"description": "The step that does most of the work, in a tube big enough to use properly."
+		},
+		{
+			"name": "Sets",
+			"slug": "sets",
+			"description": "The routine in one box, for a few dollars less than buying it apart."
+		}
+	],
+	"category": [
+		{
+			"name": "Skin school",
+			"slug": "skin-school",
+			"description": "How to use the things on the shelf, and how often."
+		},
+		{
+			"name": "From the lab",
+			"slug": "from-the-lab",
+			"description": "How it is made, and why the label says what it says."
+		}
+	],
+	"attributes": [
+		{
+			"name": "Size",
+			"slug": "size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"30 ml",
+				"50 ml"
+			]
+		},
+		{
+			"name": "Skin type",
+			"slug": "skin-type",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"All skin types",
+				"Dry skin",
+				"Oily skin",
+				"Combination skin"
+			]
+		}
+	]
+}

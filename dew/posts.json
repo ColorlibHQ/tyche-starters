@@ -1,0 +1,35 @@
+[
+	{
+		"slug": "how-to-patch-test",
+		"title": "How to patch test, and why we insist",
+		"content": "<!-- wp:paragraph -->\n<p>A patch test is three days of nothing happening, which is why almost nobody does one. It is also the difference between losing a bottle and losing a week of your face.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Behind the ear or on the inside of the forearm, twice a day for three days, the same amount you would use normally. Not a dab: a reaction to a dab tells you nothing about a face. If the skin is fine on the fourth morning, go ahead.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The two worth testing properly are the retinal and the exfoliating toner. Everything else here is fragrance-free and unlikely to bother anyone, which is why the sachet in your box is whatever you actually ordered rather than a sample of something else.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "A patch test is three days of nothing happening, which is why almost nobody does one. It is also the difference between losing a bottle and losing a week of your face.",
+		"categories": [
+			"skin-school"
+		],
+		"image": "journal-1.webp",
+		"days_ago": 4
+	},
+	{
+		"slug": "one-active-per-bottle",
+		"title": "Why there is only one active in each bottle",
+		"content": "<!-- wp:paragraph -->\n<p>It would be easy to put niacinamide, an acid and a retinoid in one bottle and call it a night treatment. It would sell better. It would also be useless the first time your skin reacted, because you would have no way of knowing which of the three did it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>One active per bottle means you can introduce things one at a time, drop one without losing the rest, and use the strength that suits you rather than the strength that suited a marketing department.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It also means fewer compromises in the formula: an acid wants a low pH, niacinamide does not, and the version of both that can live in the same bottle is a weaker version of each.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "It would be easy to put niacinamide, an acid and a retinoid in one bottle and call it a night treatment. It would sell better. It would also be useless the first time your skin reacted, because you would have no way of knowing which of the three did it.",
+		"categories": [
+			"from-the-lab"
+		],
+		"image": "journal-2.webp",
+		"days_ago": 15
+	},
+	{
+		"slug": "spf-is-the-routine",
+		"title": "If you do one thing, do the sunscreen",
+		"content": "<!-- wp:paragraph -->\n<p>Every serum on this shelf is an improvement at the margin. Sunscreen is not: it is the step that decides what your skin looks like in ten years, and it is the one people skip in winter.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The dose is the part nobody gets right. Two fingers' length for a face and neck, which is far more than it feels like, and again at noon if you are near a window all day.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>That is also why ours is a $26 tube of 50 ml rather than a $48 bottle of 30 ml. A sunscreen you are careful with is a sunscreen you are not using properly.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "Every serum on this shelf is an improvement at the margin. Sunscreen is not: it is the step that decides what your skin looks like in ten years, and it is the one people skip in winter.",
+		"categories": [
+			"skin-school"
+		],
+		"image": "journal-3.webp",
+		"days_ago": 30
+	}
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"slug": "primary",
+		"title": "Primary",
+		"content": "<!-- wp:navigation-link {\"label\":\"Cleanse\",\"url\":\"{{cat:cleanse}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:cleanse}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Treat\",\"url\":\"{{cat:treat}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:treat}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Moisturise\",\"url\":\"{{cat:moisturise}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:moisturise}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Protect\",\"url\":\"{{cat:protect}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:protect}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Ingredients\",\"url\":\"{{page:ingredients}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:ingredients}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"The routine\",\"url\":\"{{page:routine}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:routine}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Journal\",\"url\":\"{{page:journal}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:journal}}\"} /-->"
+	}
+]

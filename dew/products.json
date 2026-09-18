@@ -1,0 +1,524 @@
+[
+	{
+		"slug": "barrier-serum",
+		"name": "Barrier Serum",
+		"sku": "DW-BAR",
+		"categories": [
+			"treat"
+		],
+		"image": "barrier-serum.webp",
+		"short_description": "Niacinamide at 10%, with zinc. For skin that is red, reactive, or breaking out.",
+		"description": "<!-- wp:paragraph -->\n<p>Ten per cent niacinamide and one per cent zinc, in water and glycerin, and nothing else worth naming. It is the one bottle most people should start with: it calms redness, it evens out tone over weeks rather than days, and it does not fight with anything else you use.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Active: Niacinamide 10%, zinc 1%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Watery, absorbs in seconds</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Morning and evening, after cleansing</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: All, including sensitive</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 5.5 to 6.0</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 2,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"All skin types"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [
+			{
+				"author": "Dry skin, 34",
+				"rating": 5,
+				"content": "Three weeks and the red patches around my nose have gone. No sting, no smell, nothing."
+			},
+			{
+				"author": "Combination skin, 27",
+				"rating": 4,
+				"content": "Does what it says. The dropper is a bit stiff, which is my only complaint."
+			}
+		],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "24.00",
+				"sku": "DW-BAR-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "38.00",
+				"sku": "DW-BAR-50"
+			}
+		]
+	},
+	{
+		"slug": "hydrating-serum",
+		"name": "Hydrating Serum",
+		"sku": "DW-HYD",
+		"categories": [
+			"treat"
+		],
+		"image": "hydrating-serum.webp",
+		"short_description": "Hyaluronic acid in three weights, for skin that feels tight by lunchtime.",
+		"description": "<!-- wp:paragraph -->\n<p>Three molecular weights, so it holds water at the surface and a little deeper rather than sitting on top. Put it on damp skin and follow it with a moisturiser, or it will take water from your face instead of giving it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Active: Hyaluronic acid 2%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Light gel</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: On damp skin, then moisturise</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Dry and dehydrated</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 5.0 to 5.5</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 9,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Dry skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "22.00",
+				"sku": "DW-HYD-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "34.00",
+				"sku": "DW-HYD-50"
+			}
+		]
+	},
+	{
+		"slug": "night-serum",
+		"name": "Night Serum",
+		"sku": "DW-NIG",
+		"categories": [
+			"treat"
+		],
+		"image": "night-serum.webp",
+		"short_description": "Retinal at 0.05%, in an amber bottle because light ruins it.",
+		"description": "<!-- wp:paragraph -->\n<p>Retinal rather than retinol: fewer conversions in the skin, so a lower strength does the same work. Start twice a week, buffer it with moisturiser, and wear sunscreen in the morning or do not bother at all.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Active: Retinal 0.05%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Light lotion</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Evening, twice a week to start</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Not while pregnant</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 5.5 to 6.0</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 16,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Combination skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "32.00",
+				"sku": "DW-NIG-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "48.00",
+				"sku": "DW-NIG-50"
+			}
+		]
+	},
+	{
+		"slug": "exfoliating-toner",
+		"name": "Exfoliating Toner",
+		"sku": "DW-EXF",
+		"categories": [
+			"treat"
+		],
+		"image": "exfoliating-toner.webp",
+		"short_description": "Salicylic acid at 2%, for blocked pores and the bumps that come with them.",
+		"description": "<!-- wp:paragraph -->\n<p>An oil-soluble acid, so it works inside a pore rather than on top of it. Twice a week is plenty for most people, and every night is how you end up with a stripped, shiny face that produces more oil than it did before.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Active: Salicylic acid 2%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Water</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Evening, twice a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Oily and congested</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 3.5 to 4.0</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 24,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Oily skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "20.00",
+				"sku": "DW-EXF-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "30.00",
+				"sku": "DW-EXF-50"
+			}
+		]
+	},
+	{
+		"slug": "gel-cleanser",
+		"name": "Gel Cleanser",
+		"sku": "DW-GEL",
+		"categories": [
+			"cleanse"
+		],
+		"image": "gel-cleanser.webp",
+		"short_description": "A low-foam gel that takes sunscreen off without stripping anything.",
+		"description": "<!-- wp:paragraph -->\n<p>Enough surfactant to shift a day of sunscreen and city air, and not so much that your face feels tight afterwards. If it squeaks, it was too strong: this one does not.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Use: Morning and evening</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Low-foam gel</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Oily and combination</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 5.0 to 5.5</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 150 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 5,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Oily skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"price": "18.00"
+	},
+	{
+		"slug": "cream-cleanser",
+		"name": "Cream Cleanser",
+		"sku": "DW-CRE",
+		"categories": [
+			"cleanse"
+		],
+		"image": "cream-cleanser.webp",
+		"short_description": "A milky cleanser for skin that hates foam.",
+		"description": "<!-- wp:paragraph -->\n<p>Takes make-up and sunscreen off with a flannel and warm water, and leaves the film your face actually needs. Winter, or dry skin, or any morning when washing hurts.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Use: Evening, or morning in winter</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Milky cream</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Dry and sensitive</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>pH: 5.5 to 6.0</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 150 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 12,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Dry skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"price": "18.00"
+	},
+	{
+		"slug": "gel-cream",
+		"name": "Gel Cream",
+		"sku": "DW-GEL",
+		"categories": [
+			"moisturise"
+		],
+		"image": "gel-cream.webp",
+		"short_description": "A light moisturiser that disappears, for people who hate the feel of cream.",
+		"description": "<!-- wp:paragraph -->\n<p>Glycerin and squalane in a gel base: it holds water without the weight, and it sits under sunscreen without pilling, which is the only test most moisturisers fail.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Texture: Gel cream</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Morning and evening</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Combination and oily</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Under SPF: Yes, it does not pill</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 7,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Combination skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "26.00",
+				"sku": "DW-GEL-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "40.00",
+				"sku": "DW-GEL-50"
+			}
+		]
+	},
+	{
+		"slug": "night-balm",
+		"name": "Night Balm",
+		"sku": "DW-NIG",
+		"categories": [
+			"moisturise"
+		],
+		"image": "night-balm.webp",
+		"short_description": "A thick occlusive balm for the last step of a winter evening.",
+		"description": "<!-- wp:paragraph -->\n<p>Shea, squalane and ceramides, thick enough to leave a sheen you will see on the pillow. It goes on last, over everything, and it is the difference between a serum working and a serum evaporating.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Texture: Thick balm</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Evening, last step</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Dry, or anyone in winter</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Ceramides: 3%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 14,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"Dry skin"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [
+			{
+				"author": "Dry skin, 52",
+				"rating": 5,
+				"content": "Winter face sorted. I use it over the serum and wake up without the tight feeling."
+			}
+		],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "32.00",
+				"sku": "DW-NIG-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "46.00",
+				"sku": "DW-NIG-50"
+			}
+		]
+	},
+	{
+		"slug": "squalane-oil",
+		"name": "Squalane Oil",
+		"sku": "DW-SQU",
+		"categories": [
+			"moisturise"
+		],
+		"image": "squalane-oil.webp",
+		"short_description": "One ingredient, from olives. Two drops is the whole dose.",
+		"description": "<!-- wp:paragraph -->\n<p>Squalane and nothing else: no fragrance, no vitamin E, no botanical extract to make the label look busier. It is the safest oil for skin that reacts, and the least interesting to write about, which is rather the point.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Ingredients: Squalane, 100%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Dry oil</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Evening, over moisturiser</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: All, including acne-prone</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 30 ml and 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 21,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"options": [
+					"30 ml",
+					"50 ml"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"All skin types"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "30 ml"
+				},
+				"price": "24.00",
+				"sku": "DW-SQU-30"
+			},
+			{
+				"attributes": {
+					"size": "50 ml"
+				},
+				"price": "36.00",
+				"sku": "DW-SQU-50"
+			}
+		]
+	},
+	{
+		"slug": "daily-spf",
+		"name": "Daily SPF 50",
+		"sku": "DW-DAI",
+		"categories": [
+			"protect"
+		],
+		"image": "daily-spf.webp",
+		"short_description": "SPF 50, no white cast, no smell. The one step that does most of the work.",
+		"description": "<!-- wp:paragraph -->\n<p>A modern filter blend that does not leave a grey film or sting the eyes, in a tube big enough to use properly. Two fingers' length for a face and neck, every morning, or the rest of the shelf is decoration.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Protection: SPF 50, UVA-PF 18</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Texture: Light lotion</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Every morning, reapply at noon</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: All, including sensitive</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 50 ml</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 3,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"All skin types"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [
+			{
+				"author": "Oily skin, 41",
+				"rating": 5,
+				"content": "The first sunscreen I have finished a whole tube of. No cast, no eye sting."
+			}
+		],
+		"type": "simple",
+		"price": "26.00"
+	},
+	{
+		"slug": "lip-balm",
+		"name": "Lip Balm",
+		"sku": "DW-LIP",
+		"categories": [
+			"moisturise"
+		],
+		"image": "lip-balm.webp",
+		"short_description": "Petrolatum and shea in a tin. It works, and it is nine dollars.",
+		"description": "<!-- wp:paragraph -->\n<p>There is no clever version of this. An occlusive, a wax and a tin that fits in a pocket, with nothing in it to make your lips tingle, because tingling is not a feature.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Ingredients: Petrolatum, shea, beeswax</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Use: Whenever</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: All</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: 15 ml tin</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 28,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"All skin types"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"price": "9.00"
+	},
+	{
+		"slug": "starter-set",
+		"name": "The Starter Set",
+		"sku": "DW-STA",
+		"categories": [
+			"sets"
+		],
+		"image": "starter-set.webp",
+		"short_description": "Cleanser, barrier serum and sunscreen. The three that matter, at a saving.",
+		"description": "<!-- wp:paragraph -->\n<p>If you are starting from nothing, this is the routine: wash, calm, protect. Full sizes of the gel cleanser, the barrier serum and the daily sunscreen, which is eight dollars less than buying them apart.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>In the box: Gel cleanser, barrier serum, SPF 50</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Saving: $8 against buying apart</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: All</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Size: Full sizes</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 1,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Skin type",
+				"slug": "skin-type",
+				"options": [
+					"All skin types"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"price": "58.00"
+	}
+]

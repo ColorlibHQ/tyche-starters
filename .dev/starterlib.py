@@ -216,6 +216,17 @@ def tiles_hero(eyebrow_text, title, lede, primary, secondary, tiles):
                    cls="tyche-tiles-hero", pad=("50", "70"))
 
 
+def spec_list(rows):
+    """Label-and-value lines inside a product description.
+
+    A product page's description is one block of content, so a specification
+    there is a list rather than the two-column table a section uses.
+    """
+    items = "\n".join('<!-- wp:list-item -->\n<li>%s: %s</li>\n<!-- /wp:list-item -->' % (label, value)
+                      for label, value in rows)
+    return '<!-- wp:list -->\n<ul class="wp-block-list">\n%s\n</ul>\n<!-- /wp:list -->' % items
+
+
 def chips(*facts):
     """Small pills: "Fragrance-free", "30 ml", "Pet safe".
 

@@ -187,6 +187,28 @@ def hero_split(eyebrow_text, title, lede, primary, secondary, photo, alt):
     return section(body, pad=("50", "70"))
 
 
+def collage_hero(eyebrow_text, title, lede, primary, secondary, room, room_alt, detail, detail_alt):
+    """A room, a close-up, and the words between them.
+
+    Furniture is bought twice: once as a room and once as a joint. One
+    photograph can only make one of those two arguments, so the opening makes
+    both and puts the headline where the eye lands between them.
+    """
+    words = column(group("\n".join([
+        eyebrow(eyebrow_text),
+        heading(title, level=1, size="giant"),
+        para(lede, size="large", color="muted"),
+        buttons(button(primary[0], primary[1]),
+                button(secondary[0], secondary[1], style="tyche-outline")),
+    ]), layout="flex", orientation="vertical", gap="30"), valign="center", width="34%")
+
+    return section(columns(
+        column(image(room, room_alt, ratio="3/4")),
+        words,
+        column(image(detail, detail_alt, ratio="3/4"), cls="tyche-collage__late"),
+        cls="tyche-collage", align="wide", gap="50", valign="center"), pad=("50", "60"))
+
+
 def tiles_hero(eyebrow_text, title, lede, primary, secondary, tiles):
     """An opening that sends people straight into a category.
 

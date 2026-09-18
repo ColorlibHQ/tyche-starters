@@ -52,6 +52,19 @@ A starter is designed by building a real store and exporting it:
 photographs are converted to WebP by hand and kept here; the exporter only
 records their names and alt text.
 
+## Trying one in a browser
+
+Every free starter has a WordPress Playground blueprint in `blueprints/`. It
+installs WooCommerce, the theme and the companion plugin, then drives the
+importer the same way the Starter sites screen does:
+
+    https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ColorlibHQ/tyche-starters/main/blueprints/verdant.json
+
+The URL has to be the raw GitHub one. Playground fetches the blueprint from the
+browser, and downloads.colorlib.com sends no `Access-Control-Allow-Origin`
+header, so the same file on R2 fails with "Blueprint could not be downloaded".
+The zips inside the blueprint are fine on R2: Playground fetches those itself.
+
 ## Testing one
 
     .dev/check-starter.sh <slug>

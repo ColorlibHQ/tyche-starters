@@ -33,6 +33,10 @@ A package never contains a URL or an ID from the store it was made on. Instead:
 | `{{cat:slug}}` / `{{catid:slug}}` | that product category's URL / ID |
 | `{{term:slug}}` / `{{termid:slug}}` | that post category's URL / ID |
 | `{{shop}}` `{{cart}}` `{{checkout}}` `{{account}}` `{{home}}` | the store's own pages |
+| `{{date:next saturday 10:00}}` | a date worked out at import time, in the store's time zone |
+
+A starter never carries a fixed date: a countdown to last month reads "it is live
+now" for ever.
 
 Anything the importing store has no match for falls back to the shop or the home
 page, so a starter imported "look only" onto someone else's catalogue still has
@@ -49,6 +53,17 @@ photographs are converted to WebP by hand and kept here; the exporter only
 records their names and alt text.
 
 ## Testing one
+
+    .dev/check-starter.sh <slug>
+
+Runs every gate in order: the package builds, every photograph it names is
+present and credited, it imports into the test site, every block is valid, text
+on photographs passes AA, nothing scrolls sideways, the store works, and
+removing it leaves nothing behind. Against a live preview:
+
+    WP_URL=https://colorlibhub.com/tyche-roastery .dev/check-starter.sh roastery --no-import
+
+Or by hand:
 
     wp tyche import <slug>     # imports it
     wp tyche remove            # takes it out again

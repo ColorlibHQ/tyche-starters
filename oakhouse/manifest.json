@@ -1,0 +1,29 @@
+{
+	"schema": 1,
+	"slug": "oakhouse",
+	"theme": {
+		"slug": "tyche",
+		"style": [
+			"Oakhouse"
+		]
+	},
+	"settings": {
+		"title": "Oakhouse",
+		"tagline": "Solid timber furniture, made to order",
+		"front_page": "home",
+		"posts_page": "journal",
+		"currency": "USD",
+		"country": "US:VT",
+		"shipping": {
+			"country": "US",
+			"flat_rate": "90.00",
+			"free_over": "1200"
+		}
+	},
+	"counts": {
+		"products": 16,
+		"pages": 8,
+		"posts": 3,
+		"images": 32
+	}
+}

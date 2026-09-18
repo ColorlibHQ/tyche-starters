@@ -1,0 +1,73 @@
+{
+	"product_cat": [
+		{
+			"name": "Tables",
+			"slug": "tables",
+			"description": "Dining, low and writing tables, from 110 cm to 240 cm."
+		},
+		{
+			"name": "Seating",
+			"slug": "seating",
+			"description": "Chairs, benches and stools, shaped where it matters."
+		},
+		{
+			"name": "Storage",
+			"slug": "storage",
+			"description": "Dovetailed boxes, shelves and sideboards that look finished from the back."
+		},
+		{
+			"name": "Homeware",
+			"slug": "homeware",
+			"description": "The wool, linen and stoneware that go on top of the furniture."
+		}
+	],
+	"category": [
+		{
+			"name": "From the bench",
+			"slug": "from-the-bench",
+			"description": "How a piece is made, and why it takes six weeks."
+		},
+		{
+			"name": "Living with it",
+			"slug": "living-with-it",
+			"description": "Measuring, caring for and repairing solid timber."
+		}
+	],
+	"attributes": [
+		{
+			"name": "Finish",
+			"slug": "finish",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Oak",
+				"Walnut",
+				"Blackened oak"
+			]
+		},
+		{
+			"name": "Room",
+			"slug": "room",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Dining",
+				"Living",
+				"Bedroom",
+				"Study"
+			]
+		},
+		{
+			"name": "Lead time",
+			"slug": "lead-time",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"In stock",
+				"2–3 weeks",
+				"4–6 weeks",
+				"6–8 weeks"
+			]
+		}
+	]
+}

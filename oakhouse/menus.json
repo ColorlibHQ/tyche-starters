@@ -1,0 +1,7 @@
+[
+	{
+		"slug": "primary",
+		"title": "Primary",
+		"content": "<!-- wp:navigation-link {\"label\":\"Tables\",\"url\":\"{{cat:tables}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:tables}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Seating\",\"url\":\"{{cat:seating}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:seating}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Storage\",\"url\":\"{{cat:storage}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:storage}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Homeware\",\"url\":\"{{cat:homeware}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:homeware}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Materials\",\"url\":\"{{page:materials}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:materials}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Showroom\",\"url\":\"{{page:showroom}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:showroom}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Trade\",\"url\":\"{{page:trade}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:trade}}\"} /-->"
+	}
+]

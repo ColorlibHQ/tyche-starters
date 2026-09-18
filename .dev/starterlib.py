@@ -216,6 +216,40 @@ def tiles_hero(eyebrow_text, title, lede, primary, secondary, tiles):
                    cls="tyche-tiles-hero", pad=("50", "70"))
 
 
+def chips(*facts):
+    """Small pills: "Fragrance-free", "30 ml", "Pet safe".
+
+    Each one is a fact a shopper filters on, so they are labels and not links:
+    a chip that looks like a button and does nothing is worse than a sentence.
+    """
+    return group("\n".join(para(fact, cls="tyche-chip", size="small") for fact in facts),
+                 layout="flex", wrap="wrap", cls="tyche-chips", gap="20")
+
+
+def spotlight_hero(eyebrow_text, title, lede, facts, primary, secondary, photo, alt):
+    """One product, given the whole opening.
+
+    A shop with a single thing worth arriving for -- a serum, one release -- is
+    better served by holding it up than by a photograph of a mood with a button
+    on it. The facts sit under the words as chips, because the questions this
+    shopper asks (what is in it, how much of it, does it smell) are answered in
+    two words each.
+    """
+    words = column(group("\n".join([
+        eyebrow(eyebrow_text),
+        heading(title, level=1, size="giant"),
+        para(lede, size="large", color="muted"),
+        chips(*facts),
+        buttons(button(primary[0], primary[1]),
+                button(secondary[0], secondary[1], style="tyche-outline")),
+    ]), layout="flex", orientation="vertical", gap="30", cls="tyche-spotlight__words"), valign="center")
+
+    picture = column(image(photo, alt, ratio="1/1", cls="tyche-spotlight__media"), width="46%")
+
+    return section(columns(words, picture, cls="tyche-spotlight", align="wide", gap="0", valign="center"),
+                   pad=("50", "60"))
+
+
 def care_cards(items, title, kicker=None, bg=None):
     """Three or four things the shopper has to know, each with an icon."""
     cells = []

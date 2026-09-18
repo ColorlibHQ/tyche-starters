@@ -126,6 +126,15 @@ else
 	ok "clean at every width"
 fi
 
+step "Getting into the menu"
+menu_out=$( cd "$THEME" && TYCHE_PATHS="/" node .dev/menu-check.mjs 2>&1 )
+if [ $? -eq 0 ]; then
+	echo "$menu_out" | sed 's/^/  ok    /'
+else
+	echo "$menu_out" | grep "NO MENU" | sed 's/^/  /'
+	bad "the menu cannot be reached at some width"
+fi
+
 step "The store"
 store_out=$( cd "$PLUGIN" && node .dev/store-test.mjs /tmp 2>&1 )
 store_code=$?

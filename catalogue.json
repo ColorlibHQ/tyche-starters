@@ -45,6 +45,28 @@
 				"images": 29,
 				"variations": 60
 			}
+		},
+		{
+			"slug": "stride",
+			"name": "Stride",
+			"niche": "Sneakers and streetwear",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "stride/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-stride/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 17,
+				"pages": 7,
+				"posts": 3,
+				"images": 29,
+				"variations": 76
+			}
 		}
 	]
 }

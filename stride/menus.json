@@ -1,0 +1,7 @@
+[
+	{
+		"slug": "primary",
+		"title": "Primary",
+		"content": "<!-- wp:navigation-link {\"label\":\"Drops\",\"url\":\"{{page:drops}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:drops}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Sneakers\",\"url\":\"{{cat:sneakers}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:sneakers}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Apparel\",\"url\":\"{{cat:apparel}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:apparel}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Accessories\",\"url\":\"{{cat:accessories}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:accessories}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Size guide\",\"url\":\"{{page:size-guide}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:size-guide}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Journal\",\"url\":\"{{page:journal}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:journal}}\"} /-->"
+	}
+]

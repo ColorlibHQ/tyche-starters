@@ -21,6 +21,8 @@ STARTERS = [
      "https://colorlibhub.com/tyche-2/"),
     ("roastery", "Roastery", "Coffee roaster", "free", "1.0.0",
      "https://colorlibhub.com/tyche-roastery/"),
+    ("stride", "Stride", "Sneakers and streetwear", "free", "1.0.0",
+     "https://colorlibhub.com/tyche-stride/"),
 ]
 
 

@@ -1,0 +1,29 @@
+{
+	"schema": 1,
+	"slug": "stride",
+	"theme": {
+		"slug": "tyche",
+		"style": [
+			"Stride"
+		]
+	},
+	"settings": {
+		"title": "Stride",
+		"tagline": "Drops on Saturday at ten",
+		"front_page": "home",
+		"posts_page": "journal",
+		"currency": "USD",
+		"country": "US:NY",
+		"shipping": {
+			"country": "US",
+			"flat_rate": "6.00",
+			"free_over": "90"
+		}
+	},
+	"counts": {
+		"products": 17,
+		"pages": 7,
+		"posts": 3,
+		"images": 29
+	}
+}

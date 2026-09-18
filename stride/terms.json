@@ -1,0 +1,75 @@
+{
+	"product_cat": [
+		{
+			"name": "Sneakers",
+			"slug": "sneakers",
+			"description": "Runners, courts and trail shoes, in UK 6 to 12."
+		},
+		{
+			"name": "Apparel",
+			"slug": "apparel",
+			"description": "Heavyweight cotton, cut boxy, made to be worn out."
+		},
+		{
+			"name": "Accessories",
+			"slug": "accessories",
+			"description": "Socks, laces, care kits and the bag to carry it in."
+		}
+	],
+	"category": [
+		{
+			"name": "Drops",
+			"slug": "drops",
+			"description": "What is coming, and when."
+		},
+		{
+			"name": "Guides",
+			"slug": "guides",
+			"description": "Sizing, care and keeping a pair alive."
+		}
+	],
+	"attributes": [
+		{
+			"name": "UK size",
+			"slug": "uk-size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"UK 6",
+				"UK 7",
+				"UK 8",
+				"UK 9",
+				"UK 10",
+				"UK 11",
+				"UK 12"
+			]
+		},
+		{
+			"name": "Size",
+			"slug": "size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"XS",
+				"S",
+				"M",
+				"L",
+				"XL"
+			]
+		},
+		{
+			"name": "Colourway",
+			"slug": "colourway",
+			"type": "select",
+			"order_by": "name",
+			"terms": [
+				"Volt",
+				"Black",
+				"Bone",
+				"Olive",
+				"Navy",
+				"White"
+			]
+		}
+	]
+}

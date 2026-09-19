@@ -1,0 +1,35 @@
+[
+	{
+		"slug": "what-to-do-with-a-squash",
+		"title": "What to do with a squash, four ways",
+		"content": "<!-- wp:paragraph -->\n<p>A butternut is the most forgiving thing in the shop and the one most often left in the bowl until it is too late. It keeps a month, which is exactly why nobody gets round to it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Roast it in wedges with the skin on at 200°C for forty minutes: the skin softens and there is no peeling. Or cube it and let it collapse into a soup with onions and stock, which takes twenty-five minutes and freezes well.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The seeds are worth keeping. Rinse them, dry them, toss them in oil and salt and give them ten minutes in the same oven as the squash.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "A butternut is the most forgiving thing in the shop and the one most often left in the bowl until it is too late. It keeps a month, which is exactly why nobody gets round to it.",
+		"categories": [
+			"what-to-cook"
+		],
+		"image": "journal-1.webp",
+		"days_ago": 5
+	},
+	{
+		"slug": "why-the-apples-changed",
+		"title": "Why the apples changed this week",
+		"content": "<!-- wp:paragraph -->\n<p>The label said Discovery last week and Worcester this week, and the price did not move. That is not a mistake: we buy whatever is picked and good rather than the same variety all year.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A supermarket sells one apple for eleven months by storing it in a controlled atmosphere, which works and is why the texture is always the same and the flavour never is.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If you want the sharp ones for cooking, ask the driver or put a note on the order. There is usually a crate of something too ugly to sell whole, and that is what the juice is pressed from.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "The label said Discovery last week and Worcester this week, and the price did not move. That is not a mistake: we buy whatever is picked and good rather than the same variety all year.",
+		"categories": [
+			"from-the-market"
+		],
+		"image": "journal-3.webp",
+		"days_ago": 12
+	},
+	{
+		"slug": "bread-keeps-better-out-of-the-fridge",
+		"title": "Bread keeps better out of the fridge",
+		"content": "<!-- wp:paragraph -->\n<p>A fridge is the worst place for a loaf. Cold speeds up the staling — the starch recrystallises fastest just above freezing — so refrigerated bread goes stale in a day where a bread bin gives you three.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Cut from the middle and stand the two halves face down on the board. The crust becomes the wrapper and the crumb keeps its moisture, which is how bakeries have always done it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Anything past its best is not waste: a dry loaf is breadcrumbs, croutons, or panzanella. The freezer works too, but slice it first, because nobody saws a frozen loaf twice.</p>\n<!-- /wp:paragraph -->",
+		"excerpt": "A fridge is the worst place for a loaf. Cold speeds up the staling — the starch recrystallises fastest just above freezing — so refrigerated bread goes stale in a day where a bread bin gives you three.",
+		"categories": [
+			"what-to-cook"
+		],
+		"image": "journal-2.webp",
+		"days_ago": 24
+	}
+]

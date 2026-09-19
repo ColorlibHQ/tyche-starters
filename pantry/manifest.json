@@ -1,0 +1,29 @@
+{
+	"schema": 1,
+	"slug": "pantry",
+	"theme": {
+		"slug": "tyche",
+		"style": [
+			"Pantry"
+		]
+	},
+	"settings": {
+		"title": "Pantry",
+		"tagline": "Order tonight, eat it tomorrow",
+		"front_page": "home",
+		"posts_page": "recipes",
+		"currency": "USD",
+		"country": "US:MA",
+		"shipping": {
+			"country": "US",
+			"flat_rate": "4.50",
+			"free_over": "60"
+		}
+	},
+	"counts": {
+		"products": 28,
+		"pages": 5,
+		"posts": 3,
+		"images": 41
+	}
+}

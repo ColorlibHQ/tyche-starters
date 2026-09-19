@@ -1,0 +1,73 @@
+{
+	"product_cat": [
+		{
+			"name": "Produce",
+			"slug": "produce",
+			"description": "Fruit and vegetables, bought from three farms within twenty miles."
+		},
+		{
+			"name": "Bakery",
+			"slug": "bakery",
+			"description": "Baked the morning it is delivered, by a bakery that starts at four."
+		},
+		{
+			"name": "Dairy and eggs",
+			"slug": "dairy",
+			"description": "Milk in glass, butter in paper, eggs stamped with the day they were laid."
+		},
+		{
+			"name": "Pantry",
+			"slug": "pantry",
+			"description": "The dry things: pasta, rice, pulses, oil, honey and coffee."
+		},
+		{
+			"name": "Drinks",
+			"slug": "drinks",
+			"description": "Juice pressed from our own seconds, in bottles that come back."
+		},
+		{
+			"name": "Offers",
+			"slug": "offers",
+			"description": "Marked down because there is a lot of it, or because it wants eating."
+		}
+	],
+	"category": [
+		{
+			"name": "What to cook",
+			"slug": "what-to-cook",
+			"description": "Three ingredients and half an hour, mostly."
+		},
+		{
+			"name": "From the market",
+			"slug": "from-the-market",
+			"description": "What is good this week, and why the price moved."
+		}
+	],
+	"attributes": [
+		{
+			"name": "Size",
+			"slug": "size",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"500 g",
+				"1 kg",
+				"2.5 kg",
+				"2 kg",
+				"750 g",
+				"1.5 kg",
+				"250 g"
+			]
+		},
+		{
+			"name": "Diet",
+			"slug": "diet",
+			"type": "select",
+			"order_by": "menu_order",
+			"terms": [
+				"Organic",
+				"Vegan"
+			]
+		}
+	]
+}

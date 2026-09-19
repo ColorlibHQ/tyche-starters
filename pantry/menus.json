@@ -1,0 +1,7 @@
+[
+	{
+		"slug": "primary",
+		"title": "Primary",
+		"content": "<!-- wp:navigation-link {\"label\":\"Produce\",\"url\":\"{{cat:produce}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:produce}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Bakery\",\"url\":\"{{cat:bakery}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:bakery}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Dairy and eggs\",\"url\":\"{{cat:dairy}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:dairy}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Pantry\",\"url\":\"{{cat:pantry}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:pantry}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Drinks\",\"url\":\"{{cat:drinks}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:drinks}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Offers\",\"url\":\"{{cat:offers}}\",\"isTopLevelLink\":true,\"kind\":\"taxonomy\",\"type\":\"product_cat\",\"id\":\"{{catid:offers}}\"} /-->\n<!-- wp:navigation-link {\"label\":\"Delivery\",\"url\":\"{{page:delivery}}\",\"isTopLevelLink\":true,\"kind\":\"post-type\",\"type\":\"page\",\"id\":\"{{pageid:delivery}}\"} /-->"
+	}
+]

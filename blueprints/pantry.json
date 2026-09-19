@@ -1,0 +1,66 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Tyche \u2014 Pantry",
+		"description": "A greengrocer that delivers tomorrow, built by importing the Pantry starter into a fresh WooCommerce store.",
+		"author": "colorlib",
+		"categories": [
+			"Themes",
+			"WooCommerce"
+		]
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "woocommerce"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://downloads.colorlib.com/tyche/tyche.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://downloads.colorlib.com/tyche/tyche-companion.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Pantry",
+				"blogdescription": "Order tonight, eat it tomorrow",
+				"woocommerce_coming_soon": "no",
+				"woocommerce_store_pages_only": "no"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php\nrequire_once '/wordpress/wp-load.php';\n$state = tyche_companion_import_start( 'pantry' );\nif ( is_wp_error( $state ) ) { echo 'start failed: ' . $state->get_error_message(); return; }\nfor ( $i = 0; $i < 400; $i++ ) {\n\t$state = tyche_companion_import_step();\n\tif ( is_wp_error( $state ) ) { echo 'step failed: ' . $state->get_error_message(); break; }\n\tif ( ! empty( $state['complete'] ) ) { break; }\n}"
+		}
+	]
+}

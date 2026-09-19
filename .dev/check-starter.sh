@@ -24,8 +24,9 @@ shift || true
 HERE="$( cd "$( dirname "$0" )/.." && pwd )"
 THEME="${TYCHE_THEME:-$HOME/Fresh Projects/tyche-2}"
 PLUGIN="${TYCHE_PLUGIN:-$HOME/Fresh Projects/tyche-companion}"
-# A wp-cli that already points at the test site (see the README).
-WP_CLI="${TYCHE_WP:-wp}"
+# A wp-cli that already points at the test site: ~/.local/bin/twp carries the
+# --path to the import bed, so a bare `wp` silently runs against nothing.
+WP_CLI="${TYCHE_WP:-twp}"
 WP_URL="${WP_URL:-http://localhost:8813}"
 WP_USER="${WP_USER:-admin}"
 WP_PASS="${WP_PASS:-admin123}"
@@ -40,7 +41,12 @@ ok()   { printf '  ok    %s\n' "$1"; }
 bad()  { printf '  FAIL  %s\n' "$1"; fails=$(( fails + 1 )); }
 
 step "Build the package"
-if python3 "$HERE/.dev/$SLUG.py" && python3 "$HERE/.dev/catalogue.py" > /dev/null; then
+if [ ! -f "$HERE/.dev/$SLUG.py" ]; then
+	# The original tyche package was written by hand rather than generated, so
+	# there is nothing to rebuild. Every gate after this one still runs.
+	python3 "$HERE/.dev/catalogue.py" > /dev/null
+	ok "no builder for $SLUG — checking the package as it is on disk"
+elif python3 "$HERE/.dev/$SLUG.py" && python3 "$HERE/.dev/catalogue.py" > /dev/null; then
 	ok "$SLUG.py and catalogue.json"
 else
 	bad "the package did not build"

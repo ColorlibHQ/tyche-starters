@@ -1,21 +1,22 @@
 [
 	{
-		"slug": "tomatoes",
+		"slug": "vine-tomatoes",
 		"name": "Vine Tomatoes",
-		"sku": "PN-TOMA",
+		"sku": "PN-VINE",
 		"categories": [
 			"produce"
 		],
-		"image": "tomatoes.webp",
+		"image": "vine-tomatoes.webp",
 		"short_description": "Grown twenty miles away and picked on the vine, which is why they smell of something.",
-		"description": "<!-- wp:paragraph -->\n<p>Sold on the vine in 500 g and 1 kg boxes. They keep better out of the fridge, on a windowsill, and they are worth eating within the week rather than storing.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g or 1 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.40</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Grown: Twenty miles away</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Out of the fridge, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>Sold still on the vine, in 500 g and 1 kg boxes. Keep them out of the fridge on a windowsill: cold flattens the flavour and they are worth eating within the week anyway.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g or 1 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.40</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Grown: Twenty miles away</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Out of the fridge, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 2,
 		"stock_status": "instock",
-		"featured": true,
+		"featured": false,
 		"attributes": [
 			{
 				"name": "Size",
 				"slug": "size",
+				"taxonomy": true,
 				"options": [
 					"500 g",
 					"1 kg"
@@ -26,6 +27,7 @@
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Organic"
 				],
@@ -41,7 +43,7 @@
 				},
 				"regular_price": "4.20",
 				"stock_status": "instock",
-				"sku": "PN-TOMA-500"
+				"sku": "PN-VINE-500"
 			},
 			{
 				"attributes": {
@@ -49,37 +51,28 @@
 				},
 				"regular_price": "7.60",
 				"stock_status": "instock",
-				"sku": "PN-TOMA-1"
+				"sku": "PN-VINE-1"
 			}
 		]
 	},
 	{
-		"slug": "potatoes",
-		"name": "New Potatoes",
-		"sku": "PN-POTA",
+		"slug": "cherry-tomatoes",
+		"name": "Mixed Cherry Tomatoes",
+		"sku": "PN-CHER",
 		"categories": [
 			"produce"
 		],
-		"image": "potatoes.webp",
-		"short_description": "Earthy, thin-skinned and worth scrubbing rather than peeling.",
-		"description": "<!-- wp:paragraph -->\n<p>Lifted young, so the skins rub off under a tap and the insides stay waxy. Boil them whole and they will not fall apart; roast them and they crisp without flour.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 kg or 2.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $2.72</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Skin: Thin, no need to peel</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Somewhere dark, two weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 9,
+		"image": "cherry-tomatoes.webp",
+		"short_description": "Red, orange and yellow in one box, because the yellow ones are the sweet ones.",
+		"description": "<!-- wp:paragraph -->\n<p>A mixed punnet from the same grower as the vine tomatoes, picked small. The pale ones are riper than they look, which is the usual reason people leave them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 400 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $9.50</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Colours: Red, orange, yellow</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Out of the fridge, five days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 6,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
-				"name": "Size",
-				"slug": "size",
-				"options": [
-					"1 kg",
-					"2.5 kg"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Organic"
 				],
@@ -87,25 +80,8 @@
 			}
 		],
 		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"size": "1 kg"
-				},
-				"regular_price": "3.10",
-				"stock_status": "instock",
-				"sku": "PN-POTA-1"
-			},
-			{
-				"attributes": {
-					"size": "2.5 kg"
-				},
-				"regular_price": "6.80",
-				"stock_status": "instock",
-				"sku": "PN-POTA-2.5"
-			}
-		]
+		"type": "simple",
+		"regular_price": "3.80"
 	},
 	{
 		"slug": "carrots",
@@ -116,7 +92,7 @@
 		],
 		"image": "carrots.webp",
 		"short_description": "Sold with their tops on, which is how you tell how long ago they were pulled.",
-		"description": "<!-- wp:paragraph -->\n<p>The tops go limp days before the carrot does, so they are an honest label. Take them off when you get home or they draw moisture out of the root.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g bunch</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $5.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Tops: On, and edible</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, ten days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>The tops wilt days before the carrot does, so they are an honest label rather than decoration. Twist them off when you get home or they draw moisture out of the root.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g bunch</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $5.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Tops: On, and edible</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, ten days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 16,
 		"stock_status": "instock",
 		"featured": false,
@@ -124,6 +100,7 @@
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Organic"
 				],
@@ -135,50 +112,164 @@
 		"regular_price": "2.80"
 	},
 	{
-		"slug": "onions",
-		"name": "Brown Onions",
-		"sku": "PN-ONIO",
+		"slug": "beetroot",
+		"name": "Beetroot",
+		"sku": "PN-BEET",
 		"categories": [
 			"produce"
 		],
-		"image": "onions.webp",
-		"short_description": "The one thing in the shop that goes in almost everything else.",
-		"description": "<!-- wp:paragraph -->\n<p>Firm, dry-skinned and stored properly, which is the difference between an onion that lasts a month and one that sprouts in a fortnight.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 kg or 2 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $2.40</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Dark and dry, a month</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Not organic, and cheaper for it</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 23,
+		"image": "beetroot.webp",
+		"short_description": "With the leaves on, which are worth cooking like chard rather than binning.",
+		"description": "<!-- wp:paragraph -->\n<p>Roast them in their skins and they slip off afterwards; boil them and half the colour ends up in the water. The leaves wilt in a pan in two minutes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g bunch</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $5.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Leaves: On, and edible</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 21,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
-				"name": "Size",
-				"slug": "size",
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
 				"options": [
-					"1 kg",
-					"2 kg"
+					"Organic"
 				],
-				"visible": true,
-				"variation": true
+				"visible": true
 			}
 		],
 		"reviews": [],
-		"type": "variable",
-		"variations": [
+		"type": "simple",
+		"regular_price": "2.60"
+	},
+	{
+		"slug": "radishes",
+		"name": "Radishes",
+		"sku": "PN-RADI",
+		"categories": [
+			"produce"
+		],
+		"image": "radishes.webp",
+		"short_description": "Peppery, crunchy and best on the day, which is why they come in small bunches.",
+		"description": "<!-- wp:paragraph -->\n<p>Eat them with butter and salt and you will understand why the French bother. They go soft within three days, so we sell them in bunches rather than bags.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g bunch</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 11,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
 			{
-				"attributes": {
-					"size": "1 kg"
-				},
-				"regular_price": "2.40",
-				"stock_status": "instock",
-				"sku": "PN-ONIO-1"
-			},
-			{
-				"attributes": {
-					"size": "2 kg"
-				},
-				"regular_price": "4.50",
-				"stock_status": "instock",
-				"sku": "PN-ONIO-2"
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Organic"
+				],
+				"visible": true
 			}
-		]
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "2.20"
+	},
+	{
+		"slug": "mushrooms",
+		"name": "Oyster Mushrooms",
+		"sku": "PN-MUSH",
+		"categories": [
+			"produce"
+		],
+		"image": "mushrooms.webp",
+		"short_description": "In a paper bag, because plastic makes them sweat.",
+		"description": "<!-- wp:paragraph -->\n<p>Grown on straw an hour from here and picked in clusters, which is how they are sold. Tear rather than slice them, and cook them hotter and drier than you think.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $13.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Bag: Paper, on purpose</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, four days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 12,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "3.40"
+	},
+	{
+		"slug": "garlic",
+		"name": "New Season Garlic",
+		"sku": "PN-GARL",
+		"categories": [
+			"produce"
+		],
+		"image": "garlic.webp",
+		"short_description": "Fresh rather than stored, so the cloves are juicy and the skins still cling.",
+		"description": "<!-- wp:paragraph -->\n<p>Harvested this season and dried for three weeks, not the year-old stuff that has gone papery. It is milder raw and it does not have the green shoot in the middle.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Three bulbs</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $9.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Season: Summer and autumn</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Somewhere dry, a month</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 27,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "2.40"
+	},
+	{
+		"slug": "peppers",
+		"name": "Bell Peppers",
+		"sku": "PN-PEPP",
+		"categories": [
+			"produce"
+		],
+		"image": "peppers.webp",
+		"short_description": "Three, one of each colour, which is all most recipes ask for.",
+		"description": "<!-- wp:paragraph -->\n<p>Red, orange and yellow, which are the same pepper at three stages of ripening and the reason the green ones taste sharper. Grown under glass forty miles away.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Three, about 450 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Colours: Red, orange, yellow</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, a week</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 18,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "3.60"
+	},
+	{
+		"slug": "squash",
+		"name": "Butternut Squash",
+		"sku": "PN-SQUA",
+		"categories": [
+			"produce",
+			"offers"
+		],
+		"image": "squash.webp",
+		"short_description": "One squash, about a kilo and a half, and it keeps until you get round to it.",
+		"description": "<!-- wp:paragraph -->\n<p>The most forgiving thing in the shop: it sits in a bowl for a month without complaint and roasts into something worth eating with almost no work. The seeds are worth keeping.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: About 1.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $2.53</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Room temperature, a month</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 26,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "3.80",
+		"sale_price": "2.80"
 	},
 	{
 		"slug": "apples",
@@ -189,7 +280,7 @@
 		],
 		"image": "apples.webp",
 		"short_description": "This week's variety, picked at the orchard on Tuesday.",
-		"description": "<!-- wp:paragraph -->\n<p>We buy whatever is good that week rather than the same apple all year, so the variety on the label changes and the price does not. Ask if you want the sharp ones.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 750 g or 1.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $4.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Variety: Changes weekly</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>We buy whatever is good that week rather than the same apple all year, so the variety on the label changes and the price does not. Ask if you want the sharp ones for cooking.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 750 g or 1.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $4.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Variety: Changes weekly</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 5,
 		"stock_status": "instock",
 		"featured": false,
@@ -197,6 +288,7 @@
 			{
 				"name": "Size",
 				"slug": "size",
+				"taxonomy": true,
 				"options": [
 					"750 g",
 					"1.5 kg"
@@ -227,42 +319,129 @@
 		]
 	},
 	{
-		"slug": "citrus",
-		"name": "Lemons",
-		"sku": "PN-CITR",
+		"slug": "pears",
+		"name": "Pears",
+		"sku": "PN-PEAR",
 		"categories": [
-			"produce"
+			"produce",
+			"offers"
 		],
-		"image": "citrus.webp",
-		"short_description": "Unwaxed, so the zest is worth using.",
-		"description": "<!-- wp:paragraph -->\n<p>Most lemons are waxed to make them shine and last, which is fine until you want the peel. These are not, so they look duller and they do not keep as long.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Four, about 400 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $7.25</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Peel: Unwaxed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 30,
+		"image": "pears.webp",
+		"short_description": "Bought hard, because a pear ripe in the shop is a pear bruised by the time it is home.",
+		"description": "<!-- wp:paragraph -->\n<p>Leave them in a bowl for two or three days and press the neck, not the belly, to tell when they are ready. They go from perfect to woolly in about a day, which is the whole problem with pears.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Four, about 600 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $5.67</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Ripen: Two or three days in a bowl</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge once ripe, four days</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 33,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [],
 		"reviews": [],
 		"type": "simple",
-		"regular_price": "2.90"
+		"regular_price": "3.40",
+		"sale_price": "2.60"
 	},
 	{
-		"slug": "leaves",
-		"name": "Salad Leaves",
-		"sku": "PN-LEAV",
+		"slug": "figs",
+		"name": "Figs",
+		"sku": "PN-FIGS",
 		"categories": [
 			"produce"
 		],
-		"image": "leaves.webp",
-		"short_description": "Cut the morning they are delivered, which is the only way salad is worth buying.",
-		"description": "<!-- wp:paragraph -->\n<p>Loose leaves rather than a bag of air: they last three days, not ten, because nothing has been done to them. Wash them when you use them, not before.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 200 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $16.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: The morning of delivery</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 3,
+		"image": "figs.webp",
+		"short_description": "In season for six weeks, and worth the wait rather than the airfreight.",
+		"description": "<!-- wp:paragraph -->\n<p>Ripe when they droop and split a little, which is also when they will not survive a lorry, so these come from the closest grower we can find and only when the season is on.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Six</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $16.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Season: August and September</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Two days, room temperature</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 8,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "4.80"
+	},
+	{
+		"slug": "asparagus",
+		"name": "Asparagus",
+		"sku": "PN-ASPA",
+		"categories": [
+			"produce"
+		],
+		"image": "asparagus.webp",
+		"short_description": "Eight weeks a year, cut the morning it is delivered.",
+		"description": "<!-- wp:paragraph -->\n<p>Asparagus starts turning to sugar-free fibre the moment it is cut, so a spear that has flown in is a different vegetable. Stand the bundle in an inch of water like flowers.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g bundle</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $9.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Season: Late April to June</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Standing in water, three days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 4,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "4.60"
+	},
+	{
+		"slug": "kale",
+		"name": "Curly Kale",
+		"sku": "PN-KALE",
+		"categories": [
+			"produce"
+		],
+		"image": "kale.webp",
+		"short_description": "Cut this morning, and it improves after a frost rather than before it.",
+		"description": "<!-- wp:paragraph -->\n<p>Strip the leaves off the stalks with your hands and keep the stalks for stock. It wants either two minutes or twenty, and nothing in between is any good.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 300 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.67</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, five days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 14,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Organic"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "2.60"
+	},
+	{
+		"slug": "leeks",
+		"name": "Leeks",
+		"sku": "PN-LEEK",
+		"categories": [
+			"produce"
+		],
+		"image": "leeks.webp",
+		"short_description": "Grit and all, because a washed leek is a leek that has started to rot.",
+		"description": "<!-- wp:paragraph -->\n<p>Split them down the middle and run water between the layers: that is where the soil is. The dark green tops are for stock rather than the bin.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Three, about 700 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $4.57</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, ten days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 29,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
 				],
 				"visible": true
 			}
@@ -272,22 +451,23 @@
 		"regular_price": "3.20"
 	},
 	{
-		"slug": "mushrooms",
-		"name": "Chestnut Mushrooms",
-		"sku": "PN-MUSH",
+		"slug": "lemons",
+		"name": "Lemons and Limes",
+		"sku": "PN-LEMO",
 		"categories": [
 			"produce"
 		],
-		"image": "mushrooms.webp",
-		"short_description": "In a paper bag, because plastic makes them sweat.",
-		"description": "<!-- wp:paragraph -->\n<p>Darker and firmer than a white mushroom and worth the extra sixty cents. Keep them in the paper they came in and brush the soil off rather than washing them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 300 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $11.30</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Bag: Paper, on purpose</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, five days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 12,
+		"image": "lemons.webp",
+		"short_description": "Unwaxed, so the zest is worth using.",
+		"description": "<!-- wp:paragraph -->\n<p>Most citrus is waxed to make it shine and last, which is fine until you want the peel. These are not, so they look duller and they keep two weeks rather than six.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Four lemons, two limes</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $7.25</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Peel: Unwaxed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 22,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -299,44 +479,15 @@
 		"regular_price": "3.40"
 	},
 	{
-		"slug": "squash",
-		"name": "Butternut Squash",
-		"sku": "PN-SQUA",
-		"categories": [
-			"produce",
-			"offers"
-		],
-		"image": "squash.webp",
-		"short_description": "One squash, about a kilo and a half, and it will keep until you get round to it.",
-		"description": "<!-- wp:paragraph -->\n<p>The most forgiving thing in the shop: it sits in a bowl for a month without complaint, and it roasts into something worth eating with almost no work.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: About 1.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $2.53</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Room temperature, a month</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 26,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "simple",
-		"regular_price": "3.80",
-		"sale_price": "2.80"
-	},
-	{
-		"slug": "berries",
+		"slug": "strawberries",
 		"name": "Strawberries",
-		"sku": "PN-BERR",
+		"sku": "PN-STRA",
 		"categories": [
 			"produce"
 		],
-		"image": "berries.webp",
+		"image": "strawberries.webp",
 		"short_description": "In season and local, or not on the shelf at all.",
-		"description": "<!-- wp:paragraph -->\n<p>We do not fly them in out of season, so there are months when this listing is empty. When it is not, they were picked within a day of being delivered.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g punnet</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $18.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Season: June to September</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two days</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>We do not fly them in out of season, so there are months when this listing is empty. When it is not, they were picked within a day of being delivered to you.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 400 g punnet</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $11.25</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Season: June to September</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two days</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 1,
 		"stock_status": "outofstock",
 		"featured": false,
@@ -346,31 +497,32 @@
 		"regular_price": "4.50"
 	},
 	{
-		"slug": "herbs",
-		"name": "Flat-leaf Parsley",
-		"sku": "PN-HERB",
+		"slug": "blueberries",
+		"name": "Blueberries",
+		"sku": "PN-BLUE",
 		"categories": [
 			"produce"
 		],
-		"image": "herbs.webp",
-		"short_description": "A proper bunch rather than the supermarket's sprig in a sleeve.",
-		"description": "<!-- wp:paragraph -->\n<p>Fifty grams, which is more than most recipes ask for and less than it looks. Stand it in water like flowers and it will last the week.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 50 g bunch</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $36.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: In water, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Organic</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 19,
+		"image": "blueberries.webp",
+		"short_description": "The one berry that travels well, so these are good for longer than the rest.",
+		"description": "<!-- wp:paragraph -->\n<p>Firm, dry and unwashed, which is how they keep a week rather than three days. The dusty bloom on the skin is a sign of freshness, not dirt.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 300 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $14.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 7,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
-					"Organic"
+					"Vegan"
 				],
 				"visible": true
 			}
 		],
 		"reviews": [],
 		"type": "simple",
-		"regular_price": "1.80"
+		"regular_price": "4.20"
 	},
 	{
 		"slug": "sourdough",
@@ -389,6 +541,7 @@
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -411,22 +564,51 @@
 		"regular_price": "6.50"
 	},
 	{
-		"slug": "baguette",
-		"name": "Baguettes, 2",
-		"sku": "PN-BAGU",
+		"slug": "seeded-loaf",
+		"name": "Seeded Dark Loaf",
+		"sku": "PN-SEED",
 		"categories": [
 			"bakery"
 		],
-		"image": "baguette.webp",
-		"short_description": "Two, because one is never enough and they are stale by tomorrow.",
-		"description": "<!-- wp:paragraph -->\n<p>A proper thin crust, which means they are past their best in six hours and excellent in the meantime. Anything left goes in the oven for two minutes or into breadcrumbs.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Two, 200 g each</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $10.50</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Best: Within six hours</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 7,
+		"image": "seeded-loaf.webp",
+		"short_description": "Dense, sour and it keeps a week, which sourdough does not.",
+		"description": "<!-- wp:paragraph -->\n<p>Rye and wheat with sunflower and linseed through it, so it is closer to a cake than a loaf and wants cutting thin. It improves for two days after baking, unlike everything else here.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 750 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $7.73</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Seeds: Sunflower and linseed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Wrapped, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 13,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "5.80"
+	},
+	{
+		"slug": "baguettes",
+		"name": "Baguettes, 2",
+		"sku": "PN-BAGU",
+		"categories": [
+			"bakery"
+		],
+		"image": "baguettes.webp",
+		"short_description": "Two, because one is never enough and they are stale by tomorrow.",
+		"description": "<!-- wp:paragraph -->\n<p>A proper thin crust, which means they are past their best in six hours and excellent in the meantime. Anything left goes in the oven for two minutes or into breadcrumbs.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Two, 200 g each</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $10.50</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Best: Within six hours</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 3,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -438,6 +620,34 @@
 		"regular_price": "4.20"
 	},
 	{
+		"slug": "rolls",
+		"name": "Bread Rolls, 6",
+		"sku": "PN-ROLL",
+		"categories": [
+			"bakery"
+		],
+		"image": "rolls.webp",
+		"short_description": "Six soft rolls, baked with the morning's bread.",
+		"description": "<!-- wp:paragraph -->\n<p>The same dough as the white loaf, shaped small and baked hotter, so there is more crust for the size. They freeze better than anything else on this shelf.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Six, 80 g each</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $9.58</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Freeze: Yes, on the day</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Two days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 19,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "4.60"
+	},
+	{
 		"slug": "croissants",
 		"name": "Croissants, 4",
 		"sku": "PN-CROI",
@@ -445,9 +655,9 @@
 			"bakery"
 		],
 		"image": "croissants.webp",
-		"short_description": "All butter, laminated by hand, and delivered on Saturday morning.",
-		"description": "<!-- wp:paragraph -->\n<p>Twenty-seven layers, made with a butter block rather than a margarine sheet, which you can tell by the way they shatter. We bake them for Saturday and Sunday only.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Four</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Butter: All, 28% of the dough</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Delivered: Saturday and Sunday</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: The day they arrive</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 4,
+		"short_description": "All butter, laminated by hand, delivered Saturday and Sunday only.",
+		"description": "<!-- wp:paragraph -->\n<p>Twenty-seven layers, made with a butter block rather than a margarine sheet, which you can tell by the way they shatter rather than squash. We only bake them for the weekend.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Four</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Butter: 28% of the dough</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Delivered: Saturday and Sunday</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: The day they arrive</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 2,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [],
@@ -456,22 +666,23 @@
 		"regular_price": "6.80"
 	},
 	{
-		"slug": "rye",
-		"name": "Dark Rye",
-		"sku": "PN-RYE",
+		"slug": "bagels",
+		"name": "Sesame Bagels, 6",
+		"sku": "PN-BAGE",
 		"categories": [
 			"bakery"
 		],
-		"image": "rye.webp",
-		"short_description": "Dense, sour and it keeps for a week, which sourdough does not.",
-		"description": "<!-- wp:paragraph -->\n<p>Ninety per cent rye, so it is closer to a cake than a loaf and wants to be cut thin. It improves for two days after baking, which is the opposite of every other bread here.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 800 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $6.75</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Rye: 90%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Wrapped, a week</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 14,
+		"image": "bagels.webp",
+		"short_description": "Boiled before they are baked, which is the whole difference.",
+		"description": "<!-- wp:paragraph -->\n<p>A minute in boiling water sets the crust and gives the inside its chew. Anything sold as a bagel that has not been boiled is a bread roll with a hole in it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Six</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $9.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Boiled: One minute, then baked</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Two days, or freeze</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 25,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -491,7 +702,7 @@
 		],
 		"image": "eggs.webp",
 		"short_description": "From a farm with four hundred hens rather than forty thousand.",
-		"description": "<!-- wp:paragraph -->\n<p>Laid within three days of delivery and stamped with the date rather than a best-before worked out from one. Keep them out of the fridge unless your kitchen is hot.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Twelve, medium to large</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Each: 45 cents</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Farm: 400 hens, twelve miles</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Cool, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>Laid within three days of delivery and stamped with the date rather than a best-before worked out from one. Keep them out of the fridge unless the kitchen is hot.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Twelve, medium to large</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Each: 45 cents</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Farm: 400 hens, twelve miles</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Cool, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 2,
 		"stock_status": "instock",
 		"featured": true,
@@ -507,48 +718,6 @@
 		"regular_price": "5.40"
 	},
 	{
-		"slug": "milk",
-		"name": "Whole Milk, 1 L",
-		"sku": "PN-MILK",
-		"categories": [
-			"dairy"
-		],
-		"image": "milk.webp",
-		"short_description": "In glass, and we take the bottle back.",
-		"description": "<!-- wp:paragraph -->\n<p>Non-homogenised, so the cream sits on top and you shake it. The bottle is worth forty cents on return, which is why they come back and plastic never does.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 litre, glass</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cream: On top, shake it</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, five days</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 2,
-		"stock_status": "instock",
-		"featured": true,
-		"attributes": [],
-		"reviews": [
-			{
-				"author": "Tom A.",
-				"rating": 4,
-				"content": "Glass is heavier to carry in but the milk tastes of something. The deposit is easy enough."
-			}
-		],
-		"type": "simple",
-		"regular_price": "2.20"
-	},
-	{
-		"slug": "butter",
-		"name": "Salted Butter",
-		"sku": "PN-BUTT",
-		"categories": [
-			"dairy"
-		],
-		"image": "butter.webp",
-		"short_description": "Churned weekly, salted properly, wrapped in paper.",
-		"description": "<!-- wp:paragraph -->\n<p>Cultured for a day before churning, which is where the flavour comes from, and salted at 2% rather than the 1.5% most dairies use. It browns beautifully.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $18.40</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Salt: 2%</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 11,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [],
-		"reviews": [],
-		"type": "simple",
-		"regular_price": "4.60"
-	},
-	{
 		"slug": "cheese",
 		"name": "Farmhouse Cheddar",
 		"sku": "PN-CHEE",
@@ -557,7 +726,7 @@
 		],
 		"image": "cheese.webp",
 		"short_description": "Eighteen months old, cut from the wheel on the day it goes out.",
-		"description": "<!-- wp:paragraph -->\n<p>Made on one farm with one herd, so it tastes of a place rather than of cheddar in general. Cut to order in 250 g and 500 g pieces, waxed paper, no plastic.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g or 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $28.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Age: 18 months</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: To order, on the day</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, a month</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"description": "<!-- wp:paragraph -->\n<p>Made on one farm with one herd, so it tastes of a place rather than of cheddar in general. Cut to order, wrapped in waxed paper, never plastic.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g or 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $28.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Age: 18 months</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: To order, on the day</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, a month</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 18,
 		"stock_status": "instock",
 		"featured": false,
@@ -565,6 +734,7 @@
 			{
 				"name": "Size",
 				"slug": "size",
+				"taxonomy": true,
 				"options": [
 					"250 g",
 					"500 g"
@@ -595,248 +765,65 @@
 		]
 	},
 	{
-		"slug": "yoghurt",
-		"name": "Natural Yoghurt",
-		"sku": "PN-YOGH",
+		"slug": "blue-cheese",
+		"name": "Blue Cheese",
+		"sku": "PN-BLUE",
 		"categories": [
 			"dairy"
 		],
-		"image": "yoghurt.webp",
-		"short_description": "Set in the jar, and the jar comes back like the milk bottles.",
-		"description": "<!-- wp:paragraph -->\n<p>Nothing in it but milk and cultures: no thickener, no powder, no sugar. It separates a little, which is what yoghurt does when nobody has stabilised it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g jar</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $7.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, two weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 6,
+		"image": "blue-cheese.webp",
+		"short_description": "Sharp, crumbly and made forty miles away in a cave that used to be a railway tunnel.",
+		"description": "<!-- wp:paragraph -->\n<p>Nine weeks in the tunnel, turned by hand. Take it out of the fridge an hour before you eat it or you are tasting cold fat rather than cheese.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 200 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $43.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Age: Nine weeks</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Serve: An hour out of the fridge</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three weeks</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 31,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [],
 		"reviews": [],
 		"type": "simple",
-		"regular_price": "3.80"
+		"regular_price": "8.60"
 	},
 	{
-		"slug": "pasta",
-		"name": "Bronze-cut Pasta",
-		"sku": "PN-PAST",
+		"slug": "milk",
+		"name": "Whole Milk, 1 L",
+		"sku": "PN-MILK",
 		"categories": [
-			"pantry"
+			"dairy"
 		],
-		"image": "pasta.webp",
-		"short_description": "Rough enough to hold a sauce, which the shiny sort is not.",
-		"description": "<!-- wp:paragraph -->\n<p>Extruded through bronze rather than teflon, so the surface is chalky and sauce clings to it. Dried slowly at a low temperature, which is why it takes eleven minutes rather than seven.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $6.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: Bronze</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cook: 11 minutes</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 21,
+		"image": "milk.webp",
+		"short_description": "In glass, and we take the bottle back.",
+		"description": "<!-- wp:paragraph -->\n<p>Non-homogenised, so the cream sits on top and you shake it. The bottle is worth forty cents on return, which is why they come back and plastic never does.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 litre, glass</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cream: On top, shake it</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, five days</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 2,
 		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
+		"featured": true,
+		"attributes": [],
+		"reviews": [
 			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
+				"author": "Tom A.",
+				"rating": 4,
+				"content": "Glass is heavier to carry in but the milk tastes of something. The deposit is easy enough."
 			}
 		],
-		"reviews": [],
 		"type": "simple",
-		"regular_price": "3.40"
+		"regular_price": "2.20"
 	},
 	{
-		"slug": "rice",
-		"name": "Short-grain Rice",
-		"sku": "PN-RICE",
+		"slug": "beans",
+		"name": "Dried Beans, 3 Jars",
+		"sku": "PN-BEAN",
 		"categories": [
 			"pantry"
 		],
-		"image": "rice.webp",
-		"short_description": "For risotto, rice pudding and anything else that wants to be creamy.",
-		"description": "<!-- wp:paragraph -->\n<p>Starchy enough to thicken what it is cooked in, which is the whole point and the reason it is not interchangeable with a long grain.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 kg or 2.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $4.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Grain: Short</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 28,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Size",
-				"slug": "size",
-				"options": [
-					"1 kg",
-					"2.5 kg"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"size": "1 kg"
-				},
-				"regular_price": "4.20",
-				"stock_status": "instock",
-				"sku": "PN-RICE-1"
-			},
-			{
-				"attributes": {
-					"size": "2.5 kg"
-				},
-				"regular_price": "9.60",
-				"stock_status": "instock",
-				"sku": "PN-RICE-2.5"
-			}
-		]
-	},
-	{
-		"slug": "lentils",
-		"name": "Green Lentils",
-		"sku": "PN-LENT",
-		"categories": [
-			"pantry"
-		],
-		"image": "lentils.webp",
-		"short_description": "They hold their shape, so they are worth the extra minute over the split sort.",
-		"description": "<!-- wp:paragraph -->\n<p>No soaking, twenty-five minutes, and they stay whole rather than collapsing into soup unless you want them to. The cheapest protein in the shop by a distance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $5.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Soak: Not needed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cook: 25 minutes</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 33,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "simple",
-		"regular_price": "2.90"
-	},
-	{
-		"slug": "oats",
-		"name": "Rolled Oats",
-		"sku": "PN-OATS",
-		"categories": [
-			"pantry",
-			"offers"
-		],
-		"image": "oats.webp",
-		"short_description": "Rolled, not instant, which is the difference between porridge and wallpaper paste.",
-		"description": "<!-- wp:paragraph -->\n<p>Whole oats rolled thick, so they take ten minutes and keep some texture. Milled two counties away from a grain grown in this country.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 1 kg or 2.5 kg</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $2.60</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: Rolled thick</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cook: 10 minutes</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 40,
-		"stock_status": "instock",
-		"featured": false,
-		"attributes": [
-			{
-				"name": "Size",
-				"slug": "size",
-				"options": [
-					"1 kg",
-					"2.5 kg"
-				],
-				"visible": true,
-				"variation": true
-			},
-			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "variable",
-		"variations": [
-			{
-				"attributes": {
-					"size": "1 kg"
-				},
-				"regular_price": "2.60",
-				"stock_status": "instock",
-				"sku": "PN-OATS-1"
-			},
-			{
-				"attributes": {
-					"size": "2.5 kg"
-				},
-				"regular_price": "5.80",
-				"stock_status": "instock",
-				"sku": "PN-OATS-2.5"
-			}
-		]
-	},
-	{
-		"slug": "olive-oil",
-		"name": "Olive Oil, 500 ml",
-		"sku": "PN-OLIV",
-		"categories": [
-			"pantry"
-		],
-		"image": "olive-oil.webp",
-		"short_description": "Single estate, this year's harvest, in a tin that keeps the light out.",
-		"description": "<!-- wp:paragraph -->\n<p>Pressed within a day of picking and dated on the tin, because olive oil is a fruit juice and it goes stale. Peppery at the back of the throat, which is the polyphenols and a good sign.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 ml tin</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $23.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Harvest: Dated on the tin</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Dark cupboard, a year</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"image": "beans.webp",
+		"short_description": "White, kidney and black, in jars that are worth keeping.",
+		"description": "<!-- wp:paragraph -->\n<p>Dried beans are a fifth the price of tinned and twice the flavour, at the cost of remembering the night before. Soak, then simmer with a bay leaf and no salt until the end.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Three 400 g jars</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.17</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Soak: Overnight</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Two years, sealed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
 		"days_ago": 24,
 		"stock_status": "instock",
-		"featured": true,
-		"attributes": [
-			{
-				"name": "Diet",
-				"slug": "diet",
-				"options": [
-					"Vegan"
-				],
-				"visible": true
-			}
-		],
-		"reviews": [],
-		"type": "simple",
-		"regular_price": "11.50"
-	},
-	{
-		"slug": "honey",
-		"name": "Local Honey",
-		"sku": "PN-HONE",
-		"categories": [
-			"pantry"
-		],
-		"image": "honey.webp",
-		"short_description": "From hives within ten miles, and it sets, because real honey does.",
-		"description": "<!-- wp:paragraph -->\n<p>Unfiltered and unheated, so it crystallises in a month or two. Stand the jar in warm water if you want it runny again; anything that stays clear for a year has been treated.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 450 g jar</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $18.67</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Hives: Within ten miles</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Sets: Yes, that is the point</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 35,
-		"stock_status": "instock",
 		"featured": false,
-		"attributes": [],
-		"reviews": [],
-		"type": "simple",
-		"regular_price": "8.40"
-	},
-	{
-		"slug": "coffee-beans",
-		"name": "Coffee Beans, 250 g",
-		"sku": "PN-COFF",
-		"categories": [
-			"pantry"
-		],
-		"image": "coffee-beans.webp",
-		"short_description": "Roasted on Tuesday by the roaster two streets away.",
-		"description": "<!-- wp:paragraph -->\n<p>A medium roast that suits a cafetiere and a moka pot equally, which is what most kitchens actually have. Whole beans only: ground coffee is stale in a week.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $39.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Roasted: Tuesdays</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Grind: Whole bean</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 8,
-		"stock_status": "instock",
-		"featured": true,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -848,22 +835,79 @@
 		"regular_price": "9.80"
 	},
 	{
-		"slug": "juice",
-		"name": "Cloudy Apple Juice",
-		"sku": "PN-JUIC",
+		"slug": "olive-oil",
+		"name": "Olive Oil",
+		"sku": "PN-OLIV",
 		"categories": [
-			"drinks"
+			"pantry"
 		],
-		"image": "juice.webp",
-		"short_description": "Pressed from the apples that are too ugly to sell whole.",
-		"description": "<!-- wp:paragraph -->\n<p>One ingredient, and the sediment at the bottom is apple. Pressed at the orchard from the same fruit as the eating apples, sold in glass with the same deposit as the milk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 750 ml, glass</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $4.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge once opened, five days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
-		"days_ago": 15,
+		"image": "olive-oil.webp",
+		"short_description": "Single estate, this year's harvest, dated on the label.",
+		"description": "<!-- wp:paragraph -->\n<p>Pressed within a day of picking, because olive oil is a fruit juice and it goes stale. Peppery at the back of the throat, which is the polyphenols and a good sign.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 ml</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $23.00</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Harvest: Dated on the label</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Dark cupboard, a year</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 20,
+		"stock_status": "instock",
+		"featured": true,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"500 ml",
+					"1 litre"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "500 ml"
+				},
+				"regular_price": "11.50",
+				"stock_status": "instock",
+				"sku": "PN-OLIV-500"
+			},
+			{
+				"attributes": {
+					"size": "1 litre"
+				},
+				"regular_price": "20.40",
+				"stock_status": "instock",
+				"sku": "PN-OLIV-1"
+			}
+		]
+	},
+	{
+		"slug": "sea-salt",
+		"name": "Coarse Sea Salt",
+		"sku": "PN-SEA-",
+		"categories": [
+			"pantry"
+		],
+		"image": "sea-salt.webp",
+		"short_description": "Dried in pans on the coast, and coarse enough to feel between your fingers.",
+		"description": "<!-- wp:paragraph -->\n<p>Worth having beside the hob in a bowl rather than a grinder: you season better when you can see how much you have picked up. Nothing added to stop it clumping, so it clumps.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $8.40</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Dried: In pans, on the coast</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Additives: None, so it clumps</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 35,
 		"stock_status": "instock",
 		"featured": false,
 		"attributes": [
 			{
 				"name": "Diet",
 				"slug": "diet",
+				"taxonomy": true,
 				"options": [
 					"Vegan"
 				],
@@ -872,6 +916,230 @@
 		],
 		"reviews": [],
 		"type": "simple",
-		"regular_price": "3.60"
+		"regular_price": "4.20"
+	},
+	{
+		"slug": "pasta",
+		"name": "Bronze-cut Pasta",
+		"sku": "PN-PAST",
+		"categories": [
+			"pantry"
+		],
+		"image": "pasta.webp",
+		"short_description": "Rough enough to hold a sauce, which the shiny sort is not.",
+		"description": "<!-- wp:paragraph -->\n<p>Extruded through bronze rather than teflon, so the surface is chalky and sauce clings to it. Dried slowly at a low temperature, which is why it takes eleven minutes rather than seven.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $6.80</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cut: Bronze</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Cook: 11 minutes</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 28,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "3.40"
+	},
+	{
+		"slug": "spices",
+		"name": "Spice Tins, 6",
+		"sku": "PN-SPIC",
+		"categories": [
+			"pantry"
+		],
+		"image": "spices.webp",
+		"short_description": "Six tins, refillable, labelled in chalk because the contents change.",
+		"description": "<!-- wp:paragraph -->\n<p>Cayenne, chipotle, curry, cumin, smoked paprika and cinnamon, ground within the month. Ground spice is stale in six months whatever the jar says, so these come in small tins on purpose.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Six 40 g tins</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Refills: $2.20 a tin</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Ground: Within the month</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Six months, then refill</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 38,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "18.40"
+	},
+	{
+		"slug": "pistachios",
+		"name": "Pistachios",
+		"sku": "PN-PIST",
+		"categories": [
+			"pantry"
+		],
+		"image": "pistachios.webp",
+		"short_description": "Roasted and salted in their shells, which slows everyone down.",
+		"description": "<!-- wp:paragraph -->\n<p>Sold in the shell because shelled nuts go soft and because the shells are the only thing stopping you eating the bag in one go. Roasted here, weekly.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 300 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $25.33</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Roasted: Weekly</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: A month, sealed</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 16,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "7.60"
+	},
+	{
+		"slug": "coffee",
+		"name": "Coffee Beans",
+		"sku": "PN-COFF",
+		"categories": [
+			"pantry"
+		],
+		"image": "coffee.webp",
+		"short_description": "Roasted on Tuesday by the roaster two streets away.",
+		"description": "<!-- wp:paragraph -->\n<p>A medium roast that suits a cafetiere and a moka pot equally, which is what most kitchens actually have. Whole beans only: ground coffee is stale within a week.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 250 g</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per kg: $39.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Roasted: Tuesdays</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Grind: Whole bean</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 9,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Size",
+				"slug": "size",
+				"taxonomy": true,
+				"options": [
+					"250 g",
+					"500 g"
+				],
+				"visible": true,
+				"variation": true
+			},
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "variable",
+		"variations": [
+			{
+				"attributes": {
+					"size": "250 g"
+				},
+				"regular_price": "9.80",
+				"stock_status": "instock",
+				"sku": "PN-COFF-250"
+			},
+			{
+				"attributes": {
+					"size": "500 g"
+				},
+				"regular_price": "17.60",
+				"stock_status": "instock",
+				"sku": "PN-COFF-500"
+			}
+		]
+	},
+	{
+		"slug": "orange-juice",
+		"name": "Orange Juice, 750 ml",
+		"sku": "PN-ORAN",
+		"categories": [
+			"drinks"
+		],
+		"image": "orange-juice.webp",
+		"short_description": "Squeezed on Wednesday from the oranges that were too ugly to sell whole.",
+		"description": "<!-- wp:paragraph -->\n<p>One ingredient. It separates in the bottle because nothing has been added to stop it, so turn it over before you pour. Glass, with the same deposit as the milk.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 750 ml, glass</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $5.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, four days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 5,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "3.90"
+	},
+	{
+		"slug": "green-juice",
+		"name": "Green Juice, 500 ml",
+		"sku": "PN-GREE",
+		"categories": [
+			"drinks"
+		],
+		"image": "green-juice.webp",
+		"short_description": "Cucumber, apple, spinach and lime. No banana, no apple concentrate, no sugar.",
+		"description": "<!-- wp:paragraph -->\n<p>Cold-pressed on the morning of delivery, which is the only way it is worth what it costs. Three days in the fridge and no longer, because there is nothing in it to make it last.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: 500 ml, glass</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $9.20</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents, refunded</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Keep: Fridge, three days</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 15,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "4.60"
+	},
+	{
+		"slug": "iced-tea",
+		"name": "Iced Lemon Tea, 2",
+		"sku": "PN-ICED",
+		"categories": [
+			"drinks"
+		],
+		"image": "iced-tea.webp",
+		"short_description": "Brewed, cooled and barely sweetened, in jars that come back.",
+		"description": "<!-- wp:paragraph -->\n<p>Real tea brewed strong and left to cool rather than a syrup diluted with water, so it tastes of tea and lemon and very little else. Half the sugar of anything on a supermarket shelf.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li>Size: Two 330 ml jars</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Price per litre: $7.88</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Sugar: 3.1 g per 100 ml</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Deposit: 40 cents a jar</li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li>Diet: Vegan</li>\n<!-- /wp:list-item -->\n</ul>\n<!-- /wp:list -->",
+		"days_ago": 34,
+		"stock_status": "instock",
+		"featured": false,
+		"attributes": [
+			{
+				"name": "Diet",
+				"slug": "diet",
+				"taxonomy": true,
+				"options": [
+					"Vegan"
+				],
+				"visible": true
+			}
+		],
+		"reviews": [],
+		"type": "simple",
+		"regular_price": "5.20"
 	}
 ]

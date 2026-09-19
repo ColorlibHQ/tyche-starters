@@ -111,6 +111,28 @@
 				"images": 26,
 				"variations": 15
 			}
+		},
+		{
+			"slug": "pantry",
+			"name": "Pantry",
+			"niche": "Grocery and organic market",
+			"tier": "free",
+			"version": "1.0.0",
+			"thumbnail": "pantry/thumbnail.webp",
+			"preview": "https://colorlibhub.com/tyche-pantry/",
+			"requires": {
+				"theme": "tyche",
+				"plugins": [
+					"woocommerce"
+				]
+			},
+			"counts": {
+				"products": 38,
+				"pages": 5,
+				"posts": 3,
+				"images": 49,
+				"variations": 10
+			}
 		}
 	]
 }

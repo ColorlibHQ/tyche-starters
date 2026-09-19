@@ -76,10 +76,16 @@ removing it leaves nothing behind. Against a live preview:
 
     WP_URL=https://colorlibhub.com/tyche-roastery .dev/check-starter.sh roastery --no-import
 
+The test site is the SQLite bed in `../tyche-import-bed`, served on :8813 by
+its own `start.sh`. `~/.local/bin/twp` is a wp-cli that carries the `--path` to
+it; the gates call that, because a bare `wp` here finds no WordPress at all and
+reports the import as failed rather than as skipped. Point them elsewhere with
+`TYCHE_WP=...`.
+
 Or by hand:
 
-    wp tyche import <slug>     # imports it
-    wp tyche remove            # takes it out again
+    twp tyche import <slug>     # imports it
+    twp tyche remove            # takes it out again
 
 Point a development site at this directory with:
 

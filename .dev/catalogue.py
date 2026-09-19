@@ -27,6 +27,8 @@ STARTERS = [
      "https://colorlibhub.com/tyche-verdant/"),
     ("oakhouse", "Oakhouse", "Furniture and homeware", "free", "1.0.0",
      "https://colorlibhub.com/tyche-oakhouse/"),
+    ("pantry", "Pantry", "Grocery and organic market", "free", "1.0.0",
+     "https://colorlibhub.com/tyche-pantry/"),
 ]
 
 

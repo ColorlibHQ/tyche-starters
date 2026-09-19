@@ -235,8 +235,9 @@ def piece_products():
             "featured": slug in ("linde-table", "bow-chair", "low-table", "sideboard",
                                  "teapot", "tall-vase"),
             "attributes": [
-                {"name": "Room", "slug": "room", "options": [room], "visible": True},
-                {"name": "Lead time", "slug": "lead-time", "options": [lead], "visible": True},
+                {"name": "Room", "slug": "room", "taxonomy": True, "options": [room], "visible": True},
+                {"name": "Lead time", "slug": "lead-time", "taxonomy": True, "options": [lead],
+                 "visible": True},
             ],
             "reviews": [{"author": author, "rating": rating, "content": content}
                         for author, rating, content in REVIEWS.get(slug, [])],
@@ -254,8 +255,9 @@ def piece_products():
             product["description"] = product["description"].replace(
                 "</ul>", "<!-- wp:list-item -->\n<li>Photographed in: Oak</li>\n<!-- /wp:list-item -->\n</ul>")
             product["type"] = "variable"
-            product["attributes"].insert(0, {"name": "Finish", "slug": "finish", "options": list(FINISHES),
-                                             "visible": True, "variation": True})
+            product["attributes"].insert(0, {"name": "Finish", "slug": "finish", "taxonomy": True,
+                                             "options": list(FINISHES), "visible": True,
+                                             "variation": True})
             product["variations"] = [{"attributes": {"finish": finish}, "regular_price": price,
                                       "stock_status": "instock",
                                       "sku": "OH-%s-%s" % (slug[:3].upper(), finish[:3].upper())}

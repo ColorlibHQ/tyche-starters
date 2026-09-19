@@ -16,6 +16,7 @@
 			{
 				"name": "Finish",
 				"slug": "finish",
+				"taxonomy": true,
 				"options": [
 					"Oak",
 					"Walnut",
@@ -27,6 +28,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -35,6 +37,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"4–6 weeks"
 				],
@@ -98,6 +101,7 @@
 			{
 				"name": "Finish",
 				"slug": "finish",
+				"taxonomy": true,
 				"options": [
 					"Oak",
 					"Walnut",
@@ -109,6 +113,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -117,6 +122,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"4–6 weeks"
 				],
@@ -169,6 +175,7 @@
 			{
 				"name": "Finish",
 				"slug": "finish",
+				"taxonomy": true,
 				"options": [
 					"Oak",
 					"Walnut",
@@ -180,6 +187,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Living"
 				],
@@ -188,6 +196,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"4–6 weeks"
 				],
@@ -240,6 +249,7 @@
 			{
 				"name": "Finish",
 				"slug": "finish",
+				"taxonomy": true,
 				"options": [
 					"Oak",
 					"Walnut",
@@ -251,6 +261,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -259,6 +270,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"4–6 weeks"
 				],
@@ -317,6 +329,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Living"
 				],
@@ -325,6 +338,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"6–8 weeks"
 				],
@@ -352,6 +366,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Study"
 				],
@@ -360,6 +375,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"2–3 weeks"
 				],
@@ -387,6 +403,7 @@
 			{
 				"name": "Finish",
 				"slug": "finish",
+				"taxonomy": true,
 				"options": [
 					"Oak",
 					"Walnut",
@@ -398,6 +415,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Living"
 				],
@@ -406,6 +424,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"6–8 weeks"
 				],
@@ -458,6 +477,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -466,6 +486,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
@@ -499,6 +520,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Living"
 				],
@@ -507,6 +529,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
@@ -534,6 +557,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -542,6 +566,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
@@ -569,6 +594,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -577,6 +603,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
@@ -604,6 +631,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -612,6 +640,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
@@ -645,6 +674,7 @@
 			{
 				"name": "Room",
 				"slug": "room",
+				"taxonomy": true,
 				"options": [
 					"Dining"
 				],
@@ -653,6 +683,7 @@
 			{
 				"name": "Lead time",
 				"slug": "lead-time",
+				"taxonomy": true,
 				"options": [
 					"In stock"
 				],
